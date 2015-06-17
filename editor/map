@@ -1,0 +1,28 @@
+MAP {
+    CONFIG: 'ON_MISSING_DATA' 'IGNORE'
+    ##CONFIG: "MS_ERRORFILE" "../debugFile.log"
+    CONFIG: 'PROJ_LIB' '../'
+    FONTSET: '../fonts.lst'
+    IMAGETYPE: png
+    MAXSIZE: 4000
+    SIZE: 800 800
+    UNITS: meters
+    EXTENT:-9548479.1133826 1905648.0760669 -7349709.6354737 2953244.83943130
+    IMAGECOLOR: '#000000'
+    SHAPEPATH: '../pdata/natural_earth/'
+    WEB {
+        METADATA {{
+            "ows_enable_request" "*"
+            "wms_srs" "EPSG:4326 EPSG:900913"
+            "labelcache_map_edge_buffer" "-10"
+            "wms_title" "Natural Earth World WMS"
+        }}
+        IMAGEPATH: '/tmp/ms_tmp/'
+        IMAGEURL: '/ms_tmp/'
+    }
+    DEBUG: 5
+    PROJECTION {{
+        "init=epsg:900913"
+    }}
+    INCLUDE: '../symbols.map'
+}

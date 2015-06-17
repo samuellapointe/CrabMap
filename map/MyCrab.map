@@ -1,0 +1,6109 @@
+MAP
+    CONFIG 'ON_MISSING_DATA' 'IGNORE'
+    #CONFIG: "MS_ERRORFILE" "../debugFile.log"
+    CONFIG 'PROJ_LIB' '../'
+    FONTSET '../fonts.lst'
+    IMAGETYPE png
+    MAXSIZE 4000
+    SIZE 800 800
+    UNITS meters
+    EXTENT -9548479.1133826 1905648.0760669 -7349709.6354737 2953244.83943130
+    IMAGECOLOR '#000000'
+    SHAPEPATH '../pdata/natural_earth/'
+    WEB
+        METADATA
+            "ows_enable_request" "*"
+            "wms_srs" "EPSG:4326 EPSG:900913"
+            "labelcache_map_edge_buffer" "-10"
+            "wms_title" "Natural Earth World WMS"
+        END
+        IMAGEPATH '/tmp/ms_tmp/'
+        IMAGEURL '/ms_tmp/'
+    END
+    DEBUG 5
+    PROJECTION
+        "init=epsg:900913"
+    END
+    INCLUDE '../symbols.map'
+#---- LEVEL 1 ----#
+    LAYER
+        MAXSCALEDENOM 999999999
+        MINSCALEDENOM 268435456
+        NAME 'ocean_1'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 999999999
+        MINSCALEDENOM 268435456
+        NAME 'land_1'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_land'
+        CLASS
+            STYLE
+                COLOR '#FF0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 999999999
+        MINSCALEDENOM 268435456
+        NAME 'coastline_1'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 999999999
+        MINSCALEDENOM 268435456
+        NAME 'country_boundaries_1'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_cultural/ne_110m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+
+#---- LEVEL 2 ----#
+    LAYER
+        MAXSCALEDENOM 268435456
+        MINSCALEDENOM 134217728
+        NAME 'ocean_2'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 268435456
+        MINSCALEDENOM 134217728
+        NAME 'land_2'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_land'
+        CLASS
+            STYLE
+                COLOR '#FF0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 268435456
+        MINSCALEDENOM 134217728
+        NAME 'coastline_2'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 268435456
+        MINSCALEDENOM 134217728
+        NAME 'country_boundaries_2'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_cultural/ne_110m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+
+#---- LEVEL 3 ----#
+    LAYER
+        MAXSCALEDENOM 134217728
+        MINSCALEDENOM 67108864
+        NAME 'ocean_3'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 134217728
+        MINSCALEDENOM 67108864
+        NAME 'land_3'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_land'
+        CLASS
+            STYLE
+                COLOR '#FF0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 134217728
+        MINSCALEDENOM 67108864
+        NAME 'coastline_3'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 134217728
+        MINSCALEDENOM 67108864
+        NAME 'lakes_3'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_lakes'
+        CLASS
+            STYLE
+                COLOR '#C6E2F2'
+                OUTLINECOLOR '#469FC3'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 134217728
+        MINSCALEDENOM 67108864
+        NAME 'country_boundaries_3'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_cultural/ne_110m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 134217728
+        MINSCALEDENOM 67108864
+        NAME 'countries_3'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_cultural/ne_110m_admin_0_countries'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 255 0 255
+                OUTLINECOLOR 0 255 255
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+
+#---- LEVEL 4 ----#
+    LAYER
+        MAXSCALEDENOM 67108864
+        MINSCALEDENOM 33554432
+        NAME 'ocean_4'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 67108864
+        MINSCALEDENOM 33554432
+        NAME 'land_4'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_land'
+        CLASS
+            STYLE
+                COLOR '#FF0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 67108864
+        MINSCALEDENOM 33554432
+        NAME 'coastline_4'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 67108864
+        MINSCALEDENOM 33554432
+        NAME 'lakes_4'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_lakes'
+        CLASS
+            STYLE
+                COLOR '#C6E2F2'
+                OUTLINECOLOR '#469FC3'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 67108864
+        MINSCALEDENOM 33554432
+        NAME 'country_boundaries_4'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_cultural/ne_110m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 67108864
+        MINSCALEDENOM 33554432
+        NAME 'countries_4'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_cultural/ne_110m_admin_0_countries'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 255 0 255
+                OUTLINECOLOR 0 255 255
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+
+#---- LEVEL 5 ----#
+    LAYER
+        MAXSCALEDENOM 33554432
+        MINSCALEDENOM 16777216
+        NAME 'ocean_5'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 33554432
+        MINSCALEDENOM 16777216
+        NAME 'land_5'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_land'
+        CLASS
+            STYLE
+                COLOR '#FF0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 33554432
+        MINSCALEDENOM 16777216
+        NAME 'urban_areas_5'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_urban_areas'
+        CLASS
+            STYLE
+                COLOR '#FF00FF'
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 40
+                ANGLE 15
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 33554432
+        MINSCALEDENOM 16777216
+        NAME 'coastline_5'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_physical/ne_110m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 33554432
+        MINSCALEDENOM 16777216
+        NAME 'lakes_5'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_lakes'
+        CLASS
+            STYLE
+                COLOR '#C6E2F2'
+                OUTLINECOLOR '#469FC3'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 33554432
+        MINSCALEDENOM 16777216
+        NAME 'rivers_5'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_rivers_lake_centerlines_scale_rank'
+        LABELITEM "name"
+        CLASS
+            EXPRESSION ([strokeweig] >= 0 AND [strokeweig] <= 0.2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 1.5
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.200000001 AND [strokeweig] <= 0.35)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 2
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.350000001 AND [strokeweig] <= 0.6)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 3
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.600000001 AND [strokeweig] <= 1)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 4
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 1.000000001 AND [strokeweig] <= 2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 5
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 33554432
+        MINSCALEDENOM 16777216
+        NAME 'country_boundaries_5'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_cultural/ne_110m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 33554432
+        MINSCALEDENOM 16777216
+        NAME 'countries_5'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_cultural/ne_110m_admin_0_countries'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 255 0 255
+                OUTLINECOLOR 0 255 255
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 33554432
+        MINSCALEDENOM 16777216
+        NAME 'us_states_boundaries_5'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_cultural/ne_110m_admin_1_states_provinces_lines'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 33554432
+        MINSCALEDENOM 16777216
+        NAME 'us_states_name_5'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_cultural/ne_110m_admin_1_states_provinces_shp'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 150 150 150
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 33554432
+        MINSCALEDENOM 16777216
+        NAME 'populated_places_5'
+        TYPE POINT
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_cultural/ne_110m_populated_places'
+        LABELITEM 'NAME'
+        CLASS
+            EXPRESSION ([WORLDCITY] = 1)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 8
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+            STYLE
+                SYMBOL 'circle'
+                OUTLINECOLOR '#000000'
+                OUTLINEWIDTH 1
+                COLOR '#FF0000'
+                SIZE 6
+            END
+        END
+        CLASS
+            EXPRESSION ([WORLDCITY] = 0)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 8
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+            STYLE
+                SYMBOL 'circle'
+                OUTLINECOLOR '#000000'
+                OUTLINEWIDTH 1
+                COLOR '#AAAAAA'
+                SIZE 6
+            END
+        END
+    END
+
+#---- LEVEL 6 ----#
+    LAYER
+        MAXSCALEDENOM 16777216
+        MINSCALEDENOM 8388608
+        NAME 'ocean_6'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 16777216
+        MINSCALEDENOM 8388608
+        NAME 'land_6'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_land'
+        CLASS
+            STYLE
+                COLOR '#FF0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16777216
+        MINSCALEDENOM 8388608
+        NAME 'urban_areas_6'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_urban_areas'
+        CLASS
+            STYLE
+                COLOR '#FF00FF'
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 40
+                ANGLE 15
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16777216
+        MINSCALEDENOM 8388608
+        NAME 'coastline_6'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16777216
+        MINSCALEDENOM 8388608
+        NAME 'lakes_6'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_lakes'
+        CLASS
+            STYLE
+                COLOR '#C6E2F2'
+                OUTLINECOLOR '#469FC3'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16777216
+        MINSCALEDENOM 8388608
+        NAME 'rivers_6'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_rivers_lake_centerlines_scale_rank'
+        LABELITEM "name"
+        CLASS
+            EXPRESSION ([strokeweig] >= 0 AND [strokeweig] <= 0.2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 1.5
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.200000001 AND [strokeweig] <= 0.35)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 2
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.350000001 AND [strokeweig] <= 0.6)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 3
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.600000001 AND [strokeweig] <= 1)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 4
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 100
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 1.000000001 AND [strokeweig] <= 2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 5
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16777216
+        MINSCALEDENOM 8388608
+        NAME 'country_boundaries_6'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16777216
+        MINSCALEDENOM 8388608
+        NAME 'countries_6'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_0_countries'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 255 0 255
+                OUTLINECOLOR 0 255 255
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16777216
+        MINSCALEDENOM 8388608
+        NAME 'us_states_boundaries_6'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_lines'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16777216
+        MINSCALEDENOM 8388608
+        NAME 'us_states_name_6'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 150 150 150
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16777216
+        MINSCALEDENOM 8388608
+        NAME 'roads_6'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_roads'
+        CLASSITEM 'type'
+        LABELITEM 'name'
+        CLASS
+            EXPRESSION 'Major Highway'
+            STYLE
+                COLOR '#919191'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16777216
+        MINSCALEDENOM 8388608
+        NAME 'populated_places_6'
+        TYPE POINT
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_populated_places'
+        LABELITEM 'NAME'
+        CLASS
+            EXPRESSION ([WORLDCITY] = 1)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 8
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+            STYLE
+                SYMBOL 'circle'
+                OUTLINECOLOR '#000000'
+                OUTLINEWIDTH 1
+                COLOR '#FF0000'
+                SIZE 6
+            END
+        END
+        CLASS
+            EXPRESSION ([WORLDCITY] = 0)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 8
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+            STYLE
+                SYMBOL 'circle'
+                OUTLINECOLOR '#000000'
+                OUTLINEWIDTH 1
+                COLOR '#AAAAAA'
+                SIZE 6
+            END
+        END
+    END
+
+#---- LEVEL 7 ----#
+    LAYER
+        MAXSCALEDENOM 8388608
+        MINSCALEDENOM 4194304
+        NAME 'ocean_7'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 8388608
+        MINSCALEDENOM 4194304
+        NAME 'land_7'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_land'
+        CLASS
+            STYLE
+                COLOR '#FF0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 8388608
+        MINSCALEDENOM 4194304
+        NAME 'urban_areas_7'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_urban_areas'
+        CLASS
+            STYLE
+                COLOR '#FF00FF'
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 40
+                ANGLE 15
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 8388608
+        MINSCALEDENOM 4194304
+        NAME 'coastline_7'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 8388608
+        MINSCALEDENOM 4194304
+        NAME 'lakes_7'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_lakes'
+        CLASS
+            STYLE
+                COLOR '#C6E2F2'
+                OUTLINECOLOR '#469FC3'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 8388608
+        MINSCALEDENOM 4194304
+        NAME 'rivers_7'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_rivers_lake_centerlines_scale_rank'
+        LABELITEM "name"
+        CLASS
+            EXPRESSION ([strokeweig] >= 0 AND [strokeweig] <= 0.2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 3
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.200000001 AND [strokeweig] <= 0.35)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 4
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.350000001 AND [strokeweig] <= 0.6)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 6
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.600000001 AND [strokeweig] <= 1)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 8
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 100
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 1.000000001 AND [strokeweig] <= 2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 10
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 8388608
+        MINSCALEDENOM 4194304
+        NAME 'country_boundaries_7'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 8388608
+        MINSCALEDENOM 4194304
+        NAME 'countries_7'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_0_countries'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 255 0 255
+                OUTLINECOLOR 0 255 255
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 8388608
+        MINSCALEDENOM 4194304
+        NAME 'us_states_boundaries_7'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_lines'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 8388608
+        MINSCALEDENOM 4194304
+        NAME 'us_states_name_7'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 150 150 150
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 8388608
+        MINSCALEDENOM 4194304
+        NAME 'roads_7'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_roads'
+        CLASSITEM 'type'
+        LABELITEM 'name'
+        CLASS
+            EXPRESSION 'Major Highway'
+            STYLE
+                COLOR '#919191'
+            END
+        END
+        CLASS
+            EXPRESSION 'Secondary Highway'
+            STYLE
+                COLOR '#DDA0DD'
+            END
+        END
+        CLASS
+            STYLE
+                COLOR '#DDA0DD'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 8388608
+        MINSCALEDENOM 4194304
+        NAME 'populated_places_7'
+        TYPE POINT
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_populated_places'
+        LABELITEM 'NAME'
+        CLASS
+            EXPRESSION ([WORLDCITY] = 1)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+            STYLE
+                SYMBOL 'circle'
+                OUTLINECOLOR '#000000'
+                OUTLINEWIDTH 1
+                COLOR '#FF0000'
+                SIZE 6
+            END
+        END
+        CLASS
+            EXPRESSION ([WORLDCITY] = 0)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 8
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+            STYLE
+                SYMBOL 'circle'
+                OUTLINECOLOR '#000000'
+                OUTLINEWIDTH 1
+                COLOR '#AAAAAA'
+                SIZE 6
+            END
+        END
+    END
+
+#---- LEVEL 8 ----#
+    LAYER
+        MAXSCALEDENOM 4194304
+        MINSCALEDENOM 2097152
+        NAME 'ocean_8'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 4194304
+        MINSCALEDENOM 2097152
+        NAME 'land_8'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_land'
+        CLASS
+            STYLE
+                COLOR '#FF0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 4194304
+        MINSCALEDENOM 2097152
+        NAME 'urban_areas_8'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_urban_areas'
+        CLASS
+            STYLE
+                COLOR '#FF00FF'
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 40
+                ANGLE 15
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 4194304
+        MINSCALEDENOM 2097152
+        NAME 'coastline_8'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 4194304
+        MINSCALEDENOM 2097152
+        NAME 'lakes_8'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_lakes'
+        CLASS
+            STYLE
+                COLOR '#C6E2F2'
+                OUTLINECOLOR '#469FC3'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 4194304
+        MINSCALEDENOM 2097152
+        NAME 'rivers_8'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_rivers_lake_centerlines_scale_rank'
+        LABELITEM "name"
+        CLASS
+            EXPRESSION ([strokeweig] >= 0 AND [strokeweig] <= 0.2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 3
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.200000001 AND [strokeweig] <= 0.35)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 4
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.350000001 AND [strokeweig] <= 0.6)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 6
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.600000001 AND [strokeweig] <= 1)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 8
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 100
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 1.000000001 AND [strokeweig] <= 2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 10
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 4194304
+        MINSCALEDENOM 2097152
+        NAME 'country_boundaries_8'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 4194304
+        MINSCALEDENOM 2097152
+        NAME 'countries_8'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_0_countries'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 255 0 255
+                OUTLINECOLOR 0 255 255
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 4194304
+        MINSCALEDENOM 2097152
+        NAME 'us_states_boundaries_8'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_lines'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 4194304
+        MINSCALEDENOM 2097152
+        NAME 'us_states_name_8'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 150 150 150
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 4194304
+        MINSCALEDENOM 2097152
+        NAME 'roads_8'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_roads'
+        CLASSITEM 'type'
+        LABELITEM 'name'
+        CLASS
+            EXPRESSION 'Major Highway'
+            STYLE
+                COLOR '#919191'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#919191'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION 'Secondary Highway'
+            STYLE
+                COLOR '#DDA0DD'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#DDA0DD'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            STYLE
+                COLOR '#DDA0DD'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 4194304
+        MINSCALEDENOM 2097152
+        NAME 'populated_places_8'
+        TYPE POINT
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_populated_places'
+        DATA '10m_cultural/ne_10m_populated_places'
+        LABELITEM 'NAME'
+        CLASS
+            EXPRESSION ([WORLDCITY] = 1)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+            STYLE
+                SYMBOL 'circle'
+                OUTLINECOLOR '#000000'
+                OUTLINEWIDTH 1
+                COLOR '#FF0000'
+                SIZE 6
+            END
+        END
+        CLASS
+            EXPRESSION ([WORLDCITY] = 0)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 10
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+            STYLE
+                SYMBOL 'circle'
+                OUTLINECOLOR '#000000'
+                OUTLINEWIDTH 1
+                COLOR '#AAAAAA'
+                SIZE 6
+            END
+        END
+    END
+
+#---- LEVEL 9 ----#
+    LAYER
+        MAXSCALEDENOM 2097152
+        MINSCALEDENOM 1048576
+        NAME 'ocean_9'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 2097152
+        MINSCALEDENOM 1048576
+        NAME 'land_9'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_land'
+        CLASS
+            STYLE
+                COLOR '#FF0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 2097152
+        MINSCALEDENOM 1048576
+        NAME 'urban_areas_9'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_urban_areas'
+        CLASS
+            STYLE
+                COLOR '#FF00FF'
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 40
+                ANGLE 15
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 2097152
+        MINSCALEDENOM 1048576
+        NAME 'coastline_9'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 2097152
+        MINSCALEDENOM 1048576
+        NAME 'lakes_9'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_lakes'
+        CLASS
+            STYLE
+                COLOR '#C6E2F2'
+                OUTLINECOLOR '#469FC3'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 2097152
+        MINSCALEDENOM 1048576
+        NAME 'rivers_9'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_rivers_lake_centerlines_scale_rank'
+        LABELITEM "name"
+        CLASS
+            EXPRESSION ([strokeweig] >= 0 AND [strokeweig] <= 0.2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 3
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.200000001 AND [strokeweig] <= 0.35)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 4
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.350000001 AND [strokeweig] <= 0.6)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 6
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.600000001 AND [strokeweig] <= 1)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 8
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 100
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 1.000000001 AND [strokeweig] <= 2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 10
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 2097152
+        MINSCALEDENOM 1048576
+        NAME 'country_boundaries_9'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 2097152
+        MINSCALEDENOM 1048576
+        NAME 'countries_9'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_0_countries'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 255 0 255
+                OUTLINECOLOR 0 255 255
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 2097152
+        MINSCALEDENOM 1048576
+        NAME 'us_states_boundaries_9'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_lines'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 2097152
+        MINSCALEDENOM 1048576
+        NAME 'us_states_name_9'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 150 150 150
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 2097152
+        MINSCALEDENOM 1048576
+        NAME 'roads_9'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_roads'
+        CLASSITEM 'type'
+        LABELITEM 'name'
+        CLASS
+            EXPRESSION 'Major Highway'
+            STYLE
+                COLOR '#919191'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#919191'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION 'Secondary Highway'
+            STYLE
+                COLOR '#DDA0DD'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#DDA0DD'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            STYLE
+                COLOR '#DDA0DD'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 2097152
+        MINSCALEDENOM 1048576
+        NAME 'populated_places_9'
+        TYPE POINT
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_populated_places'
+        LABELITEM 'NAME'
+        CLASS
+            EXPRESSION ([WORLDCITY] = 1)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([WORLDCITY] = 0)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 10
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+
+#---- LEVEL 10 ----#
+    LAYER
+        MAXSCALEDENOM 1048576
+        MINSCALEDENOM 524288
+        NAME 'ocean_10'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 1048576
+        MINSCALEDENOM 524288
+        NAME 'land_10'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_land'
+        CLASS
+            STYLE
+                COLOR '#FF0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 1048576
+        MINSCALEDENOM 524288
+        NAME 'urban_areas_10'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_urban_areas'
+        CLASS
+            STYLE
+                COLOR '#FF00FF'
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 40
+                ANGLE 15
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 1048576
+        MINSCALEDENOM 524288
+        NAME 'coastline_10'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 1048576
+        MINSCALEDENOM 524288
+        NAME 'lakes_10'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_lakes'
+        CLASS
+            STYLE
+                COLOR '#C6E2F2'
+                OUTLINECOLOR '#469FC3'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 1048576
+        MINSCALEDENOM 524288
+        NAME 'rivers_10'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_rivers_lake_centerlines_scale_rank'
+        LABELITEM "name"
+        CLASS
+            EXPRESSION ([strokeweig] >= 0 AND [strokeweig] <= 0.2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 3
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.200000001 AND [strokeweig] <= 0.35)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 4
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.350000001 AND [strokeweig] <= 0.6)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 6
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.600000001 AND [strokeweig] <= 1)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 8
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 100
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 1.000000001 AND [strokeweig] <= 2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 10
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 1048576
+        MINSCALEDENOM 524288
+        NAME 'country_boundaries_10'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 1048576
+        MINSCALEDENOM 524288
+        NAME 'countries_10'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_0_countries'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 255 0 255
+                OUTLINECOLOR 0 255 255
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 1048576
+        MINSCALEDENOM 524288
+        NAME 'us_states_boundaries_10'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_lines'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 1048576
+        MINSCALEDENOM 524288
+        NAME 'us_states_name_10'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 150 150 150
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 1048576
+        MINSCALEDENOM 524288
+        NAME 'roads_10'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_roads'
+        CLASSITEM 'type'
+        LABELITEM 'name'
+        CLASS
+            EXPRESSION 'Major Highway'
+            STYLE
+                COLOR '#919191'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#919191'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION 'Secondary Highway'
+            STYLE
+                COLOR '#DDA0DD'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#DDA0DD'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            STYLE
+                COLOR '#DDA0DD'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 1048576
+        MINSCALEDENOM 524288
+        NAME 'populated_places_10'
+        TYPE POINT
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_populated_places'
+        LABELITEM 'NAME'
+        CLASS
+            EXPRESSION ([WORLDCITY] = 1)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([WORLDCITY] = 0)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 10
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+
+#---- LEVEL 11 ----#
+    LAYER
+        MAXSCALEDENOM 524288
+        MINSCALEDENOM 262144
+        NAME 'ocean_11'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 524288
+        MINSCALEDENOM 262144
+        NAME 'land_11'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_land'
+        CLASS
+            STYLE
+                COLOR '#FF0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 524288
+        MINSCALEDENOM 262144
+        NAME 'urban_areas_11'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_urban_areas'
+        CLASS
+            STYLE
+                COLOR '#FF00FF'
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 40
+                ANGLE 15
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 524288
+        MINSCALEDENOM 262144
+        NAME 'coastline_11'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 524288
+        MINSCALEDENOM 262144
+        NAME 'lakes_11'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_lakes'
+        CLASS
+            STYLE
+                COLOR '#C6E2F2'
+                OUTLINECOLOR '#469FC3'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 524288
+        MINSCALEDENOM 262144
+        NAME 'rivers_11'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_rivers_lake_centerlines_scale_rank'
+        LABELITEM "name"
+        CLASS
+            EXPRESSION ([strokeweig] >= 0 AND [strokeweig] <= 0.2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 3
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.200000001 AND [strokeweig] <= 0.35)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 4
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.350000001 AND [strokeweig] <= 0.6)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 6
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.600000001 AND [strokeweig] <= 1)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 8
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 100
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 1.000000001 AND [strokeweig] <= 2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 10
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 524288
+        MINSCALEDENOM 262144
+        NAME 'country_boundaries_11'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 524288
+        MINSCALEDENOM 262144
+        NAME 'countries_11'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_0_countries'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 255 0 255
+                OUTLINECOLOR 0 255 255
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 524288
+        MINSCALEDENOM 262144
+        NAME 'us_states_boundaries_11'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_lines'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 524288
+        MINSCALEDENOM 262144
+        NAME 'us_states_name_11'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 150 150 150
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 8
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 524288
+        MINSCALEDENOM 262144
+        NAME 'roads_11'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_roads'
+        CLASSITEM 'type'
+        LABELITEM 'name'
+        CLASS
+            EXPRESSION 'Major Highway'
+            STYLE
+                COLOR '#919191'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#919191'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION 'Secondary Highway'
+            STYLE
+                COLOR '#DDA0DD'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#DDA0DD'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            STYLE
+                COLOR '#DDA0DD'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 524288
+        MINSCALEDENOM 262144
+        NAME 'populated_places_11'
+        TYPE POINT
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_populated_places'
+        LABELITEM 'NAME'
+        CLASS
+            EXPRESSION ([WORLDCITY] = 1)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([WORLDCITY] = 0)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 10
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+
+#---- LEVEL 12 ----#
+    LAYER
+        MAXSCALEDENOM 262144
+        MINSCALEDENOM 131072
+        NAME 'ocean_12'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 262144
+        MINSCALEDENOM 131072
+        NAME 'land_12'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_land'
+        CLASS
+            STYLE
+                COLOR '#FF0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 262144
+        MINSCALEDENOM 131072
+        NAME 'urban_areas_12'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_urban_areas'
+        CLASS
+            STYLE
+                COLOR '#FF00FF'
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 40
+                ANGLE 15
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 262144
+        MINSCALEDENOM 131072
+        NAME 'coastline_12'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 262144
+        MINSCALEDENOM 131072
+        NAME 'lakes_12'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_lakes'
+        CLASS
+            STYLE
+                COLOR '#C6E2F2'
+                OUTLINECOLOR '#469FC3'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 262144
+        MINSCALEDENOM 131072
+        NAME 'rivers_12'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_rivers_lake_centerlines_scale_rank'
+        LABELITEM "name"
+        CLASS
+            EXPRESSION ([strokeweig] >= 0 AND [strokeweig] <= 0.2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 3
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.200000001 AND [strokeweig] <= 0.35)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 4
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.350000001 AND [strokeweig] <= 0.6)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 6
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.600000001 AND [strokeweig] <= 1)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 8
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 100
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 1.000000001 AND [strokeweig] <= 2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 10
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 262144
+        MINSCALEDENOM 131072
+        NAME 'country_boundaries_12'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 262144
+        MINSCALEDENOM 131072
+        NAME 'countries_12'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_0_countries'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 255 0 255
+                OUTLINECOLOR 0 255 255
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 262144
+        MINSCALEDENOM 131072
+        NAME 'us_states_boundaries_12'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_lines'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 262144
+        MINSCALEDENOM 131072
+        NAME 'us_states_name_12'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 150 150 150
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 8
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 262144
+        MINSCALEDENOM 131072
+        NAME 'roads_12'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_roads'
+        CLASSITEM 'type'
+        LABELITEM 'name'
+        CLASS
+            EXPRESSION 'Major Highway'
+            STYLE
+                COLOR '#919191'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#919191'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION 'Secondary Highway'
+            STYLE
+                COLOR '#DDA0DD'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#DDA0DD'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            STYLE
+                COLOR '#DDA0DD'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 262144
+        MINSCALEDENOM 131072
+        NAME 'populated_places_12'
+        TYPE POINT
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_populated_places'
+        LABELITEM 'NAME'
+        CLASS
+            EXPRESSION ([WORLDCITY] = 1)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([WORLDCITY] = 0)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 10
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+
+#---- LEVEL 13 ----#
+    LAYER
+        MAXSCALEDENOM 131072
+        MINSCALEDENOM 65536
+        NAME 'ocean_13'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 131072
+        MINSCALEDENOM 65536
+        NAME 'land_13'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_land'
+        CLASS
+            STYLE
+                COLOR '#FF0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 131072
+        MINSCALEDENOM 65536
+        NAME 'urban_areas_13'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_urban_areas'
+        CLASS
+            STYLE
+                COLOR '#FF00FF'
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 40
+                ANGLE 15
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 131072
+        MINSCALEDENOM 65536
+        NAME 'coastline_13'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 131072
+        MINSCALEDENOM 65536
+        NAME 'lakes_13'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_lakes'
+        CLASS
+            STYLE
+                COLOR '#C6E2F2'
+                OUTLINECOLOR '#469FC3'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 131072
+        MINSCALEDENOM 65536
+        NAME 'rivers_13'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_rivers_lake_centerlines_scale_rank'
+        LABELITEM "name"
+        CLASS
+            EXPRESSION ([strokeweig] >= 0 AND [strokeweig] <= 0.2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 3
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.200000001 AND [strokeweig] <= 0.35)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 4
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.350000001 AND [strokeweig] <= 0.6)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 6
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.600000001 AND [strokeweig] <= 1)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 8
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 100
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 1.000000001 AND [strokeweig] <= 2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 10
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 131072
+        MINSCALEDENOM 65536
+        NAME 'country_boundaries_13'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 131072
+        MINSCALEDENOM 65536
+        NAME 'countries_13'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_0_countries'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 255 0 255
+                OUTLINECOLOR 0 255 255
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 131072
+        MINSCALEDENOM 65536
+        NAME 'us_states_boundaries_13'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_lines'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 131072
+        MINSCALEDENOM 65536
+        NAME 'us_states_name_13'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 150 150 150
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 8
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 131072
+        MINSCALEDENOM 65536
+        NAME 'roads_13'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_roads'
+        CLASSITEM 'type'
+        LABELITEM 'name'
+        CLASS
+            EXPRESSION 'Major Highway'
+            STYLE
+                COLOR '#919191'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#919191'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION 'Secondary Highway'
+            STYLE
+                COLOR '#DDA0DD'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#DDA0DD'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            STYLE
+                COLOR '#DDA0DD'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 131072
+        MINSCALEDENOM 65536
+        NAME 'populated_places_13'
+        TYPE POINT
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_populated_places'
+        LABELITEM 'NAME'
+        CLASS
+            EXPRESSION ([WORLDCITY] = 1)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([WORLDCITY] = 0)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 10
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+
+#---- LEVEL 14 ----#
+    LAYER
+        MAXSCALEDENOM 65536
+        MINSCALEDENOM 32768
+        NAME 'ocean_14'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 65536
+        MINSCALEDENOM 32768
+        NAME 'land_14'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_land'
+        CLASS
+            STYLE
+                COLOR '#FF0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 65536
+        MINSCALEDENOM 32768
+        NAME 'urban_areas_14'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_urban_areas'
+        CLASS
+            STYLE
+                COLOR '#FF00FF'
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 40
+                ANGLE 15
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 65536
+        MINSCALEDENOM 32768
+        NAME 'coastline_14'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 65536
+        MINSCALEDENOM 32768
+        NAME 'lakes_14'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_lakes'
+        CLASS
+            STYLE
+                COLOR '#C6E2F2'
+                OUTLINECOLOR '#469FC3'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 65536
+        MINSCALEDENOM 32768
+        NAME 'rivers_14'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_rivers_lake_centerlines_scale_rank'
+        LABELITEM "name"
+        CLASS
+            EXPRESSION ([strokeweig] >= 0 AND [strokeweig] <= 0.2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 3
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.200000001 AND [strokeweig] <= 0.35)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 4
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.350000001 AND [strokeweig] <= 0.6)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 6
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.600000001 AND [strokeweig] <= 1)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 8
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 100
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 1.000000001 AND [strokeweig] <= 2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 10
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 65536
+        MINSCALEDENOM 32768
+        NAME 'country_boundaries_14'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 65536
+        MINSCALEDENOM 32768
+        NAME 'countries_14'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_0_countries'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 255 0 255
+                OUTLINECOLOR 0 255 255
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 65536
+        MINSCALEDENOM 32768
+        NAME 'us_states_boundaries_14'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_lines'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 65536
+        MINSCALEDENOM 32768
+        NAME 'us_states_name_14'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 150 150 150
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 8
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 65536
+        MINSCALEDENOM 32768
+        NAME 'roads_14'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_roads'
+        CLASSITEM 'type'
+        LABELITEM 'name'
+        CLASS
+            EXPRESSION 'Major Highway'
+            STYLE
+                COLOR '#919191'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#919191'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION 'Secondary Highway'
+            STYLE
+                COLOR '#DDA0DD'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#DDA0DD'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            STYLE
+                COLOR '#DDA0DD'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 65536
+        MINSCALEDENOM 32768
+        NAME 'populated_places_14'
+        TYPE POINT
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_populated_places'
+        LABELITEM 'NAME'
+        CLASS
+            EXPRESSION ([WORLDCITY] = 1)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([WORLDCITY] = 0)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 10
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+
+#---- LEVEL 15 ----#
+    LAYER
+        MAXSCALEDENOM 32768
+        MINSCALEDENOM 16384
+        NAME 'ocean_15'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 32768
+        MINSCALEDENOM 16384
+        NAME 'land_15'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_land'
+        CLASS
+            STYLE
+                COLOR '#FF0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 32768
+        MINSCALEDENOM 16384
+        NAME 'urban_areas_15'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_urban_areas'
+        CLASS
+            STYLE
+                COLOR '#FF00FF'
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 40
+                ANGLE 15
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 32768
+        MINSCALEDENOM 16384
+        NAME 'coastline_15'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 32768
+        MINSCALEDENOM 16384
+        NAME 'lakes_15'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_lakes'
+        CLASS
+            STYLE
+                COLOR '#C6E2F2'
+                OUTLINECOLOR '#469FC3'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 32768
+        MINSCALEDENOM 16384
+        NAME 'rivers_15'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_rivers_lake_centerlines_scale_rank'
+        LABELITEM "name"
+        CLASS
+            EXPRESSION ([strokeweig] >= 0 AND [strokeweig] <= 0.2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 3
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.200000001 AND [strokeweig] <= 0.35)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 4
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.350000001 AND [strokeweig] <= 0.6)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 6
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.600000001 AND [strokeweig] <= 1)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 8
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 100
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 1.000000001 AND [strokeweig] <= 2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 10
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 32768
+        MINSCALEDENOM 16384
+        NAME 'country_boundaries_15'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 32768
+        MINSCALEDENOM 16384
+        NAME 'countries_15'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_0_countries'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 255 0 255
+                OUTLINECOLOR 0 255 255
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 32768
+        MINSCALEDENOM 16384
+        NAME 'us_states_boundaries_15'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_lines'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 32768
+        MINSCALEDENOM 16384
+        NAME 'us_states_name_15'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 150 150 150
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 8
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 32768
+        MINSCALEDENOM 16384
+        NAME 'roads_15'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_roads'
+        CLASSITEM 'type'
+        LABELITEM 'name'
+        CLASS
+            EXPRESSION 'Major Highway'
+            STYLE
+                COLOR '#919191'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#919191'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION 'Secondary Highway'
+            STYLE
+                COLOR '#DDA0DD'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#DDA0DD'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            STYLE
+                COLOR '#DDA0DD'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 32768
+        MINSCALEDENOM 16384
+        NAME 'populated_places_15'
+        TYPE POINT
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_populated_places'
+        LABELITEM 'NAME'
+        CLASS
+            EXPRESSION ([WORLDCITY] = 1)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([WORLDCITY] = 0)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 10
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+
+#---- LEVEL 16 ----#
+    LAYER
+        MAXSCALEDENOM 16384
+        MINSCALEDENOM 8192
+        NAME 'ocean_16'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 16384
+        MINSCALEDENOM 8192
+        NAME 'land_16'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_land'
+        CLASS
+            STYLE
+                COLOR '#FF0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16384
+        MINSCALEDENOM 8192
+        NAME 'urban_areas_16'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_urban_areas'
+        CLASS
+            STYLE
+                COLOR '#FF00FF'
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 40
+                ANGLE 15
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16384
+        MINSCALEDENOM 8192
+        NAME 'coastline_16'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16384
+        MINSCALEDENOM 8192
+        NAME 'lakes_16'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_lakes'
+        CLASS
+            STYLE
+                COLOR '#C6E2F2'
+                OUTLINECOLOR '#469FC3'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16384
+        MINSCALEDENOM 8192
+        NAME 'rivers_16'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_physical/ne_10m_rivers_lake_centerlines_scale_rank'
+        LABELITEM "name"
+        CLASS
+            EXPRESSION ([strokeweig] >= 0 AND [strokeweig] <= 0.2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 3
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.200000001 AND [strokeweig] <= 0.35)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 4
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.350000001 AND [strokeweig] <= 0.6)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 6
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 0.600000001 AND [strokeweig] <= 1)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 8
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 100
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([strokeweig] >= 1.000000001 AND [strokeweig] <= 2)
+            STYLE
+                COLOR '#6CAAC3'
+                WIDTH 10
+            END
+            LABEL
+                COLOR '#80C0FF'
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 10
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                ANGLE FOLLOW
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16384
+        MINSCALEDENOM 8192
+        NAME 'country_boundaries_16'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16384
+        MINSCALEDENOM 8192
+        NAME 'countries_16'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_0_countries'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 255 0 255
+                OUTLINECOLOR 0 255 255
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16384
+        MINSCALEDENOM 8192
+        NAME 'us_states_boundaries_16'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_lines'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16384
+        MINSCALEDENOM 8192
+        NAME 'us_states_name_16'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        LABELITEM 'NAME'
+        CLASS
+            LABEL
+                COLOR 150 150 150
+                OUTLINECOLOR 255 255 255
+                FONT 'scb'
+                TYPE truetype
+                SIZE 8
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16384
+        MINSCALEDENOM 8192
+        NAME 'roads_16'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_roads'
+        CLASSITEM 'type'
+        LABELITEM 'name'
+        CLASS
+            EXPRESSION 'Major Highway'
+            STYLE
+                COLOR '#919191'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#919191'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION 'Secondary Highway'
+            STYLE
+                COLOR '#DDA0DD'
+            END
+            LABEL
+                COLOR 255 255 255
+                OUTLINECOLOR '#DDA0DD'
+                OUTLINEWIDTH 2
+                FONT 'scb'
+                TYPE truetype
+                SIZE 7
+                REPEATDISTANCE 100
+                MINDISTANCE 300
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            STYLE
+                COLOR '#DDA0DD'
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16384
+        MINSCALEDENOM 8192
+        NAME 'populated_places_16'
+        TYPE POINT
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_populated_places'
+        LABELITEM 'NAME'
+        CLASS
+            EXPRESSION ([WORLDCITY] = 1)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 12
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+        CLASS
+            EXPRESSION ([WORLDCITY] = 0)
+            LABEL
+                COLOR 0 255 255
+                OUTLINECOLOR 255 0 0
+                OUTLINEWIDTH 3
+                FONT 'sc'
+                TYPE truetype
+                SIZE 10
+                POSITION AUTO
+                PARTIALS FALSE
+            END
+        END
+    END
+
+END
