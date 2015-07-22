@@ -1,0 +1,2107 @@
+[Wed Jul 15 11:53:29 2015].697422 CGI Request 1 on process 16074
+[Wed Jul 15 11:53:29 2015].698798 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 11:53:29 2015].698840 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 11:53:29 2015].717211 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:53:29 2015].717257 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:53:29 2015].746140 msDrawMap(): Layer 24 (ocean_5), 0.047s
+[Wed Jul 15 11:53:29 2015].872775 msDrawMap(): Layer 25 (land_5), 0.127s
+[Wed Jul 15 11:53:29 2015].873193 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 11:53:29 2015].877272 msDrawMap(): Layer 27 (urban_areas_5), 0.004s
+[Wed Jul 15 11:53:29 2015].885158 msDrawMap(): Layer 28 (coastline_5), 0.008s
+[Wed Jul 15 11:53:29 2015].887609 msDrawMap(): Layer 29 (lakes_5), 0.002s
+[Wed Jul 15 11:53:29 2015].891254 msDrawMap(): Layer 30 (rivers_5), 0.004s
+[Wed Jul 15 11:53:29 2015].891659 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 11:53:29 2015].892271 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 11:53:29 2015].893621 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.001s
+[Wed Jul 15 11:53:29 2015].894953 msDrawMap(): Layer 34 (us_states_name_5), 0.001s
+[Wed Jul 15 11:53:29 2015].895649 msDrawMap(): Layer 35 (populated_places_5), 0.001s
+[Wed Jul 15 11:53:29 2015].895688 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 11:53:29 2015].901008 msDrawMap(): Drawing Label Cache, 0.005s
+[Wed Jul 15 11:53:29 2015].901039 msDrawMap() total time: 0.203s
+[Wed Jul 15 11:53:29 2015].951897 msSaveImage(stdout) total time: 0.051s
+[Wed Jul 15 11:53:29 2015].952237 mapserv request processing time (msLoadMap not incl.): 0.255s
+[Wed Jul 15 11:53:29 2015].952249 msFreeMap(): freeing map at 0x63e8c0.
+[Wed Jul 15 11:53:30 2015].94101 CGI Request 1 on process 16075
+[Wed Jul 15 11:53:30 2015].95748 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 11:53:30 2015].95783 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 11:53:30 2015].117331 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:53:30 2015].117357 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:53:30 2015].147090 msDrawMap(): Layer 24 (ocean_5), 0.051s
+[Wed Jul 15 11:53:30 2015].262120 msDrawMap(): Layer 25 (land_5), 0.115s
+[Wed Jul 15 11:53:30 2015].262557 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 11:53:30 2015].266206 msDrawMap(): Layer 27 (urban_areas_5), 0.004s
+[Wed Jul 15 11:53:30 2015].271941 msDrawMap(): Layer 28 (coastline_5), 0.006s
+[Wed Jul 15 11:53:30 2015].273221 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 11:53:30 2015].276389 msDrawMap(): Layer 30 (rivers_5), 0.003s
+[Wed Jul 15 11:53:30 2015].276781 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 11:53:30 2015].277370 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 11:53:30 2015].278649 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.001s
+[Wed Jul 15 11:53:30 2015].279395 msDrawMap(): Layer 34 (us_states_name_5), 0.001s
+[Wed Jul 15 11:53:30 2015].279899 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 11:53:30 2015].279928 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 11:53:30 2015].285202 msDrawMap(): Drawing Label Cache, 0.005s
+[Wed Jul 15 11:53:30 2015].285226 msDrawMap() total time: 0.191s
+[Wed Jul 15 11:53:30 2015].340260 msSaveImage(stdout) total time: 0.055s
+[Wed Jul 15 11:53:30 2015].340776 mapserv request processing time (msLoadMap not incl.): 0.247s
+[Wed Jul 15 11:53:30 2015].340797 msFreeMap(): freeing map at 0xbc9b40.
+[Wed Jul 15 11:53:31 2015].869330 CGI Request 1 on process 16076
+[Wed Jul 15 11:53:31 2015].870938 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 11:53:31 2015].871002 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 11:53:31 2015].892554 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:53:31 2015].892583 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:53:31 2015].919048 msDrawMap(): Layer 36 (ocean_6), 0.048s
+[Wed Jul 15 11:53:32 2015].187852 msDrawMap(): Layer 37 (land_6), 0.269s
+[Wed Jul 15 11:53:32 2015].188188 msDrawMap(): Layer 38 (quebec_border_6), 0.000s
+[Wed Jul 15 11:53:32 2015].190276 msDrawMap(): Layer 39 (urban_areas_6), 0.002s
+[Wed Jul 15 11:53:32 2015].194952 msDrawMap(): Layer 40 (coastline_6), 0.005s
+[Wed Jul 15 11:53:32 2015].195817 msDrawMap(): Layer 41 (lakes_6), 0.001s
+[Wed Jul 15 11:53:32 2015].197854 msDrawMap(): Layer 42 (rivers_6), 0.002s
+[Wed Jul 15 11:53:32 2015].198277 msDrawMap(): Layer 43 (country_boundaries_6), 0.000s
+[Wed Jul 15 11:53:32 2015].201152 msDrawMap(): Layer 44 (countries_6), 0.003s
+[Wed Jul 15 11:53:32 2015].201755 msDrawMap(): Layer 45 (us_states_boundaries_6), 0.001s
+[Wed Jul 15 11:53:32 2015].202939 msDrawMap(): Layer 46 (us_states_name_6), 0.001s
+[Wed Jul 15 11:53:32 2015].321190 msDrawMap(): Layer 47 (roads_6), 0.118s
+[Wed Jul 15 11:53:32 2015].363471 msDrawMap(): Layer 48 (populated_places_6), 0.042s
+[Wed Jul 15 11:53:32 2015].363554 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 11:53:32 2015].374771 msDrawMap(): Drawing Label Cache, 0.011s
+[Wed Jul 15 11:53:32 2015].374812 msDrawMap() total time: 0.505s
+[Wed Jul 15 11:53:32 2015].460686 msSaveImage(stdout) total time: 0.086s
+[Wed Jul 15 11:53:32 2015].461076 mapserv request processing time (msLoadMap not incl.): 0.592s
+[Wed Jul 15 11:53:32 2015].461090 msFreeMap(): freeing map at 0x1740b40.
+[Wed Jul 15 11:53:34 2015].46394 CGI Request 1 on process 16077
+[Wed Jul 15 11:53:34 2015].47687 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 11:53:34 2015].47711 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 11:53:34 2015].64854 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:53:34 2015].64890 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:53:34 2015].85958 msDrawMap(): Layer 49 (ocean_7), 0.038s
+[Wed Jul 15 11:53:34 2015].677469 msDrawMap(): Layer 50 (land_7), 0.591s
+[Wed Jul 15 11:53:34 2015].677947 msDrawMap(): Layer 51 (quebec_border_7), 0.000s
+[Wed Jul 15 11:53:34 2015].679867 msDrawMap(): Layer 52 (urban_areas_7), 0.002s
+[Wed Jul 15 11:53:34 2015].685305 msDrawMap(): Layer 53 (coastline_7), 0.005s
+[Wed Jul 15 11:53:34 2015].686571 msDrawMap(): Layer 54 (lakes_7), 0.001s
+[Wed Jul 15 11:53:34 2015].688313 msDrawMap(): Layer 55 (rivers_7), 0.002s
+[Wed Jul 15 11:53:34 2015].688931 msDrawMap(): Layer 56 (country_boundaries_7), 0.001s
+[Wed Jul 15 11:53:34 2015].693058 msDrawMap(): Layer 57 (countries_7), 0.004s
+[Wed Jul 15 11:53:34 2015].693441 msDrawMap(): Layer 58 (us_states_boundaries_7), 0.000s
+[Wed Jul 15 11:53:34 2015].694231 msDrawMap(): Layer 59 (us_states_name_7), 0.001s
+[Wed Jul 15 11:53:34 2015].714016 msDrawMap(): Layer 60 (roads_7), 0.020s
+[Wed Jul 15 11:53:34 2015].714841 msDrawMap(): Layer 61 (populated_places_7), 0.001s
+[Wed Jul 15 11:53:34 2015].714885 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 11:53:34 2015].716868 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 11:53:34 2015].716890 msDrawMap() total time: 0.670s
+[Wed Jul 15 11:53:34 2015].766322 msSaveImage(stdout) total time: 0.049s
+[Wed Jul 15 11:53:34 2015].766872 mapserv request processing time (msLoadMap not incl.): 0.720s
+[Wed Jul 15 11:53:34 2015].766886 msFreeMap(): freeing map at 0x17afb30.
+[Wed Jul 15 11:53:37 2015].42639 CGI Request 1 on process 16079
+[Wed Jul 15 11:53:37 2015].44800 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 11:53:37 2015].44867 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 11:53:37 2015].70067 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:53:37 2015].70097 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:53:37 2015].102841 msDrawMap(): Layer 36 (ocean_6), 0.058s
+[Wed Jul 15 11:53:37 2015].337642 msDrawMap(): Layer 37 (land_6), 0.235s
+[Wed Jul 15 11:53:37 2015].337970 msDrawMap(): Layer 38 (quebec_border_6), 0.000s
+[Wed Jul 15 11:53:37 2015].340090 msDrawMap(): Layer 39 (urban_areas_6), 0.002s
+[Wed Jul 15 11:53:37 2015].344630 msDrawMap(): Layer 40 (coastline_6), 0.005s
+[Wed Jul 15 11:53:37 2015].345437 msDrawMap(): Layer 41 (lakes_6), 0.001s
+[Wed Jul 15 11:53:37 2015].347395 msDrawMap(): Layer 42 (rivers_6), 0.002s
+[Wed Jul 15 11:53:37 2015].347813 msDrawMap(): Layer 43 (country_boundaries_6), 0.000s
+[Wed Jul 15 11:53:37 2015].350701 msDrawMap(): Layer 44 (countries_6), 0.003s
+[Wed Jul 15 11:53:37 2015].351215 msDrawMap(): Layer 45 (us_states_boundaries_6), 0.001s
+[Wed Jul 15 11:53:37 2015].352040 msDrawMap(): Layer 46 (us_states_name_6), 0.001s
+[Wed Jul 15 11:53:37 2015].389378 msDrawMap(): Layer 47 (roads_6), 0.037s
+[Wed Jul 15 11:53:37 2015].390861 msDrawMap(): Layer 48 (populated_places_6), 0.001s
+[Wed Jul 15 11:53:37 2015].390901 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 11:53:37 2015].396817 msDrawMap(): Drawing Label Cache, 0.006s
+[Wed Jul 15 11:53:37 2015].396855 msDrawMap() total time: 0.354s
+[Wed Jul 15 11:53:37 2015].460771 msSaveImage(stdout) total time: 0.064s
+[Wed Jul 15 11:53:37 2015].461115 mapserv request processing time (msLoadMap not incl.): 0.418s
+[Wed Jul 15 11:53:37 2015].461128 msFreeMap(): freeing map at 0x2322b30.
+[Wed Jul 15 11:53:38 2015].327262 CGI Request 1 on process 16080
+[Wed Jul 15 11:53:38 2015].329152 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 11:53:38 2015].329193 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 11:53:38 2015].353117 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:53:38 2015].353145 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:53:38 2015].385317 msDrawMap(): Layer 24 (ocean_5), 0.056s
+[Wed Jul 15 11:53:38 2015].519203 msDrawMap(): Layer 25 (land_5), 0.134s
+[Wed Jul 15 11:53:38 2015].519584 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 11:53:38 2015].522562 msDrawMap(): Layer 27 (urban_areas_5), 0.003s
+[Wed Jul 15 11:53:38 2015].528096 msDrawMap(): Layer 28 (coastline_5), 0.006s
+[Wed Jul 15 11:53:38 2015].529118 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 11:53:38 2015].531988 msDrawMap(): Layer 30 (rivers_5), 0.003s
+[Wed Jul 15 11:53:38 2015].532375 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 11:53:38 2015].532982 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 11:53:38 2015].533930 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.001s
+[Wed Jul 15 11:53:38 2015].534621 msDrawMap(): Layer 34 (us_states_name_5), 0.001s
+[Wed Jul 15 11:53:38 2015].535099 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 11:53:38 2015].535129 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 11:53:38 2015].539526 msDrawMap(): Drawing Label Cache, 0.004s
+[Wed Jul 15 11:53:38 2015].539538 msDrawMap() total time: 0.212s
+[Wed Jul 15 11:53:38 2015].586964 msSaveImage(stdout) total time: 0.047s
+[Wed Jul 15 11:53:38 2015].587345 mapserv request processing time (msLoadMap not incl.): 0.260s
+[Wed Jul 15 11:53:38 2015].587358 msFreeMap(): freeing map at 0x9c2b30.
+[Wed Jul 15 11:54:40 2015].782789 CGI Request 1 on process 16128
+[Wed Jul 15 11:54:40 2015].783299 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 11:54:40 2015].783583 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 11:54:40 2015].783595 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 11:54:40 2015].783616 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 11:54:40 2015].808015 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:54:40 2015].808044 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:54:40 2015].833805 msDrawMap(): Layer 24 (ocean_5), 0.050s
+[Wed Jul 15 11:54:40 2015].937219 msDrawMap(): Layer 25 (land_5), 0.103s
+[Wed Jul 15 11:54:40 2015].937542 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 11:54:40 2015].938556 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 11:54:40 2015].943099 msDrawMap(): Layer 28 (coastline_5), 0.005s
+[Wed Jul 15 11:54:40 2015].943713 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 11:54:40 2015].944206 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Wed Jul 15 11:54:40 2015].944416 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 11:54:40 2015].944906 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Wed Jul 15 11:54:40 2015].945052 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 11:54:40 2015].945240 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 11:54:40 2015].945529 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 11:54:40 2015].945557 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 11:54:40 2015].946679 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 11:54:40 2015].946692 msDrawMap() total time: 0.163s
+[Wed Jul 15 11:54:40 2015].949551 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 11:54:40 2015].949759 mapserv request processing time (msLoadMap not incl.): 0.167s
+[Wed Jul 15 11:54:40 2015].949769 msFreeMap(): freeing map at 0x18a9ac0.
+[Wed Jul 15 11:56:43 2015].516141 CGI Request 1 on process 16192
+[Wed Jul 15 11:56:43 2015].516515 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 11:56:43 2015].516709 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 11:56:43 2015].516721 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 11:56:43 2015].516739 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 11:56:43 2015].542880 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:56:43 2015].542910 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:56:43 2015].574086 msDrawMap(): Layer 24 (ocean_5), 0.057s
+[Wed Jul 15 11:56:43 2015].744878 msDrawMap(): Layer 25 (land_5), 0.171s
+[Wed Jul 15 11:56:43 2015].745321 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 11:56:43 2015].746754 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 11:56:43 2015].753226 msDrawMap(): Layer 28 (coastline_5), 0.006s
+[Wed Jul 15 11:56:43 2015].754161 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 11:56:43 2015].754947 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 11:56:43 2015].755313 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 11:56:43 2015].756116 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 11:56:43 2015].756378 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 11:56:43 2015].756695 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 11:56:43 2015].757181 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 11:56:43 2015].757225 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 11:56:43 2015].758894 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 11:56:43 2015].758914 msDrawMap() total time: 0.242s
+[Wed Jul 15 11:56:43 2015].763353 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 11:56:43 2015].763619 mapserv request processing time (msLoadMap not incl.): 0.247s
+[Wed Jul 15 11:56:43 2015].763635 msFreeMap(): freeing map at 0xb0cac0.
+[Wed Jul 15 11:57:20 2015].429879 CGI Request 1 on process 16219
+[Wed Jul 15 11:57:20 2015].438540 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 11:57:20 2015].438881 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 11:57:20 2015].438904 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 11:57:20 2015].438936 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 11:57:20 2015].540967 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:57:20 2015].540998 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 11:57:20 2015].594158 msDrawMap(): Layer 24 (ocean_5), 0.155s
+[Wed Jul 15 11:57:20 2015].724127 msDrawMap(): Layer 25 (land_5), 0.130s
+[Wed Jul 15 11:57:20 2015].724430 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 11:57:20 2015].725313 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 11:57:20 2015].731849 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Wed Jul 15 11:57:20 2015].732846 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 11:57:20 2015].733665 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 11:57:20 2015].734059 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 11:57:20 2015].734944 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 11:57:20 2015].735235 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 11:57:20 2015].735598 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 11:57:20 2015].736118 msDrawMap(): Layer 35 (populated_places_5), 0.001s
+[Wed Jul 15 11:57:20 2015].736163 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 11:57:20 2015].737763 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 11:57:20 2015].737785 msDrawMap() total time: 0.299s
+[Wed Jul 15 11:57:20 2015].741732 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 11:57:20 2015].741922 mapserv request processing time (msLoadMap not incl.): 0.312s
+[Wed Jul 15 11:57:20 2015].741935 msFreeMap(): freeing map at 0x2540ac0.
+[Wed Jul 15 13:06:41 2015].265240 CGI Request 1 on process 18040
+[Wed Jul 15 13:06:41 2015].265641 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 13:06:41 2015].265867 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 13:06:41 2015].265878 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 13:06:41 2015].265896 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 13:06:41 2015].287664 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 13:06:41 2015].287694 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 13:06:41 2015].398884 msDrawMap(): Layer 24 (ocean_5), 0.133s
+[Wed Jul 15 13:06:42 2015].76998 msDrawMap(): Layer 25 (land_5), 0.678s
+[Wed Jul 15 13:06:42 2015].458412 msDrawMap(): Layer 26 (quebec_border_5), 0.381s
+[Wed Jul 15 13:06:42 2015].728565 msDrawMap(): Layer 27 (urban_areas_5), 0.270s
+[Wed Jul 15 13:06:42 2015].733520 msDrawMap(): Layer 28 (coastline_5), 0.005s
+[Wed Jul 15 13:06:42 2015].928507 msDrawMap(): Layer 29 (lakes_5), 0.195s
+[Wed Jul 15 13:06:43 2015].171303 msDrawMap(): Layer 30 (rivers_5), 0.243s
+[Wed Jul 15 13:06:43 2015].171670 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 13:06:43 2015].647004 msDrawMap(): Layer 32 (countries_5), 0.475s
+[Wed Jul 15 13:06:43 2015].734851 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.088s
+[Wed Jul 15 13:06:43 2015].963325 msDrawMap(): Layer 34 (us_states_name_5), 0.228s
+[Wed Jul 15 13:06:44 2015].87140 msDrawMap(): Layer 35 (populated_places_5), 0.124s
+[Wed Jul 15 13:06:44 2015].87204 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 13:06:44 2015].113905 msDrawMap(): Drawing Label Cache, 0.027s
+[Wed Jul 15 13:06:44 2015].113939 msDrawMap() total time: 2.848s
+[Wed Jul 15 13:06:44 2015].118130 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 13:06:44 2015].118328 mapserv request processing time (msLoadMap not incl.): 2.853s
+[Wed Jul 15 13:06:44 2015].118342 msFreeMap(): freeing map at 0xea3a70.
+[Wed Jul 15 14:25:09 2015].65030 CGI Request 1 on process 22441
+[Wed Jul 15 14:25:09 2015].65731 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 14:25:09 2015].66137 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 14:25:09 2015].66156 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 14:25:09 2015].66188 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 14:25:09 2015].102900 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:25:09 2015].102934 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:25:09 2015].363499 msDrawMap(): Layer 24 (ocean_5), 0.297s
+[Wed Jul 15 14:25:10 2015].251593 msDrawMap(): Layer 25 (land_5), 0.888s
+[Wed Jul 15 14:25:10 2015].374169 msDrawMap(): Layer 26 (quebec_border_5), 0.123s
+[Wed Jul 15 14:25:10 2015].519417 msDrawMap(): Layer 27 (urban_areas_5), 0.145s
+[Wed Jul 15 14:25:10 2015].527678 msDrawMap(): Layer 28 (coastline_5), 0.008s
+[Wed Jul 15 14:25:10 2015].685820 msDrawMap(): Layer 29 (lakes_5), 0.158s
+[Wed Jul 15 14:25:11 2015].228600 msDrawMap(): Layer 30 (rivers_5), 0.543s
+[Wed Jul 15 14:25:11 2015].229294 msDrawMap(): Layer 31 (country_boundaries_5), 0.001s
+[Wed Jul 15 14:25:11 2015].754254 msDrawMap(): Layer 32 (countries_5), 0.525s
+[Wed Jul 15 14:25:11 2015].958916 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.205s
+[Wed Jul 15 14:25:12 2015].45786 msDrawMap(): Layer 34 (us_states_name_5), 0.087s
+[Wed Jul 15 14:25:12 2015].102835 msDrawMap(): Layer 35 (populated_places_5), 0.057s
+[Wed Jul 15 14:25:12 2015].102918 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 14:25:12 2015].221489 msDrawMap(): Drawing Label Cache, 0.119s
+[Wed Jul 15 14:25:12 2015].221557 msDrawMap() total time: 3.156s
+[Wed Jul 15 14:25:12 2015].227893 msSaveImage(stdout) total time: 0.006s
+[Wed Jul 15 14:25:12 2015].228166 mapserv request processing time (msLoadMap not incl.): 3.163s
+[Wed Jul 15 14:25:12 2015].228180 msFreeMap(): freeing map at 0x948a70.
+[Wed Jul 15 14:27:02 2015].20208 CGI Request 1 on process 22533
+[Wed Jul 15 14:27:02 2015].20779 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 14:27:02 2015].21090 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 14:27:02 2015].21106 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 14:27:02 2015].21136 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 14:27:02 2015].59274 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:27:02 2015].59308 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:27:02 2015].91656 msDrawMap(): Layer 24 (ocean_5), 0.071s
+[Wed Jul 15 14:27:02 2015].233876 msDrawMap(): Layer 25 (land_5), 0.142s
+[Wed Jul 15 14:27:02 2015].234210 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 14:27:02 2015].235136 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 14:27:02 2015].239225 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Wed Jul 15 14:27:02 2015].239838 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 14:27:02 2015].240346 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Wed Jul 15 14:27:02 2015].240559 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 14:27:02 2015].241094 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 14:27:02 2015].241337 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 14:27:02 2015].241665 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 14:27:02 2015].242117 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 14:27:02 2015].242151 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 14:27:02 2015].243689 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 14:27:02 2015].243714 msDrawMap() total time: 0.223s
+[Wed Jul 15 14:27:02 2015].247334 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 14:27:02 2015].247503 mapserv request processing time (msLoadMap not incl.): 0.227s
+[Wed Jul 15 14:27:02 2015].247512 msFreeMap(): freeing map at 0xb52ac0.
+[Wed Jul 15 14:28:53 2015].100813 CGI Request 1 on process 22580
+[Wed Jul 15 14:28:53 2015].101381 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 14:28:53 2015].101697 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 14:28:53 2015].101717 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 14:28:53 2015].101747 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 14:28:53 2015].137078 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:28:53 2015].137106 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:28:53 2015].162038 msDrawMap(): Layer 24 (ocean_5), 0.060s
+[Wed Jul 15 14:28:53 2015].276726 msDrawMap(): Layer 25 (land_5), 0.115s
+[Wed Jul 15 14:28:53 2015].277024 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 14:28:53 2015].277866 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 14:28:53 2015].281956 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Wed Jul 15 14:28:53 2015].282590 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 14:28:53 2015].283065 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Wed Jul 15 14:28:53 2015].283275 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 14:28:53 2015].283765 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Wed Jul 15 14:28:53 2015].283912 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 14:28:53 2015].284103 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 14:28:53 2015].284396 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 14:28:53 2015].284425 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 14:28:53 2015].285493 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 14:28:53 2015].285505 msDrawMap() total time: 0.184s
+[Wed Jul 15 14:28:53 2015].288643 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 14:28:53 2015].288891 mapserv request processing time (msLoadMap not incl.): 0.188s
+[Wed Jul 15 14:28:53 2015].288905 msFreeMap(): freeing map at 0x17d8ac0.
+[Wed Jul 15 14:29:38 2015].697589 CGI Request 1 on process 22616
+[Wed Jul 15 14:29:38 2015].698153 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 14:29:38 2015].699008 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 14:29:38 2015].699036 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 14:29:38 2015].699072 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 14:29:38 2015].740736 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:29:38 2015].740770 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:29:38 2015].807881 msDrawMap(): Layer 24 (ocean_5), 0.109s
+[Wed Jul 15 14:29:38 2015].951078 msDrawMap(): Layer 25 (land_5), 0.143s
+[Wed Jul 15 14:29:38 2015].951565 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 14:29:38 2015].952951 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 14:29:38 2015].957786 msDrawMap(): Layer 28 (coastline_5), 0.005s
+[Wed Jul 15 14:29:38 2015].958519 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 14:29:38 2015].959259 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 14:29:38 2015].959494 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 14:29:38 2015].960015 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 14:29:38 2015].960167 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 14:29:38 2015].960362 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 14:29:38 2015].960663 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 14:29:38 2015].960691 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 14:29:38 2015].961771 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 14:29:38 2015].961785 msDrawMap() total time: 0.264s
+[Wed Jul 15 14:29:38 2015].965130 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 14:29:38 2015].965517 mapserv request processing time (msLoadMap not incl.): 0.268s
+[Wed Jul 15 14:29:38 2015].965539 msFreeMap(): freeing map at 0x1ba0ac0.
+[Wed Jul 15 14:42:57 2015].670926 CGI Request 1 on process 23083
+[Wed Jul 15 14:42:57 2015].671779 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 14:42:57 2015].672362 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 14:42:57 2015].672429 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 14:42:57 2015].672511 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 14:42:57 2015].711640 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:42:57 2015].711674 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:42:57 2015].737570 msDrawMap(): Layer 24 (ocean_5), 0.065s
+[Wed Jul 15 14:42:57 2015].873194 msDrawMap(): Layer 25 (land_5), 0.136s
+[Wed Jul 15 14:42:57 2015].873664 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 14:42:57 2015].875174 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 14:42:57 2015].882165 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Wed Jul 15 14:42:57 2015].883164 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 14:42:57 2015].884089 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 14:42:57 2015].884531 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 14:42:57 2015].885479 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 14:42:57 2015].885773 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 14:42:57 2015].886130 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 14:42:57 2015].886662 msDrawMap(): Layer 35 (populated_places_5), 0.001s
+[Wed Jul 15 14:42:57 2015].886706 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 14:42:57 2015].888304 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 14:42:57 2015].888328 msDrawMap() total time: 0.216s
+[Wed Jul 15 14:42:57 2015].892525 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 14:42:57 2015].892711 mapserv request processing time (msLoadMap not incl.): 0.222s
+[Wed Jul 15 14:42:57 2015].892723 msFreeMap(): freeing map at 0x1526ac0.
+[Wed Jul 15 14:43:38 2015].564869 CGI Request 1 on process 23116
+[Wed Jul 15 14:43:38 2015].565588 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 14:43:38 2015].565945 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 14:43:38 2015].565970 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 14:43:38 2015].566006 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 14:43:38 2015].598562 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:43:38 2015].598608 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:43:38 2015].629085 msDrawMap(): Layer 24 (ocean_5), 0.063s
+[Wed Jul 15 14:43:38 2015].753640 msDrawMap(): Layer 25 (land_5), 0.125s
+[Wed Jul 15 14:43:38 2015].753927 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 14:43:38 2015].754805 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 14:43:38 2015].759398 msDrawMap(): Layer 28 (coastline_5), 0.005s
+[Wed Jul 15 14:43:38 2015].760073 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 14:43:38 2015].760808 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 14:43:38 2015].761251 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 14:43:38 2015].761954 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 14:43:38 2015].762123 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 14:43:38 2015].762342 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 14:43:38 2015].762754 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 14:43:38 2015].762809 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 14:43:38 2015].764002 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 14:43:38 2015].764016 msDrawMap() total time: 0.198s
+[Wed Jul 15 14:43:38 2015].766958 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 14:43:38 2015].767116 mapserv request processing time (msLoadMap not incl.): 0.202s
+[Wed Jul 15 14:43:38 2015].767127 msFreeMap(): freeing map at 0x1264ac0.
+[Wed Jul 15 14:49:00 2015].192364 CGI Request 1 on process 23519
+[Wed Jul 15 14:49:00 2015].193226 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 14:49:00 2015].193703 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 14:49:00 2015].193764 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 14:49:00 2015].193836 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 14:49:00 2015].218014 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:49:00 2015].218039 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:49:00 2015].242754 msDrawMap(): Layer 24 (ocean_5), 0.049s
+[Wed Jul 15 14:49:00 2015].387749 msDrawMap(): Layer 25 (land_5), 0.145s
+[Wed Jul 15 14:49:00 2015].388043 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 14:49:00 2015].388886 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 14:49:00 2015].392946 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Wed Jul 15 14:49:00 2015].393545 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 14:49:00 2015].394010 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Wed Jul 15 14:49:00 2015].394225 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 14:49:00 2015].394727 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Wed Jul 15 14:49:00 2015].394881 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 14:49:00 2015].395080 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 14:49:00 2015].395374 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 14:49:00 2015].395402 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 14:49:00 2015].396466 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 14:49:00 2015].396479 msDrawMap() total time: 0.203s
+[Wed Jul 15 14:49:00 2015].399193 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 14:49:00 2015].399351 mapserv request processing time (msLoadMap not incl.): 0.207s
+[Wed Jul 15 14:49:00 2015].399360 msFreeMap(): freeing map at 0x10f1ac0.
+[Wed Jul 15 14:49:11 2015].249270 CGI Request 1 on process 23546
+[Wed Jul 15 14:49:11 2015].249849 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 14:49:11 2015].250174 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 14:49:11 2015].250190 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 14:49:11 2015].250220 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 14:49:11 2015].332841 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:49:11 2015].332872 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:49:11 2015].379124 msDrawMap(): Layer 24 (ocean_5), 0.129s
+[Wed Jul 15 14:49:11 2015].519533 msDrawMap(): Layer 25 (land_5), 0.140s
+[Wed Jul 15 14:49:11 2015].520014 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 14:49:11 2015].521452 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 14:49:11 2015].528629 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Wed Jul 15 14:49:11 2015].529620 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 14:49:11 2015].530417 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 14:49:11 2015].530809 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 14:49:11 2015].531649 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 14:49:11 2015].531937 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 14:49:11 2015].532289 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 14:49:11 2015].532791 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 14:49:11 2015].532837 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 14:49:11 2015].534490 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 14:49:11 2015].534512 msDrawMap() total time: 0.285s
+[Wed Jul 15 14:49:11 2015].538398 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 14:49:11 2015].538642 mapserv request processing time (msLoadMap not incl.): 0.289s
+[Wed Jul 15 14:49:11 2015].538655 msFreeMap(): freeing map at 0x1be7ac0.
+[Wed Jul 15 14:49:14 2015].840489 CGI Request 1 on process 23554
+[Wed Jul 15 14:49:14 2015].840577 mapserv(): Web application error. Traditional BROWSE mode requires a TEMPLATE in the WEB section, but none was provided.
+[Wed Jul 15 14:49:14 2015].840615 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 14:49:14 2015].840635 msFreeMap(): freeing map at 0xe0f180.
+[Wed Jul 15 14:49:20 2015].76624 CGI Request 1 on process 23566
+[Wed Jul 15 14:49:20 2015].77213 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 14:49:20 2015].77539 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 14:49:20 2015].77555 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 14:49:20 2015].77588 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 14:49:20 2015].114573 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:49:20 2015].114606 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:49:20 2015].145173 msDrawMap(): Layer 24 (ocean_5), 0.068s
+[Wed Jul 15 14:49:20 2015].248836 msDrawMap(): Layer 25 (land_5), 0.104s
+[Wed Jul 15 14:49:20 2015].249127 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 14:49:20 2015].249974 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 14:49:20 2015].254053 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Wed Jul 15 14:49:20 2015].254670 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 14:49:20 2015].255136 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Wed Jul 15 14:49:20 2015].255346 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 14:49:20 2015].255829 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Wed Jul 15 14:49:20 2015].255973 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 14:49:20 2015].256164 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 14:49:20 2015].256460 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 14:49:20 2015].256488 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 14:49:20 2015].257563 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 14:49:20 2015].257577 msDrawMap() total time: 0.180s
+[Wed Jul 15 14:49:20 2015].260640 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 14:49:20 2015].260840 mapserv request processing time (msLoadMap not incl.): 0.184s
+[Wed Jul 15 14:49:20 2015].260851 msFreeMap(): freeing map at 0x2318ac0.
+[Wed Jul 15 14:49:25 2015].474046 CGI Request 1 on process 23591
+[Wed Jul 15 14:49:25 2015].474802 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 14:49:25 2015].475132 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 14:49:25 2015].475149 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 14:49:25 2015].475179 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 14:49:25 2015].509521 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:49:25 2015].509552 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:49:25 2015].537361 msDrawMap(): Layer 24 (ocean_5), 0.062s
+[Wed Jul 15 14:49:25 2015].641875 msDrawMap(): Layer 25 (land_5), 0.104s
+[Wed Jul 15 14:49:25 2015].642193 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 14:49:25 2015].643093 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 14:49:25 2015].647870 msDrawMap(): Layer 28 (coastline_5), 0.005s
+[Wed Jul 15 14:49:25 2015].648487 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 14:49:25 2015].648967 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Wed Jul 15 14:49:25 2015].649186 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 14:49:25 2015].649676 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Wed Jul 15 14:49:25 2015].649823 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 14:49:25 2015].650070 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 14:49:25 2015].650371 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 14:49:25 2015].650420 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 14:49:25 2015].651501 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 14:49:25 2015].651514 msDrawMap() total time: 0.177s
+[Wed Jul 15 14:49:25 2015].654686 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 14:49:25 2015].654964 mapserv request processing time (msLoadMap not incl.): 0.181s
+[Wed Jul 15 14:49:25 2015].654981 msFreeMap(): freeing map at 0x240eac0.
+[Wed Jul 15 14:49:37 2015].168595 CGI Request 1 on process 23679
+[Wed Jul 15 14:49:37 2015].169005 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 14:49:37 2015].169231 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 14:49:37 2015].169244 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 14:49:37 2015].169263 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 14:49:37 2015].189104 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:49:37 2015].189145 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:49:37 2015].213111 msDrawMap(): Layer 24 (ocean_5), 0.044s
+[Wed Jul 15 14:49:37 2015].321672 msDrawMap(): Layer 25 (land_5), 0.109s
+[Wed Jul 15 14:49:37 2015].321974 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 14:49:37 2015].322885 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 14:49:37 2015].326876 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Wed Jul 15 14:49:37 2015].327443 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 14:49:37 2015].327876 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Wed Jul 15 14:49:37 2015].328070 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 14:49:37 2015].328517 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Wed Jul 15 14:49:37 2015].328651 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 14:49:37 2015].328826 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 14:49:37 2015].329095 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 14:49:37 2015].329121 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 14:49:37 2015].330228 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 14:49:37 2015].330239 msDrawMap() total time: 0.161s
+[Wed Jul 15 14:49:37 2015].333170 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 14:49:37 2015].333368 mapserv request processing time (msLoadMap not incl.): 0.165s
+[Wed Jul 15 14:49:37 2015].333378 msFreeMap(): freeing map at 0x10ddac0.
+[Wed Jul 15 14:49:54 2015].186263 CGI Request 1 on process 23731
+[Wed Jul 15 14:49:54 2015].186957 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 14:49:54 2015].187279 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 14:49:54 2015].187300 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 14:49:54 2015].187333 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 14:49:54 2015].217752 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:49:54 2015].217785 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:49:54 2015].248650 msDrawMap(): Layer 24 (ocean_5), 0.061s
+[Wed Jul 15 14:49:54 2015].383365 msDrawMap(): Layer 25 (land_5), 0.135s
+[Wed Jul 15 14:49:54 2015].383657 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 14:49:54 2015].384527 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 14:49:54 2015].388595 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Wed Jul 15 14:49:54 2015].389173 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 14:49:54 2015].389635 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Wed Jul 15 14:49:54 2015].389845 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 14:49:54 2015].390324 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Wed Jul 15 14:49:54 2015].390495 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 14:49:54 2015].390691 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 14:49:54 2015].390981 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 14:49:54 2015].391008 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 14:49:54 2015].392099 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 14:49:54 2015].392111 msDrawMap() total time: 0.205s
+[Wed Jul 15 14:49:54 2015].395239 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 14:49:54 2015].395422 mapserv request processing time (msLoadMap not incl.): 0.209s
+[Wed Jul 15 14:49:54 2015].395432 msFreeMap(): freeing map at 0xf24ac0.
+[Wed Jul 15 14:55:38 2015].343637 CGI Request 1 on process 23945
+[Wed Jul 15 14:55:38 2015].344305 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 14:55:38 2015].344674 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 14:55:38 2015].344699 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 14:55:38 2015].344735 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 14:55:38 2015].375109 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:55:38 2015].375139 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:55:38 2015].403410 msDrawMap(): Layer 24 (ocean_5), 0.059s
+[Wed Jul 15 14:55:38 2015].534209 msDrawMap(): Layer 25 (land_5), 0.131s
+[Wed Jul 15 14:55:38 2015].534516 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 14:55:38 2015].535443 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 14:55:38 2015].540817 msDrawMap(): Layer 28 (coastline_5), 0.005s
+[Wed Jul 15 14:55:38 2015].541568 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 14:55:38 2015].542124 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 14:55:38 2015].542354 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 14:55:38 2015].542880 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 14:55:38 2015].543025 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 14:55:38 2015].543218 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 14:55:38 2015].543510 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 14:55:38 2015].543538 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 14:55:38 2015].544600 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 14:55:38 2015].544613 msDrawMap() total time: 0.200s
+[Wed Jul 15 14:55:38 2015].548335 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 14:55:38 2015].548524 mapserv request processing time (msLoadMap not incl.): 0.205s
+[Wed Jul 15 14:55:38 2015].548536 msFreeMap(): freeing map at 0x21acac0.
+[Wed Jul 15 14:59:43 2015].798012 CGI Request 1 on process 24039
+[Wed Jul 15 14:59:43 2015].798641 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 14:59:43 2015].798946 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 14:59:43 2015].798964 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 14:59:43 2015].798997 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 14:59:43 2015].842508 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:59:43 2015].842535 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 14:59:43 2015].869100 msDrawMap(): Layer 24 (ocean_5), 0.070s
+[Wed Jul 15 14:59:43 2015].983170 msDrawMap(): Layer 25 (land_5), 0.114s
+[Wed Jul 15 14:59:43 2015].983535 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 14:59:43 2015].984467 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 14:59:43 2015].989883 msDrawMap(): Layer 28 (coastline_5), 0.005s
+[Wed Jul 15 14:59:43 2015].990841 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 14:59:43 2015].991520 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 14:59:43 2015].991813 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 14:59:43 2015].992519 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 14:59:43 2015].992787 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 14:59:43 2015].993013 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 14:59:43 2015].993379 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 14:59:43 2015].993410 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 14:59:43 2015].994526 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 14:59:43 2015].994543 msDrawMap() total time: 0.196s
+[Wed Jul 15 14:59:43 2015].997684 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 14:59:43 2015].997893 mapserv request processing time (msLoadMap not incl.): 0.200s
+[Wed Jul 15 14:59:43 2015].997911 msFreeMap(): freeing map at 0x1c85ac0.
+[Wed Jul 15 15:02:24 2015].351657 CGI Request 1 on process 24133
+[Wed Jul 15 15:02:24 2015].352258 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:02:24 2015].352578 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:02:24 2015].352598 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:02:24 2015].352628 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:02:24 2015].395809 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:02:24 2015].395838 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:02:24 2015].429022 msDrawMap(): Layer 24 (ocean_5), 0.076s
+[Wed Jul 15 15:02:24 2015].597160 msDrawMap(): Layer 25 (land_5), 0.168s
+[Wed Jul 15 15:02:24 2015].597666 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 15:02:24 2015].599189 msDrawMap(): Layer 27 (urban_areas_5), 0.002s
+[Wed Jul 15 15:02:24 2015].606412 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Wed Jul 15 15:02:24 2015].607394 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:02:24 2015].608185 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 15:02:24 2015].608582 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:02:24 2015].609444 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 15:02:24 2015].609719 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:02:24 2015].610063 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:02:24 2015].610596 msDrawMap(): Layer 35 (populated_places_5), 0.001s
+[Wed Jul 15 15:02:24 2015].610647 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:02:24 2015].612299 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 15:02:24 2015].612318 msDrawMap() total time: 0.260s
+[Wed Jul 15 15:02:24 2015].616329 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 15:02:24 2015].616581 mapserv request processing time (msLoadMap not incl.): 0.265s
+[Wed Jul 15 15:02:24 2015].616598 msFreeMap(): freeing map at 0xe92ac0.
+[Wed Jul 15 15:02:47 2015].803363 CGI Request 1 on process 24150
+[Wed Jul 15 15:02:47 2015].803957 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:02:47 2015].804290 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:02:47 2015].804315 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:02:47 2015].804347 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:02:47 2015].832820 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:02:47 2015].832850 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:02:47 2015].861702 msDrawMap(): Layer 24 (ocean_5), 0.057s
+[Wed Jul 15 15:02:47 2015].983292 msDrawMap(): Layer 25 (land_5), 0.122s
+[Wed Jul 15 15:02:47 2015].983649 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 15:02:47 2015].984506 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 15:02:47 2015].988772 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Wed Jul 15 15:02:47 2015].989369 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:02:47 2015].989829 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Wed Jul 15 15:02:47 2015].990037 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:02:47 2015].990531 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Wed Jul 15 15:02:47 2015].990675 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:02:47 2015].990863 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:02:47 2015].991156 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 15:02:47 2015].991183 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:02:47 2015].992248 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 15:02:47 2015].992260 msDrawMap() total time: 0.188s
+[Wed Jul 15 15:02:47 2015].995117 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 15:02:47 2015].995281 mapserv request processing time (msLoadMap not incl.): 0.192s
+[Wed Jul 15 15:02:47 2015].995292 msFreeMap(): freeing map at 0x20e4ac0.
+[Wed Jul 15 15:04:09 2015].904518 CGI Request 1 on process 24196
+[Wed Jul 15 15:04:09 2015].905139 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:04:09 2015].905454 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:04:09 2015].905478 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:04:09 2015].905510 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:04:09 2015].954935 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:04:09 2015].954967 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:04:10 2015].12708 msDrawMap(): Layer 24 (ocean_5), 0.107s
+[Wed Jul 15 15:04:10 2015].161823 msDrawMap(): Layer 25 (land_5), 0.149s
+[Wed Jul 15 15:04:10 2015].162130 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 15:04:10 2015].163377 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 15:04:10 2015].168620 msDrawMap(): Layer 28 (coastline_5), 0.005s
+[Wed Jul 15 15:04:10 2015].169254 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:04:10 2015].169736 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Wed Jul 15 15:04:10 2015].169961 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:04:10 2015].170480 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 15:04:10 2015].170631 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:04:10 2015].170827 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:04:10 2015].171127 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 15:04:10 2015].171179 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:04:10 2015].172267 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 15:04:10 2015].172281 msDrawMap() total time: 0.267s
+[Wed Jul 15 15:04:10 2015].175392 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 15:04:10 2015].175649 mapserv request processing time (msLoadMap not incl.): 0.271s
+[Wed Jul 15 15:04:10 2015].175668 msFreeMap(): freeing map at 0x2516ac0.
+[Wed Jul 15 15:04:24 2015].925776 CGI Request 1 on process 24210
+[Wed Jul 15 15:04:24 2015].926363 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:04:24 2015].934772 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:04:24 2015].934797 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:04:24 2015].934832 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:04:25 2015].6913 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:04:25 2015].6947 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:04:25 2015].37489 msDrawMap(): Layer 24 (ocean_5), 0.103s
+[Wed Jul 15 15:04:25 2015].188053 msDrawMap(): Layer 25 (land_5), 0.151s
+[Wed Jul 15 15:04:25 2015].188550 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 15:04:25 2015].190233 msDrawMap(): Layer 27 (urban_areas_5), 0.002s
+[Wed Jul 15 15:04:25 2015].197318 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Wed Jul 15 15:04:25 2015].198269 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:04:25 2015].199085 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 15:04:25 2015].199470 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:04:25 2015].200312 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 15:04:25 2015].200599 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:04:25 2015].200957 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:04:25 2015].201470 msDrawMap(): Layer 35 (populated_places_5), 0.001s
+[Wed Jul 15 15:04:25 2015].201519 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:04:25 2015].203165 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 15:04:25 2015].203188 msDrawMap() total time: 0.269s
+[Wed Jul 15 15:04:25 2015].207145 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 15:04:25 2015].207369 mapserv request processing time (msLoadMap not incl.): 0.282s
+[Wed Jul 15 15:04:25 2015].207385 msFreeMap(): freeing map at 0x1614ac0.
+[Wed Jul 15 15:05:30 2015].929583 CGI Request 1 on process 24242
+[Wed Jul 15 15:05:30 2015].930179 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:05:30 2015].938550 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:05:30 2015].938586 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:05:30 2015].938623 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:05:31 2015].25491 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:05:31 2015].25519 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:05:31 2015].60807 msDrawMap(): Layer 24 (ocean_5), 0.122s
+[Wed Jul 15 15:05:31 2015].213130 msDrawMap(): Layer 25 (land_5), 0.152s
+[Wed Jul 15 15:05:31 2015].213578 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 15:05:31 2015].215669 msDrawMap(): Layer 27 (urban_areas_5), 0.002s
+[Wed Jul 15 15:05:31 2015].222867 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Wed Jul 15 15:05:31 2015].223826 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:05:31 2015].224638 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 15:05:31 2015].225031 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:05:31 2015].225875 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 15:05:31 2015].226169 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:05:31 2015].226533 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:05:31 2015].227034 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 15:05:31 2015].227092 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:05:31 2015].228682 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 15:05:31 2015].228710 msDrawMap() total time: 0.298s
+[Wed Jul 15 15:05:31 2015].232559 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 15:05:31 2015].232767 mapserv request processing time (msLoadMap not incl.): 0.303s
+[Wed Jul 15 15:05:31 2015].232778 msFreeMap(): freeing map at 0xeabac0.
+[Wed Jul 15 15:06:15 2015].201878 CGI Request 1 on process 24274
+[Wed Jul 15 15:06:15 2015].202486 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:06:15 2015].202808 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:06:15 2015].202833 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:06:15 2015].202868 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:06:15 2015].282507 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:06:15 2015].283513 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:06:15 2015].336652 msDrawMap(): Layer 24 (ocean_5), 0.134s
+[Wed Jul 15 15:06:15 2015].495509 msDrawMap(): Layer 25 (land_5), 0.159s
+[Wed Jul 15 15:06:15 2015].495991 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 15:06:15 2015].497416 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 15:06:15 2015].503868 msDrawMap(): Layer 28 (coastline_5), 0.006s
+[Wed Jul 15 15:06:15 2015].504968 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:06:15 2015].506194 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 15:06:15 2015].506771 msDrawMap(): Layer 31 (country_boundaries_5), 0.001s
+[Wed Jul 15 15:06:15 2015].507627 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 15:06:15 2015].507917 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:06:15 2015].508281 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:06:15 2015].508789 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 15:06:15 2015].508844 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:06:15 2015].510455 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 15:06:15 2015].510480 msDrawMap() total time: 0.308s
+[Wed Jul 15 15:06:15 2015].514755 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 15:06:15 2015].514937 mapserv request processing time (msLoadMap not incl.): 0.313s
+[Wed Jul 15 15:06:15 2015].514954 msFreeMap(): freeing map at 0x166aac0.
+[Wed Jul 15 15:08:01 2015].624304 CGI Request 1 on process 24311
+[Wed Jul 15 15:08:01 2015].624890 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:08:01 2015].625207 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:08:01 2015].625227 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:08:01 2015].625256 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:08:01 2015].658239 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:08:01 2015].658272 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:08:01 2015].692519 msDrawMap(): Layer 24 (ocean_5), 0.067s
+[Wed Jul 15 15:08:01 2015].838612 msDrawMap(): Layer 25 (land_5), 0.146s
+[Wed Jul 15 15:08:01 2015].838964 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 15:08:01 2015].840426 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 15:08:01 2015].844784 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Wed Jul 15 15:08:01 2015].845421 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:08:01 2015].846189 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 15:08:01 2015].846653 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:08:01 2015].847279 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 15:08:01 2015].847437 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:08:01 2015].847648 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:08:01 2015].847962 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 15:08:01 2015].847995 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:08:01 2015].849092 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 15:08:01 2015].849106 msDrawMap() total time: 0.224s
+[Wed Jul 15 15:08:01 2015].852314 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 15:08:01 2015].852486 mapserv request processing time (msLoadMap not incl.): 0.228s
+[Wed Jul 15 15:08:01 2015].852500 msFreeMap(): freeing map at 0xc59ac0.
+[Wed Jul 15 15:11:03 2015].325953 CGI Request 1 on process 24418
+[Wed Jul 15 15:11:03 2015].327424 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:11:03 2015].327747 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:11:03 2015].327770 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:11:03 2015].327804 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:11:03 2015].376269 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:11:03 2015].376297 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:11:03 2015].420916 msDrawMap(): Layer 24 (ocean_5), 0.093s
+[Wed Jul 15 15:11:03 2015].625352 msDrawMap(): Layer 25 (land_5), 0.204s
+[Wed Jul 15 15:11:03 2015].625818 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 15:11:03 2015].628156 msDrawMap(): Layer 27 (urban_areas_5), 0.002s
+[Wed Jul 15 15:11:03 2015].635106 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Wed Jul 15 15:11:03 2015].636039 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:11:03 2015].636815 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 15:11:03 2015].637194 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:11:03 2015].638007 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 15:11:03 2015].638286 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:11:03 2015].638646 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:11:03 2015].639144 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 15:11:03 2015].639194 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:11:03 2015].640824 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 15:11:03 2015].640871 msDrawMap() total time: 0.313s
+[Wed Jul 15 15:11:03 2015].645705 msSaveImage(stdout) total time: 0.005s
+[Wed Jul 15 15:11:03 2015].645921 mapserv request processing time (msLoadMap not incl.): 0.320s
+[Wed Jul 15 15:11:03 2015].645933 msFreeMap(): freeing map at 0x1b51ac0.
+[Wed Jul 15 15:11:50 2015].399086 CGI Request 1 on process 24535
+[Wed Jul 15 15:11:50 2015].399757 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:11:50 2015].400087 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:11:50 2015].400111 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:11:50 2015].400144 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:11:50 2015].436015 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:11:50 2015].436052 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:11:50 2015].478563 msDrawMap(): Layer 24 (ocean_5), 0.078s
+[Wed Jul 15 15:11:50 2015].606612 msDrawMap(): Layer 25 (land_5), 0.128s
+[Wed Jul 15 15:11:50 2015].607131 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 15:11:50 2015].608304 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 15:11:50 2015].613051 msDrawMap(): Layer 28 (coastline_5), 0.005s
+[Wed Jul 15 15:11:50 2015].613665 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:11:50 2015].614132 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Wed Jul 15 15:11:50 2015].614343 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:11:50 2015].614851 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Wed Jul 15 15:11:50 2015].615018 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:11:50 2015].615351 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:11:50 2015].615746 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 15:11:50 2015].615791 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:11:50 2015].617372 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 15:11:50 2015].617397 msDrawMap() total time: 0.218s
+[Wed Jul 15 15:11:50 2015].620874 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 15:11:50 2015].621074 mapserv request processing time (msLoadMap not incl.): 0.222s
+[Wed Jul 15 15:11:50 2015].621089 msFreeMap(): freeing map at 0x635ac0.
+[Wed Jul 15 15:12:03 2015].42178 CGI Request 1 on process 24566
+[Wed Jul 15 15:12:03 2015].43016 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:12:03 2015].43518 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:12:03 2015].43570 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:12:03 2015].43643 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:12:03 2015].78488 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:12:03 2015].78532 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:12:03 2015].102335 msDrawMap(): Layer 24 (ocean_5), 0.059s
+[Wed Jul 15 15:12:03 2015].213483 msDrawMap(): Layer 25 (land_5), 0.111s
+[Wed Jul 15 15:12:03 2015].213792 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 15:12:03 2015].214915 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 15:12:03 2015].219768 msDrawMap(): Layer 28 (coastline_5), 0.005s
+[Wed Jul 15 15:12:03 2015].220381 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:12:03 2015].220858 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Wed Jul 15 15:12:03 2015].221076 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:12:03 2015].221570 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Wed Jul 15 15:12:03 2015].221715 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:12:03 2015].221908 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:12:03 2015].222202 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 15:12:03 2015].222231 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:12:03 2015].223322 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 15:12:03 2015].223336 msDrawMap() total time: 0.180s
+[Wed Jul 15 15:12:03 2015].226235 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 15:12:03 2015].226425 mapserv request processing time (msLoadMap not incl.): 0.184s
+[Wed Jul 15 15:12:03 2015].226441 msFreeMap(): freeing map at 0xc64ac0.
+[Wed Jul 15 15:12:11 2015].366936 CGI Request 1 on process 24602
+[Wed Jul 15 15:12:11 2015].367713 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:12:11 2015].368044 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:12:11 2015].368061 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:12:11 2015].368093 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:12:11 2015].407377 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:12:11 2015].407407 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:12:11 2015].448148 msDrawMap(): Layer 24 (ocean_5), 0.080s
+[Wed Jul 15 15:12:11 2015].591892 msDrawMap(): Layer 25 (land_5), 0.144s
+[Wed Jul 15 15:12:11 2015].593177 msDrawMap(): Layer 26 (quebec_border_5), 0.001s
+[Wed Jul 15 15:12:11 2015].594745 msDrawMap(): Layer 27 (urban_areas_5), 0.002s
+[Wed Jul 15 15:12:11 2015].601868 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Wed Jul 15 15:12:11 2015].602890 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:12:11 2015].603704 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 15:12:11 2015].604116 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:12:11 2015].604947 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 15:12:11 2015].605225 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:12:11 2015].605578 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:12:11 2015].606118 msDrawMap(): Layer 35 (populated_places_5), 0.001s
+[Wed Jul 15 15:12:11 2015].606162 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:12:11 2015].607803 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 15:12:11 2015].607822 msDrawMap() total time: 0.240s
+[Wed Jul 15 15:12:11 2015].611915 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 15:12:11 2015].612174 mapserv request processing time (msLoadMap not incl.): 0.245s
+[Wed Jul 15 15:12:11 2015].612189 msFreeMap(): freeing map at 0x878ac0.
+[Wed Jul 15 15:12:17 2015].241282 CGI Request 1 on process 24619
+[Wed Jul 15 15:12:17 2015].241960 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:12:17 2015].242290 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:12:17 2015].242311 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:12:17 2015].242344 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:12:17 2015].312555 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:12:17 2015].312575 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:12:17 2015].338713 msDrawMap(): Layer 24 (ocean_5), 0.096s
+[Wed Jul 15 15:12:17 2015].456193 msDrawMap(): Layer 25 (land_5), 0.117s
+[Wed Jul 15 15:12:17 2015].456493 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 15:12:17 2015].457342 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 15:12:17 2015].461500 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Wed Jul 15 15:12:17 2015].462110 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:12:17 2015].462615 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Wed Jul 15 15:12:17 2015].462837 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:12:17 2015].463326 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Wed Jul 15 15:12:17 2015].463478 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:12:17 2015].463674 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:12:17 2015].463976 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 15:12:17 2015].464003 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:12:17 2015].465068 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 15:12:17 2015].465080 msDrawMap() total time: 0.223s
+[Wed Jul 15 15:12:17 2015].468636 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 15:12:17 2015].468854 mapserv request processing time (msLoadMap not incl.): 0.228s
+[Wed Jul 15 15:12:17 2015].468867 msFreeMap(): freeing map at 0x17f4ac0.
+[Wed Jul 15 15:12:37 2015].353423 CGI Request 1 on process 24702
+[Wed Jul 15 15:12:37 2015].354024 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:12:37 2015].354356 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:12:37 2015].354373 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:12:37 2015].354430 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:12:37 2015].384004 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:12:37 2015].384037 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:12:37 2015].423523 msDrawMap(): Layer 24 (ocean_5), 0.069s
+[Wed Jul 15 15:12:37 2015].564993 msDrawMap(): Layer 25 (land_5), 0.141s
+[Wed Jul 15 15:12:37 2015].565672 msDrawMap(): Layer 26 (quebec_border_5), 0.001s
+[Wed Jul 15 15:12:37 2015].567434 msDrawMap(): Layer 27 (urban_areas_5), 0.002s
+[Wed Jul 15 15:12:37 2015].574641 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Wed Jul 15 15:12:37 2015].575640 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:12:37 2015].576480 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 15:12:37 2015].576901 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:12:37 2015].577785 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 15:12:37 2015].578078 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:12:37 2015].578455 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:12:37 2015].578993 msDrawMap(): Layer 35 (populated_places_5), 0.001s
+[Wed Jul 15 15:12:37 2015].579039 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:12:37 2015].580653 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 15:12:37 2015].580674 msDrawMap() total time: 0.227s
+[Wed Jul 15 15:12:37 2015].584594 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 15:12:37 2015].584863 mapserv request processing time (msLoadMap not incl.): 0.231s
+[Wed Jul 15 15:12:37 2015].584879 msFreeMap(): freeing map at 0x961ac0.
+[Wed Jul 15 15:12:46 2015].85281 CGI Request 1 on process 24744
+[Wed Jul 15 15:12:46 2015].85899 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:12:46 2015].86211 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:12:46 2015].86227 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:12:46 2015].86258 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:12:46 2015].118240 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:12:46 2015].118264 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:12:46 2015].154149 msDrawMap(): Layer 24 (ocean_5), 0.068s
+[Wed Jul 15 15:12:46 2015].261028 msDrawMap(): Layer 25 (land_5), 0.107s
+[Wed Jul 15 15:12:46 2015].261322 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 15:12:46 2015].262172 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 15:12:46 2015].266232 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Wed Jul 15 15:12:46 2015].266845 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:12:46 2015].267312 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Wed Jul 15 15:12:46 2015].267526 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:12:46 2015].268095 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 15:12:46 2015].268251 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:12:46 2015].268445 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:12:46 2015].268738 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 15:12:46 2015].268767 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:12:46 2015].269829 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 15:12:46 2015].269842 msDrawMap() total time: 0.184s
+[Wed Jul 15 15:12:46 2015].273522 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 15:12:46 2015].273766 mapserv request processing time (msLoadMap not incl.): 0.188s
+[Wed Jul 15 15:12:46 2015].273779 msFreeMap(): freeing map at 0x962ac0.
+[Wed Jul 15 15:19:00 2015].946757 CGI Request 1 on process 25273
+[Wed Jul 15 15:19:00 2015].947199 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:19:00 2015].947429 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:19:00 2015].947444 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:19:00 2015].947464 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:19:00 2015].980677 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:19:00 2015].980733 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:19:01 2015].5222 msDrawMap(): Layer 24 (ocean_5), 0.058s
+[Wed Jul 15 15:19:01 2015].132256 msDrawMap(): Layer 25 (land_5), 0.127s
+[Wed Jul 15 15:19:01 2015].132563 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 15:19:01 2015].134119 msDrawMap(): Layer 27 (urban_areas_5), 0.002s
+[Wed Jul 15 15:19:01 2015].138870 msDrawMap(): Layer 28 (coastline_5), 0.005s
+[Wed Jul 15 15:19:01 2015].139623 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:19:01 2015].140333 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 15:19:01 2015].140708 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:19:01 2015].141496 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 15:19:01 2015].141763 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:19:01 2015].142134 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:19:01 2015].142701 msDrawMap(): Layer 35 (populated_places_5), 0.001s
+[Wed Jul 15 15:19:01 2015].142752 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:19:01 2015].144251 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 15:19:01 2015].144277 msDrawMap() total time: 0.197s
+[Wed Jul 15 15:19:01 2015].147509 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 15:19:01 2015].147756 mapserv request processing time (msLoadMap not incl.): 0.201s
+[Wed Jul 15 15:19:01 2015].147770 msFreeMap(): freeing map at 0x21b7e60.
+[Wed Jul 15 15:19:45 2015].630884 CGI Request 1 on process 25383
+[Wed Jul 15 15:19:45 2015].979307 mapserv request processing time (msLoadMap not incl.): 0.348s
+[Wed Jul 15 15:19:45 2015].979321 msFreeMap(): freeing map at 0x2157e70.
+[Wed Jul 15 15:19:57 2015].43729 CGI Request 1 on process 25390
+[Wed Jul 15 15:19:57 2015].44115 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:19:57 2015].44141 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:19:57 2015].44157 msFreeMap(): freeing map at 0x10d2f70.
+[Wed Jul 15 15:20:02 2015].57660 CGI Request 1 on process 25421
+[Wed Jul 15 15:20:02 2015].58081 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:02 2015].58112 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:20:02 2015].58126 msFreeMap(): freeing map at 0x18bbf70.
+[Wed Jul 15 15:20:04 2015].803077 CGI Request 1 on process 25423
+[Wed Jul 15 15:20:04 2015].803448 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:04 2015].803475 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:20:04 2015].803500 msFreeMap(): freeing map at 0x169ffd0.
+[Wed Jul 15 15:20:05 2015].989168 CGI Request 1 on process 25424
+[Wed Jul 15 15:20:05 2015].989840 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:05 2015].989877 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:20:05 2015].989895 msFreeMap(): freeing map at 0x988f70.
+[Wed Jul 15 15:20:08 2015].439307 CGI Request 1 on process 25426
+[Wed Jul 15 15:20:08 2015].439803 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:08 2015].439838 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:20:08 2015].439859 msFreeMap(): freeing map at 0x1491fd0.
+[Wed Jul 15 15:20:09 2015].849745 CGI Request 1 on process 25427
+[Wed Jul 15 15:20:09 2015].850149 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:09 2015].850177 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:20:09 2015].850190 msFreeMap(): freeing map at 0x1b1c080.
+[Wed Jul 15 15:20:11 2015].540129 CGI Request 1 on process 25428
+[Wed Jul 15 15:20:11 2015].540507 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:11 2015].540536 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:20:11 2015].540565 msFreeMap(): freeing map at 0x1a5f0f0.
+[Wed Jul 15 15:20:12 2015].825206 CGI Request 1 on process 25429
+[Wed Jul 15 15:20:12 2015].825598 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:12 2015].825626 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:20:12 2015].825639 msFreeMap(): freeing map at 0x195b1a0.
+[Wed Jul 15 15:20:14 2015].129260 CGI Request 1 on process 25430
+[Wed Jul 15 15:20:14 2015].129789 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:14 2015].129822 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:20:14 2015].129842 msFreeMap(): freeing map at 0x16f3210.
+[Wed Jul 15 15:20:16 2015].784798 CGI Request 1 on process 25431
+[Wed Jul 15 15:20:16 2015].785188 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:16 2015].785216 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:20:16 2015].785231 msFreeMap(): freeing map at 0x22e4250.
+[Wed Jul 15 15:20:17 2015].957433 CGI Request 1 on process 25436
+[Wed Jul 15 15:20:17 2015].957789 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:17 2015].957815 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:20:17 2015].957831 msFreeMap(): freeing map at 0x1909300.
+[Wed Jul 15 15:20:19 2015].229527 CGI Request 1 on process 25437
+[Wed Jul 15 15:20:19 2015].230021 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:19 2015].230050 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:20:19 2015].230064 msFreeMap(): freeing map at 0x17ee370.
+[Wed Jul 15 15:20:20 2015].351039 CGI Request 1 on process 25438
+[Wed Jul 15 15:20:20 2015].351500 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:20 2015].351529 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:20:20 2015].351545 msFreeMap(): freeing map at 0xd9b440.
+[Wed Jul 15 15:20:21 2015].511253 CGI Request 1 on process 25439
+[Wed Jul 15 15:20:21 2015].511790 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:21 2015].511821 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:20:21 2015].511835 msFreeMap(): freeing map at 0x2189490.
+[Wed Jul 15 15:20:22 2015].715056 CGI Request 1 on process 25440
+[Wed Jul 15 15:20:22 2015].715513 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:22 2015].715543 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:20:22 2015].715557 msFreeMap(): freeing map at 0x93f4f0.
+[Wed Jul 15 15:20:24 2015].4534 CGI Request 1 on process 25441
+[Wed Jul 15 15:20:24 2015].4949 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:24 2015].4977 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:20:24 2015].4993 msFreeMap(): freeing map at 0x11f2580.
+[Wed Jul 15 15:20:25 2015].156142 CGI Request 1 on process 25442
+[Wed Jul 15 15:20:25 2015].156613 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:25 2015].156644 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:20:25 2015].156677 msFreeMap(): freeing map at 0x110d610.
+[Wed Jul 15 15:20:26 2015].259900 CGI Request 1 on process 25443
+[Wed Jul 15 15:20:26 2015].260514 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:26 2015].260542 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:20:26 2015].260559 msFreeMap(): freeing map at 0x19d8670.
+[Wed Jul 15 15:20:37 2015].376771 CGI Request 1 on process 25445
+[Wed Jul 15 15:20:37 2015].377205 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:37 2015].377234 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:20:37 2015].377250 msFreeMap(): freeing map at 0x1878670.
+[Wed Jul 15 15:20:38 2015].698266 CGI Request 1 on process 25448
+[Wed Jul 15 15:20:38 2015].698675 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:38 2015].698703 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:20:38 2015].698728 msFreeMap(): freeing map at 0xc73660.
+[Wed Jul 15 15:20:39 2015].701331 CGI Request 1 on process 25449
+[Wed Jul 15 15:20:39 2015].701753 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:39 2015].701780 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:20:39 2015].701796 msFreeMap(): freeing map at 0x1919660.
+[Wed Jul 15 15:20:40 2015].594819 CGI Request 1 on process 25450
+[Wed Jul 15 15:20:40 2015].595210 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:40 2015].595237 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:20:40 2015].595253 msFreeMap(): freeing map at 0x241a670.
+[Wed Jul 15 15:20:43 2015].217661 CGI Request 1 on process 25451
+[Wed Jul 15 15:20:43 2015].218882 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:20:43 2015].218941 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:20:43 2015].218969 msFreeMap(): freeing map at 0x14fd670.
+[Wed Jul 15 15:21:00 2015].859747 CGI Request 1 on process 25457
+[Wed Jul 15 15:21:00 2015].860254 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:00 2015].860302 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:00 2015].860337 msFreeMap(): freeing map at 0xa923f0.
+[Wed Jul 15 15:21:00 2015].930035 CGI Request 1 on process 25459
+[Wed Jul 15 15:21:00 2015].930849 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:00 2015].931708 mapserv request processing time (msLoadMap not incl.): 0.002s
+[Wed Jul 15 15:21:00 2015].931736 msFreeMap(): freeing map at 0x8ab420.
+[Wed Jul 15 15:21:00 2015].949729 CGI Request 1 on process 25458
+[Wed Jul 15 15:21:00 2015].950559 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:00 2015].950601 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:00 2015].950619 msFreeMap(): freeing map at 0x21753f0.
+[Wed Jul 15 15:21:00 2015].968629 CGI Request 1 on process 25460
+[Wed Jul 15 15:21:00 2015].969439 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:00 2015].969486 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:00 2015].969507 msFreeMap(): freeing map at 0x22c03f0.
+[Wed Jul 15 15:21:00 2015].996073 CGI Request 1 on process 25461
+[Wed Jul 15 15:21:00 2015].996846 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:00 2015].996898 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:00 2015].996919 msFreeMap(): freeing map at 0xa6e3f0.
+[Wed Jul 15 15:21:02 2015].779520 CGI Request 1 on process 25481
+[Wed Jul 15 15:21:02 2015].780173 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:02 2015].780205 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:02 2015].780222 msFreeMap(): freeing map at 0x11723f0.
+[Wed Jul 15 15:21:02 2015].807830 CGI Request 1 on process 25482
+[Wed Jul 15 15:21:02 2015].808548 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:02 2015].808592 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:02 2015].808620 msFreeMap(): freeing map at 0xc714a0.
+[Wed Jul 15 15:21:03 2015].699063 CGI Request 1 on process 25485
+[Wed Jul 15 15:21:03 2015].699754 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:03 2015].699798 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:03 2015].699830 msFreeMap(): freeing map at 0x1bb3510.
+[Wed Jul 15 15:21:03 2015].760905 CGI Request 1 on process 25486
+[Wed Jul 15 15:21:03 2015].761444 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:03 2015].761472 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:03 2015].761485 msFreeMap(): freeing map at 0x17475f0.
+[Wed Jul 15 15:21:04 2015].449204 CGI Request 1 on process 25488
+[Wed Jul 15 15:21:04 2015].450357 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:04 2015].454439 mapserv request processing time (msLoadMap not incl.): 0.005s
+[Wed Jul 15 15:21:04 2015].454466 msFreeMap(): freeing map at 0x24165f0.
+[Wed Jul 15 15:21:04 2015].453865 CGI Request 1 on process 25489
+[Wed Jul 15 15:21:04 2015].454643 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:04 2015].458452 mapserv request processing time (msLoadMap not incl.): 0.005s
+[Wed Jul 15 15:21:04 2015].458488 msFreeMap(): freeing map at 0x1ab2640.
+[Wed Jul 15 15:21:07 2015].268717 CGI Request 1 on process 25493
+[Wed Jul 15 15:21:07 2015].269141 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:07 2015].269169 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:21:07 2015].269182 msFreeMap(): freeing map at 0x25863f0.
+[Wed Jul 15 15:21:07 2015].307773 CGI Request 1 on process 25494
+[Wed Jul 15 15:21:07 2015].308502 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:07 2015].308540 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:07 2015].308569 msFreeMap(): freeing map at 0x20603f0.
+[Wed Jul 15 15:21:07 2015].325450 CGI Request 1 on process 25495
+[Wed Jul 15 15:21:07 2015].325985 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:07 2015].326029 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:07 2015].326045 msFreeMap(): freeing map at 0x1eee3f0.
+[Wed Jul 15 15:21:13 2015].107449 CGI Request 1 on process 25497
+[Wed Jul 15 15:21:13 2015].108136 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:13 2015].108177 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:13 2015].108208 msFreeMap(): freeing map at 0x1d2c5a0.
+[Wed Jul 15 15:21:14 2015].172687 CGI Request 1 on process 25498
+[Wed Jul 15 15:21:14 2015].173415 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:14 2015].173457 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:14 2015].173477 msFreeMap(): freeing map at 0x1ab15f0.
+[Wed Jul 15 15:21:14 2015].205891 CGI Request 1 on process 25499
+[Wed Jul 15 15:21:14 2015].206643 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:14 2015].206685 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:14 2015].206704 msFreeMap(): freeing map at 0x10805f0.
+[Wed Jul 15 15:21:14 2015].214591 CGI Request 1 on process 25500
+[Wed Jul 15 15:21:14 2015].215737 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:14 2015].215964 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:14 2015].216006 msFreeMap(): freeing map at 0x7985b0.
+[Wed Jul 15 15:21:14 2015].231202 CGI Request 1 on process 25501
+[Wed Jul 15 15:21:14 2015].231884 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:14 2015].231937 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:14 2015].231965 msFreeMap(): freeing map at 0x1b285b0.
+[Wed Jul 15 15:21:14 2015].983895 CGI Request 1 on process 25502
+[Wed Jul 15 15:21:14 2015].984369 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:14 2015].984401 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:14 2015].984416 msFreeMap(): freeing map at 0x18ad5f0.
+[Wed Jul 15 15:21:15 2015].33480 CGI Request 1 on process 25504
+[Wed Jul 15 15:21:15 2015].33924 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:15 2015].33953 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:21:15 2015].33966 msFreeMap(): freeing map at 0x1d98660.
+[Wed Jul 15 15:21:15 2015].38482 CGI Request 1 on process 25503
+[Wed Jul 15 15:21:15 2015].39244 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:15 2015].39313 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:15 2015].39343 msFreeMap(): freeing map at 0x1eca5f0.
+[Wed Jul 15 15:21:15 2015].41714 CGI Request 1 on process 25505
+[Wed Jul 15 15:21:15 2015].42747 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:15 2015].42799 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:15 2015].42817 msFreeMap(): freeing map at 0x1e31670.
+[Wed Jul 15 15:21:15 2015].796090 CGI Request 1 on process 25506
+[Wed Jul 15 15:21:15 2015].796564 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:15 2015].796595 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:15 2015].796612 msFreeMap(): freeing map at 0x2473680.
+[Wed Jul 15 15:21:15 2015].809733 CGI Request 1 on process 25507
+[Wed Jul 15 15:21:15 2015].810313 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:15 2015].810348 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:15 2015].810367 msFreeMap(): freeing map at 0x20e6680.
+[Wed Jul 15 15:21:16 2015].338869 CGI Request 1 on process 25508
+[Wed Jul 15 15:21:16 2015].339492 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:16 2015].339527 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:16 2015].339544 msFreeMap(): freeing map at 0x1e74680.
+[Wed Jul 15 15:21:16 2015].358925 CGI Request 1 on process 25509
+[Wed Jul 15 15:21:16 2015].359373 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:16 2015].359403 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:21:16 2015].359421 msFreeMap(): freeing map at 0x1e12680.
+[Wed Jul 15 15:21:16 2015].408351 CGI Request 1 on process 25510
+[Wed Jul 15 15:21:16 2015].408824 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:16 2015].408855 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:16 2015].408870 msFreeMap(): freeing map at 0x1013680.
+[Wed Jul 15 15:21:16 2015].412886 CGI Request 1 on process 25511
+[Wed Jul 15 15:21:16 2015].413783 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:16 2015].413904 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:16 2015].413944 msFreeMap(): freeing map at 0x1f45680.
+[Wed Jul 15 15:21:16 2015].920406 CGI Request 1 on process 25512
+[Wed Jul 15 15:21:16 2015].920920 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:16 2015].920953 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:16 2015].920970 msFreeMap(): freeing map at 0x1cb2680.
+[Wed Jul 15 15:21:16 2015].935033 CGI Request 1 on process 25513
+[Wed Jul 15 15:21:16 2015].935841 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:16 2015].935921 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:16 2015].935951 msFreeMap(): freeing map at 0xcab680.
+[Wed Jul 15 15:21:17 2015].907937 CGI Request 1 on process 25515
+[Wed Jul 15 15:21:17 2015].908613 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:17 2015].908649 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:17 2015].908667 msFreeMap(): freeing map at 0x1393660.
+[Wed Jul 15 15:21:17 2015].925095 CGI Request 1 on process 25516
+[Wed Jul 15 15:21:17 2015].925848 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:17 2015].925896 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:17 2015].925923 msFreeMap(): freeing map at 0x1ebb680.
+[Wed Jul 15 15:21:18 2015].211864 CGI Request 1 on process 25517
+[Wed Jul 15 15:21:18 2015].212372 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:18 2015].212404 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:18 2015].212421 msFreeMap(): freeing map at 0x1c2a680.
+[Wed Jul 15 15:21:18 2015].238184 CGI Request 1 on process 25518
+[Wed Jul 15 15:21:18 2015].238666 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:18 2015].238698 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:18 2015].238717 msFreeMap(): freeing map at 0x8e0680.
+[Wed Jul 15 15:21:20 2015].89308 CGI Request 1 on process 25519
+[Wed Jul 15 15:21:20 2015].89784 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:20 2015].89818 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:20 2015].89832 msFreeMap(): freeing map at 0x1bff680.
+[Wed Jul 15 15:21:20 2015].115316 CGI Request 1 on process 25520
+[Wed Jul 15 15:21:20 2015].116069 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:20 2015].116112 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:20 2015].116134 msFreeMap(): freeing map at 0x80b680.
+[Wed Jul 15 15:21:20 2015].128643 CGI Request 1 on process 25521
+[Wed Jul 15 15:21:20 2015].129196 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:20 2015].129231 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:20 2015].129249 msFreeMap(): freeing map at 0x25a1680.
+[Wed Jul 15 15:21:20 2015].172997 CGI Request 1 on process 25522
+[Wed Jul 15 15:21:20 2015].173448 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:20 2015].173474 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:21:20 2015].173500 msFreeMap(): freeing map at 0x2031680.
+[Wed Jul 15 15:21:20 2015].680901 CGI Request 1 on process 25523
+[Wed Jul 15 15:21:20 2015].681643 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:20 2015].681682 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:20 2015].681711 msFreeMap(): freeing map at 0xc96680.
+[Wed Jul 15 15:21:20 2015].693477 CGI Request 1 on process 25524
+[Wed Jul 15 15:21:20 2015].693975 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:20 2015].694009 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:20 2015].694022 msFreeMap(): freeing map at 0x1871680.
+[Wed Jul 15 15:21:21 2015].193790 CGI Request 1 on process 25525
+[Wed Jul 15 15:21:21 2015].194306 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:21 2015].194339 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:21 2015].194353 msFreeMap(): freeing map at 0x1bf6680.
+[Wed Jul 15 15:21:21 2015].205390 CGI Request 1 on process 25526
+[Wed Jul 15 15:21:21 2015].206210 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:21 2015].206311 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:21 2015].206335 msFreeMap(): freeing map at 0x12b6600.
+[Wed Jul 15 15:21:21 2015].936005 CGI Request 1 on process 25528
+[Wed Jul 15 15:21:21 2015].936618 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:21 2015].936663 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:21 2015].936685 msFreeMap(): freeing map at 0x13485f0.
+[Wed Jul 15 15:21:24 2015].906341 CGI Request 1 on process 25529
+[Wed Jul 15 15:21:24 2015].907201 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:24 2015].907284 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:24 2015].907303 msFreeMap(): freeing map at 0x9e75a0.
+[Wed Jul 15 15:21:24 2015].922926 CGI Request 1 on process 25530
+[Wed Jul 15 15:21:24 2015].923651 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:24 2015].923694 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:24 2015].923724 msFreeMap(): freeing map at 0xe515a0.
+[Wed Jul 15 15:21:27 2015].791768 CGI Request 1 on process 25531
+[Wed Jul 15 15:21:27 2015].792357 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:27 2015].792508 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:27 2015].792531 msFreeMap(): freeing map at 0x1ec1560.
+[Wed Jul 15 15:21:27 2015].811495 CGI Request 1 on process 25532
+[Wed Jul 15 15:21:27 2015].813373 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:27 2015].813488 mapserv request processing time (msLoadMap not incl.): 0.002s
+[Wed Jul 15 15:21:27 2015].813543 msFreeMap(): freeing map at 0x1484560.
+[Wed Jul 15 15:21:27 2015].864590 CGI Request 1 on process 25534
+[Wed Jul 15 15:21:27 2015].865409 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:27 2015].865458 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:27 2015].865479 msFreeMap(): freeing map at 0xca2560.
+[Wed Jul 15 15:21:27 2015].865437 CGI Request 1 on process 25533
+[Wed Jul 15 15:21:27 2015].866208 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:27 2015].866284 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:27 2015].866304 msFreeMap(): freeing map at 0x178b560.
+[Wed Jul 15 15:21:31 2015].737093 CGI Request 1 on process 25536
+[Wed Jul 15 15:21:31 2015].737841 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:31 2015].737881 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:31 2015].737900 msFreeMap(): freeing map at 0x16433f0.
+[Wed Jul 15 15:21:31 2015].737101 CGI Request 1 on process 25537
+[Wed Jul 15 15:21:31 2015].737841 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:31 2015].737916 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:31 2015].737930 msFreeMap(): freeing map at 0x13523f0.
+[Wed Jul 15 15:21:31 2015].794015 CGI Request 1 on process 25539
+[Wed Jul 15 15:21:31 2015].794466 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:31 2015].794498 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:21:31 2015].794514 msFreeMap(): freeing map at 0x15553f0.
+[Wed Jul 15 15:21:31 2015].801599 CGI Request 1 on process 25538
+[Wed Jul 15 15:21:31 2015].802793 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:31 2015].802883 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:31 2015].802905 msFreeMap(): freeing map at 0x8913f0.
+[Wed Jul 15 15:21:44 2015].372456 CGI Request 1 on process 25555
+[Wed Jul 15 15:21:44 2015].391535 mapserv request processing time (msLoadMap not incl.): 0.019s
+[Wed Jul 15 15:21:44 2015].391547 msFreeMap(): freeing map at 0x653e70.
+[Wed Jul 15 15:21:44 2015].591473 CGI Request 1 on process 25556
+[Wed Jul 15 15:21:44 2015].591950 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:44 2015].591986 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:44 2015].592006 msFreeMap(): freeing map at 0x16ae670.
+[Wed Jul 15 15:21:51 2015].976170 CGI Request 1 on process 25559
+[Wed Jul 15 15:21:51 2015].976558 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:51 2015].976584 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:21:51 2015].976610 msFreeMap(): freeing map at 0x1e5b730.
+[Wed Jul 15 15:21:53 2015].473188 CGI Request 1 on process 25560
+[Wed Jul 15 15:21:53 2015].473613 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:53 2015].473642 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:21:53 2015].473658 msFreeMap(): freeing map at 0x23f77c0.
+[Wed Jul 15 15:21:54 2015].480892 CGI Request 1 on process 25561
+[Wed Jul 15 15:21:54 2015].481346 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:54 2015].481381 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:21:54 2015].481399 msFreeMap(): freeing map at 0x220e810.
+[Wed Jul 15 15:21:55 2015].123509 CGI Request 1 on process 25562
+[Wed Jul 15 15:21:55 2015].123992 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:55 2015].124019 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:55 2015].124034 msFreeMap(): freeing map at 0x16ac850.
+[Wed Jul 15 15:21:55 2015].955709 CGI Request 1 on process 25565
+[Wed Jul 15 15:21:55 2015].956171 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:55 2015].956198 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:21:55 2015].956224 msFreeMap(): freeing map at 0x18248d0.
+[Wed Jul 15 15:21:56 2015].705077 CGI Request 1 on process 25566
+[Wed Jul 15 15:21:56 2015].705545 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:56 2015].705574 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:21:56 2015].705591 msFreeMap(): freeing map at 0x2276960.
+[Wed Jul 15 15:21:57 2015].360108 CGI Request 1 on process 25567
+[Wed Jul 15 15:21:57 2015].360558 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:57 2015].360584 mapserv request processing time (msLoadMap not incl.): 0.000s
+[Wed Jul 15 15:21:57 2015].360610 msFreeMap(): freeing map at 0x16c4a50.
+[Wed Jul 15 15:21:59 2015].734459 CGI Request 1 on process 25570
+[Wed Jul 15 15:21:59 2015].734959 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:21:59 2015].734991 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:21:59 2015].735010 msFreeMap(): freeing map at 0x12f3a80.
+[Wed Jul 15 15:22:00 2015].444811 CGI Request 1 on process 25571
+[Wed Jul 15 15:22:00 2015].445396 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:22:00 2015].445425 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:22:00 2015].445451 msFreeMap(): freeing map at 0x1193af0.
+[Wed Jul 15 15:22:01 2015].660716 CGI Request 1 on process 25573
+[Wed Jul 15 15:22:01 2015].661281 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:22:01 2015].661310 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:22:01 2015].661323 msFreeMap(): freeing map at 0xf12b30.
+[Wed Jul 15 15:22:08 2015].714376 CGI Request 1 on process 25586
+[Wed Jul 15 15:22:08 2015].735503 mapserv request processing time (msLoadMap not incl.): 0.021s
+[Wed Jul 15 15:22:08 2015].735515 msFreeMap(): freeing map at 0x1b3ee70.
+[Wed Jul 15 15:22:10 2015].853931 CGI Request 1 on process 25590
+[Wed Jul 15 15:22:10 2015].854577 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:22:10 2015].854609 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:22:10 2015].854627 msFreeMap(): freeing map at 0x1cf7f70.
+[Wed Jul 15 15:22:23 2015].286215 CGI Request 1 on process 25594
+[Wed Jul 15 15:22:23 2015].286754 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:22:23 2015].286793 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:22:23 2015].286809 msFreeMap(): freeing map at 0xafed00.
+[Wed Jul 15 15:22:23 2015].424627 CGI Request 1 on process 25595
+[Wed Jul 15 15:22:23 2015].425367 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:22:23 2015].425455 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:22:23 2015].425475 msFreeMap(): freeing map at 0x15ced00.
+[Wed Jul 15 15:22:23 2015].449030 CGI Request 1 on process 25596
+[Wed Jul 15 15:22:23 2015].449764 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:22:23 2015].449811 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:22:23 2015].449830 msFreeMap(): freeing map at 0x9b6d10.
+[Wed Jul 15 15:22:23 2015].471581 CGI Request 1 on process 25597
+[Wed Jul 15 15:22:23 2015].472196 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:22:23 2015].472241 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:22:23 2015].472261 msFreeMap(): freeing map at 0x21adcf0.
+[Wed Jul 15 15:22:23 2015].510828 CGI Request 1 on process 25598
+[Wed Jul 15 15:22:23 2015].511297 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:22:23 2015].511332 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:22:23 2015].511356 msFreeMap(): freeing map at 0x17b7d00.
+[Wed Jul 15 15:22:25 2015].301714 CGI Request 1 on process 25602
+[Wed Jul 15 15:22:25 2015].302478 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:22:25 2015].302545 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:22:25 2015].302569 msFreeMap(): freeing map at 0xec9db0.
+[Wed Jul 15 15:22:25 2015].324927 CGI Request 1 on process 25603
+[Wed Jul 15 15:22:25 2015].325578 msWMSLoadGetMapParams(): WMS server error. Invalid CRS given : CRS must be valid for all requested layers.
+[Wed Jul 15 15:22:25 2015].325620 mapserv request processing time (msLoadMap not incl.): 0.001s
+[Wed Jul 15 15:22:25 2015].325641 msFreeMap(): freeing map at 0x193cd00.
+[Wed Jul 15 15:23:05 2015].389383 CGI Request 1 on process 25672
+[Wed Jul 15 15:23:05 2015].389951 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:23:05 2015].390251 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:23:05 2015].390270 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:23:05 2015].390300 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:23:05 2015].420308 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:23:05 2015].420339 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:23:05 2015].450991 msDrawMap(): Layer 24 (ocean_5), 0.061s
+[Wed Jul 15 15:23:05 2015].587765 msDrawMap(): Layer 25 (land_5), 0.137s
+[Wed Jul 15 15:23:05 2015].588235 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 15:23:05 2015].589620 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 15:23:05 2015].596485 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Wed Jul 15 15:23:05 2015].597458 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:23:05 2015].598259 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 15:23:05 2015].598668 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:23:05 2015].599524 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 15:23:05 2015].599824 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:23:05 2015].600198 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:23:05 2015].600732 msDrawMap(): Layer 35 (populated_places_5), 0.001s
+[Wed Jul 15 15:23:05 2015].600778 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:23:05 2015].602426 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 15:23:05 2015].602477 msDrawMap() total time: 0.212s
+[Wed Jul 15 15:23:05 2015].606616 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 15:23:05 2015].606865 mapserv request processing time (msLoadMap not incl.): 0.217s
+[Wed Jul 15 15:23:05 2015].606878 msFreeMap(): freeing map at 0x20b1e60.
+[Wed Jul 15 15:32:29 2015].233069 CGI Request 1 on process 26404
+[Wed Jul 15 15:32:29 2015].233713 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:32:29 2015].234017 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:32:29 2015].234036 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:32:29 2015].234067 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:32:29 2015].313350 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:32:29 2015].313381 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:32:29 2015].367104 msDrawMap(): Layer 24 (ocean_5), 0.133s
+[Wed Jul 15 15:32:29 2015].597576 msDrawMap(): Layer 25 (land_5), 0.230s
+[Wed Jul 15 15:32:29 2015].598015 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 15:32:29 2015].599449 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 15:32:29 2015].609904 msDrawMap(): Layer 28 (coastline_5), 0.010s
+[Wed Jul 15 15:32:29 2015].611973 msDrawMap(): Layer 29 (lakes_5), 0.002s
+[Wed Jul 15 15:32:29 2015].612791 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 15 15:32:29 2015].613175 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:32:29 2015].613983 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 15 15:32:29 2015].614262 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:32:29 2015].614766 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:32:29 2015].615253 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 15:32:29 2015].615293 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:32:29 2015].617452 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 15 15:32:29 2015].617480 msDrawMap() total time: 0.384s
+[Wed Jul 15 15:32:29 2015].621534 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 15 15:32:29 2015].621741 mapserv request processing time (msLoadMap not incl.): 0.389s
+[Wed Jul 15 15:32:29 2015].621752 msFreeMap(): freeing map at 0x1ec6e60.
+[Wed Jul 15 15:35:29 2015].541095 CGI Request 1 on process 26548
+[Wed Jul 15 15:35:29 2015].541661 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 15 15:35:29 2015].541966 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 15 15:35:29 2015].541987 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:35:29 2015].542019 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:35:29 2015].573548 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:35:29 2015].573579 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:35:29 2015].620141 msDrawMap(): Layer 24 (ocean_5), 0.078s
+[Wed Jul 15 15:35:29 2015].734536 msDrawMap(): Layer 25 (land_5), 0.114s
+[Wed Jul 15 15:35:29 2015].734845 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 15 15:35:29 2015].735894 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Wed Jul 15 15:35:29 2015].740126 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Wed Jul 15 15:35:29 2015].740714 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 15 15:35:29 2015].741186 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Wed Jul 15 15:35:29 2015].741402 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 15 15:35:29 2015].741895 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Wed Jul 15 15:35:29 2015].742042 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 15 15:35:29 2015].742235 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 15 15:35:29 2015].742551 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Wed Jul 15 15:35:29 2015].742581 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:35:29 2015].743761 msDrawMap(): Drawing Label Cache, 0.001s
+[Wed Jul 15 15:35:29 2015].743779 msDrawMap() total time: 0.202s
+[Wed Jul 15 15:35:29 2015].746794 msSaveImage(stdout) total time: 0.003s
+[Wed Jul 15 15:35:29 2015].747061 mapserv request processing time (msLoadMap not incl.): 0.206s
+[Wed Jul 15 15:35:29 2015].747079 msFreeMap(): freeing map at 0x25c6e60.
+[Wed Jul 15 15:35:32 2015].285924 CGI Request 1 on process 26554
+[Wed Jul 15 15:35:32 2015].287734 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:35:32 2015].287775 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:35:32 2015].305821 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:35:32 2015].305847 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:35:32 2015].335371 msDrawMap(): Layer 36 (ocean_6), 0.048s
+[Wed Jul 15 15:35:32 2015].585550 msDrawMap(): Layer 37 (land_6), 0.250s
+[Wed Jul 15 15:35:32 2015].585882 msDrawMap(): Layer 38 (quebec_border_6), 0.000s
+[Wed Jul 15 15:35:32 2015].587429 msDrawMap(): Layer 39 (urban_areas_6), 0.002s
+[Wed Jul 15 15:35:32 2015].593668 msDrawMap(): Layer 40 (coastline_6), 0.006s
+[Wed Jul 15 15:35:32 2015].594552 msDrawMap(): Layer 41 (lakes_6), 0.001s
+[Wed Jul 15 15:35:32 2015].595800 msDrawMap(): Layer 42 (rivers_6), 0.001s
+[Wed Jul 15 15:35:32 2015].596488 msDrawMap(): Layer 43 (country_boundaries_6), 0.001s
+[Wed Jul 15 15:35:32 2015].601050 msDrawMap(): Layer 44 (countries_6), 0.005s
+[Wed Jul 15 15:35:32 2015].601473 msDrawMap(): Layer 45 (us_states_boundaries_6), 0.000s
+[Wed Jul 15 15:35:32 2015].602110 msDrawMap(): Layer 46 (us_states_name_6), 0.001s
+[Wed Jul 15 15:35:32 2015].614806 msDrawMap(): Layer 47 (roads_6), 0.013s
+[Wed Jul 15 15:35:32 2015].616141 msDrawMap(): Layer 48 (populated_places_6), 0.001s
+[Wed Jul 15 15:35:32 2015].616177 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:35:32 2015].622352 msDrawMap(): Drawing Label Cache, 0.006s
+[Wed Jul 15 15:35:32 2015].622372 msDrawMap() total time: 0.336s
+[Wed Jul 15 15:35:32 2015].685024 msSaveImage(stdout) total time: 0.063s
+[Wed Jul 15 15:35:32 2015].685573 mapserv request processing time (msLoadMap not incl.): 0.400s
+[Wed Jul 15 15:35:32 2015].685588 msFreeMap(): freeing map at 0x1218d30.
+[Wed Jul 15 15:35:32 2015].462040 CGI Request 1 on process 26556
+[Wed Jul 15 15:35:32 2015].464215 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:35:32 2015].464253 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:35:32 2015].481812 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:35:32 2015].481844 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:35:32 2015].511423 msDrawMap(): Layer 36 (ocean_6), 0.047s
+[Wed Jul 15 15:35:32 2015].793616 msDrawMap(): Layer 37 (land_6), 0.282s
+[Wed Jul 15 15:35:32 2015].794061 msDrawMap(): Layer 38 (quebec_border_6), 0.000s
+[Wed Jul 15 15:35:32 2015].796330 msDrawMap(): Layer 39 (urban_areas_6), 0.002s
+[Wed Jul 15 15:35:32 2015].805098 msDrawMap(): Layer 40 (coastline_6), 0.009s
+[Wed Jul 15 15:35:32 2015].806341 msDrawMap(): Layer 41 (lakes_6), 0.001s
+[Wed Jul 15 15:35:32 2015].808236 msDrawMap(): Layer 42 (rivers_6), 0.002s
+[Wed Jul 15 15:35:32 2015].809234 msDrawMap(): Layer 43 (country_boundaries_6), 0.001s
+[Wed Jul 15 15:35:32 2015].815943 msDrawMap(): Layer 44 (countries_6), 0.007s
+[Wed Jul 15 15:35:32 2015].816553 msDrawMap(): Layer 45 (us_states_boundaries_6), 0.001s
+[Wed Jul 15 15:35:32 2015].817486 msDrawMap(): Layer 46 (us_states_name_6), 0.001s
+[Wed Jul 15 15:35:32 2015].835585 msDrawMap(): Layer 47 (roads_6), 0.018s
+[Wed Jul 15 15:35:32 2015].837084 msDrawMap(): Layer 48 (populated_places_6), 0.001s
+[Wed Jul 15 15:35:32 2015].837129 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:35:32 2015].846245 msDrawMap(): Drawing Label Cache, 0.009s
+[Wed Jul 15 15:35:32 2015].846278 msDrawMap() total time: 0.384s
+[Wed Jul 15 15:35:32 2015].901526 msSaveImage(stdout) total time: 0.055s
+[Wed Jul 15 15:35:32 2015].901894 mapserv request processing time (msLoadMap not incl.): 0.440s
+[Wed Jul 15 15:35:32 2015].901903 msFreeMap(): freeing map at 0x24dc740.
+[Wed Jul 15 15:35:32 2015].986063 CGI Request 1 on process 26558
+[Wed Jul 15 15:35:32 2015].987857 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 15 15:35:32 2015].987882 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 15 15:35:33 2015].5835 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:35:33 2015].5859 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 15 15:35:33 2015].34608 msDrawMap(): Layer 36 (ocean_6), 0.047s
+[Wed Jul 15 15:35:33 2015].261962 msDrawMap(): Layer 37 (land_6), 0.227s
+[Wed Jul 15 15:35:33 2015].262290 msDrawMap(): Layer 38 (quebec_border_6), 0.000s
+[Wed Jul 15 15:35:33 2015].263927 msDrawMap(): Layer 39 (urban_areas_6), 0.002s
+[Wed Jul 15 15:35:33 2015].269822 msDrawMap(): Layer 40 (coastline_6), 0.006s
+[Wed Jul 15 15:35:33 2015].270665 msDrawMap(): Layer 41 (lakes_6), 0.001s
+[Wed Jul 15 15:35:33 2015].272010 msDrawMap(): Layer 42 (rivers_6), 0.001s
+[Wed Jul 15 15:35:33 2015].272756 msDrawMap(): Layer 43 (country_boundaries_6), 0.001s
+[Wed Jul 15 15:35:33 2015].277076 msDrawMap(): Layer 44 (countries_6), 0.004s
+[Wed Jul 15 15:35:33 2015].277439 msDrawMap(): Layer 45 (us_states_boundaries_6), 0.000s
+[Wed Jul 15 15:35:33 2015].278034 msDrawMap(): Layer 46 (us_states_name_6), 0.001s
+[Wed Jul 15 15:35:33 2015].289541 msDrawMap(): Layer 47 (roads_6), 0.011s
+[Wed Jul 15 15:35:33 2015].290499 msDrawMap(): Layer 48 (populated_places_6), 0.001s
+[Wed Jul 15 15:35:33 2015].290529 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 15 15:35:33 2015].296648 msDrawMap(): Drawing Label Cache, 0.006s
+[Wed Jul 15 15:35:33 2015].296668 msDrawMap() total time: 0.310s
+[Wed Jul 15 15:35:33 2015].346898 msSaveImage(stdout) total time: 0.050s
+[Wed Jul 15 15:35:33 2015].347380 mapserv request processing time (msLoadMap not incl.): 0.361s
+[Wed Jul 15 15:35:33 2015].347393 msFreeMap(): freeing map at 0xa16f10.
+[Thu Jul 16 08:01:28 2015].339437 CGI Request 1 on process 3363
+[Thu Jul 16 08:01:28 2015].340174 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Thu Jul 16 08:01:28 2015].340628 msDrawMap(): kicking into non-square pixel preserving mode.
+[Thu Jul 16 08:01:28 2015].340653 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Thu Jul 16 08:01:28 2015].340682 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Thu Jul 16 08:01:28 2015].373115 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Thu Jul 16 08:01:28 2015].373150 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Thu Jul 16 08:01:28 2015].536277 msDrawMap(): Layer 24 (ocean_5), 0.196s
+[Thu Jul 16 08:01:30 2015].360188 msDrawMap(): Layer 25 (land_5), 1.824s
+[Thu Jul 16 08:01:30 2015].438658 msDrawMap(): Layer 26 (quebec_border_5), 0.078s
+[Thu Jul 16 08:01:30 2015].542517 msDrawMap(): Layer 27 (urban_areas_5), 0.104s
+[Thu Jul 16 08:01:30 2015].552431 msDrawMap(): Layer 28 (coastline_5), 0.010s
+[Thu Jul 16 08:01:30 2015].667519 msDrawMap(): Layer 29 (lakes_5), 0.115s
+[Thu Jul 16 08:01:30 2015].876805 msDrawMap(): Layer 30 (rivers_5), 0.209s
+[Thu Jul 16 08:01:30 2015].877781 msDrawMap(): Layer 31 (country_boundaries_5), 0.001s
+[Thu Jul 16 08:01:31 2015].310970 msDrawMap(): Layer 32 (countries_5), 0.433s
+[Thu Jul 16 08:01:31 2015].385431 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.074s
+[Thu Jul 16 08:01:31 2015].544161 msDrawMap(): Layer 34 (us_states_name_5), 0.159s
+[Thu Jul 16 08:01:31 2015].618039 msDrawMap(): Layer 35 (populated_places_5), 0.074s
+[Thu Jul 16 08:01:31 2015].618117 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Thu Jul 16 08:01:31 2015].837149 msDrawMap(): Drawing Label Cache, 0.219s
+[Thu Jul 16 08:01:31 2015].837196 msDrawMap() total time: 3.497s
+[Thu Jul 16 08:01:31 2015].843784 msSaveImage(stdout) total time: 0.007s
+[Thu Jul 16 08:01:31 2015].844107 mapserv request processing time (msLoadMap not incl.): 3.505s
+[Thu Jul 16 08:01:31 2015].844148 msFreeMap(): freeing map at 0x7c9ac0.
+[Thu Jul 16 08:12:38 2015].442367 CGI Request 1 on process 4007
+[Thu Jul 16 08:12:38 2015].442990 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Thu Jul 16 08:12:38 2015].443328 msDrawMap(): kicking into non-square pixel preserving mode.
+[Thu Jul 16 08:12:38 2015].443366 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Thu Jul 16 08:12:38 2015].443412 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Thu Jul 16 08:12:38 2015].482251 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Thu Jul 16 08:12:38 2015].482307 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Thu Jul 16 08:12:38 2015].517947 msDrawMap(): Layer 24 (ocean_5), 0.075s
+[Thu Jul 16 08:12:38 2015].652898 msDrawMap(): Layer 25 (land_5), 0.135s
+[Thu Jul 16 08:12:38 2015].653568 msDrawMap(): Layer 26 (quebec_border_5), 0.001s
+[Thu Jul 16 08:12:38 2015].655790 msDrawMap(): Layer 27 (urban_areas_5), 0.002s
+[Thu Jul 16 08:12:38 2015].662475 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Thu Jul 16 08:12:38 2015].663405 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Thu Jul 16 08:12:38 2015].664213 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Thu Jul 16 08:12:38 2015].664681 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Thu Jul 16 08:12:38 2015].665559 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Thu Jul 16 08:12:38 2015].665847 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Thu Jul 16 08:12:38 2015].666195 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Thu Jul 16 08:12:38 2015].666733 msDrawMap(): Layer 35 (populated_places_5), 0.001s
+[Thu Jul 16 08:12:38 2015].666773 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Thu Jul 16 08:12:38 2015].668366 msDrawMap(): Drawing Label Cache, 0.002s
+[Thu Jul 16 08:12:38 2015].668400 msDrawMap() total time: 0.225s
+[Thu Jul 16 08:12:38 2015].672714 msSaveImage(stdout) total time: 0.004s
+[Thu Jul 16 08:12:38 2015].672884 mapserv request processing time (msLoadMap not incl.): 0.231s
+[Thu Jul 16 08:12:38 2015].672897 msFreeMap(): freeing map at 0x25d7ac0.
+[Thu Jul 16 08:44:31 2015].389108 CGI Request 1 on process 5777
+[Thu Jul 16 08:44:31 2015].389718 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Thu Jul 16 08:44:31 2015].390030 msDrawMap(): kicking into non-square pixel preserving mode.
+[Thu Jul 16 08:44:31 2015].390057 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Thu Jul 16 08:44:31 2015].390086 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Thu Jul 16 08:44:31 2015].423160 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Thu Jul 16 08:44:31 2015].423621 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Thu Jul 16 08:44:31 2015].454693 msDrawMap(): Layer 24 (ocean_5), 0.065s
+[Thu Jul 16 08:44:31 2015].587105 msDrawMap(): Layer 25 (land_5), 0.132s
+[Thu Jul 16 08:44:31 2015].587505 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Thu Jul 16 08:44:31 2015].588604 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Thu Jul 16 08:44:31 2015].593675 msDrawMap(): Layer 28 (coastline_5), 0.005s
+[Thu Jul 16 08:44:31 2015].594429 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Thu Jul 16 08:44:31 2015].595052 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Thu Jul 16 08:44:31 2015].595359 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Thu Jul 16 08:44:31 2015].595975 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Thu Jul 16 08:44:31 2015].596177 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Thu Jul 16 08:44:31 2015].596421 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Thu Jul 16 08:44:31 2015].596805 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Thu Jul 16 08:44:31 2015].596837 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Thu Jul 16 08:44:31 2015].598139 msDrawMap(): Drawing Label Cache, 0.001s
+[Thu Jul 16 08:44:31 2015].598154 msDrawMap() total time: 0.208s
+[Thu Jul 16 08:44:31 2015].601542 msSaveImage(stdout) total time: 0.003s
+[Thu Jul 16 08:44:31 2015].601724 mapserv request processing time (msLoadMap not incl.): 0.213s
+[Thu Jul 16 08:44:31 2015].601736 msFreeMap(): freeing map at 0x1c93a70.
+[Thu Jul 16 10:11:27 2015].630982 CGI Request 1 on process 9552
+[Thu Jul 16 10:11:27 2015].631449 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Thu Jul 16 10:11:27 2015].631678 msDrawMap(): kicking into non-square pixel preserving mode.
+[Thu Jul 16 10:11:27 2015].631691 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Thu Jul 16 10:11:27 2015].631708 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Thu Jul 16 10:11:27 2015].651671 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Thu Jul 16 10:11:27 2015].651695 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Thu Jul 16 10:11:27 2015].986188 msDrawMap(): Layer 24 (ocean_5), 0.354s
+[Thu Jul 16 10:11:28 2015].814485 msDrawMap(): Layer 25 (land_5), 0.828s
+[Thu Jul 16 10:11:29 2015].62919 msDrawMap(): Layer 26 (quebec_border_5), 0.248s
+[Thu Jul 16 10:11:29 2015].149943 msDrawMap(): Layer 27 (urban_areas_5), 0.087s
+[Thu Jul 16 10:11:29 2015].160316 msDrawMap(): Layer 28 (coastline_5), 0.010s
+[Thu Jul 16 10:11:29 2015].316412 msDrawMap(): Layer 29 (lakes_5), 0.156s
+[Thu Jul 16 10:11:29 2015].384050 msDrawMap(): Layer 30 (rivers_5), 0.068s
+[Thu Jul 16 10:11:29 2015].384784 msDrawMap(): Layer 31 (country_boundaries_5), 0.001s
+[Thu Jul 16 10:11:29 2015].385933 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Thu Jul 16 10:11:29 2015].422720 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.037s
+[Thu Jul 16 10:11:29 2015].467867 msDrawMap(): Layer 34 (us_states_name_5), 0.045s
+[Thu Jul 16 10:11:29 2015].492288 msDrawMap(): Layer 35 (populated_places_5), 0.024s
+[Thu Jul 16 10:11:29 2015].492374 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Thu Jul 16 10:11:29 2015].518421 msDrawMap(): Drawing Label Cache, 0.026s
+[Thu Jul 16 10:11:29 2015].518459 msDrawMap() total time: 1.887s
+[Thu Jul 16 10:11:29 2015].523464 msSaveImage(stdout) total time: 0.005s
+[Thu Jul 16 10:11:29 2015].523767 mapserv request processing time (msLoadMap not incl.): 1.893s
+[Thu Jul 16 10:11:29 2015].523788 msFreeMap(): freeing map at 0x14a5ac0.
+[Thu Jul 16 10:43:48 2015].751883 CGI Request 1 on process 12277
+[Thu Jul 16 10:43:48 2015].752290 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Thu Jul 16 10:43:48 2015].752535 msDrawMap(): kicking into non-square pixel preserving mode.
+[Thu Jul 16 10:43:48 2015].752556 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Thu Jul 16 10:43:48 2015].752578 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Thu Jul 16 10:43:48 2015].773794 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Thu Jul 16 10:43:48 2015].773822 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Thu Jul 16 10:43:48 2015].917309 msDrawMap(): Layer 24 (ocean_5), 0.165s
+[Thu Jul 16 10:43:49 2015].330515 msDrawMap(): Layer 25 (land_5), 0.413s
+[Thu Jul 16 10:43:49 2015].475783 msDrawMap(): Layer 26 (quebec_border_5), 0.145s
+[Thu Jul 16 10:43:49 2015].562384 msDrawMap(): Layer 27 (urban_areas_5), 0.087s
+[Thu Jul 16 10:43:49 2015].567672 msDrawMap(): Layer 28 (coastline_5), 0.005s
+[Thu Jul 16 10:43:49 2015].653872 msDrawMap(): Layer 29 (lakes_5), 0.086s
+[Thu Jul 16 10:43:49 2015].796941 msDrawMap(): Layer 30 (rivers_5), 0.143s
+[Thu Jul 16 10:43:49 2015].797283 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Thu Jul 16 10:43:49 2015].864099 msDrawMap(): Layer 32 (countries_5), 0.067s
+[Thu Jul 16 10:43:49 2015].935360 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.071s
+[Thu Jul 16 10:43:50 2015].47450 msDrawMap(): Layer 34 (us_states_name_5), 0.112s
+[Thu Jul 16 10:43:50 2015].121108 msDrawMap(): Layer 35 (populated_places_5), 0.074s
+[Thu Jul 16 10:43:50 2015].121159 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Thu Jul 16 10:43:50 2015].255949 msDrawMap(): Drawing Label Cache, 0.135s
+[Thu Jul 16 10:43:50 2015].255977 msDrawMap() total time: 1.504s
+[Thu Jul 16 10:43:50 2015].258889 msSaveImage(stdout) total time: 0.003s
+[Thu Jul 16 10:43:50 2015].259092 mapserv request processing time (msLoadMap not incl.): 1.507s
+[Thu Jul 16 10:43:50 2015].259102 msFreeMap(): freeing map at 0x11b0e60.
+[Thu Jul 16 10:46:39 2015].456820 CGI Request 1 on process 12362
+[Thu Jul 16 10:46:39 2015].457459 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Thu Jul 16 10:46:39 2015].457836 msDrawMap(): kicking into non-square pixel preserving mode.
+[Thu Jul 16 10:46:39 2015].457869 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Thu Jul 16 10:46:39 2015].457908 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Thu Jul 16 10:46:39 2015].491929 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Thu Jul 16 10:46:39 2015].491981 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Thu Jul 16 10:46:39 2015].537417 msDrawMap(): Layer 24 (ocean_5), 0.079s
+[Thu Jul 16 10:46:39 2015].646792 msDrawMap(): Layer 25 (land_5), 0.109s
+[Thu Jul 16 10:46:39 2015].647378 msDrawMap(): Layer 26 (quebec_border_5), 0.001s
+[Thu Jul 16 10:46:39 2015].648705 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Thu Jul 16 10:46:39 2015].653161 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Thu Jul 16 10:46:39 2015].653798 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Thu Jul 16 10:46:39 2015].654304 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Thu Jul 16 10:46:39 2015].654527 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Thu Jul 16 10:46:39 2015].655021 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Thu Jul 16 10:46:39 2015].655173 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Thu Jul 16 10:46:39 2015].655371 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Thu Jul 16 10:46:39 2015].655672 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Thu Jul 16 10:46:39 2015].655701 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Thu Jul 16 10:46:39 2015].656903 msDrawMap(): Drawing Label Cache, 0.001s
+[Thu Jul 16 10:46:39 2015].656921 msDrawMap() total time: 0.199s
+[Thu Jul 16 10:46:39 2015].660066 msSaveImage(stdout) total time: 0.003s
+[Thu Jul 16 10:46:39 2015].660339 mapserv request processing time (msLoadMap not incl.): 0.204s
+[Thu Jul 16 10:46:39 2015].660356 msFreeMap(): freeing map at 0x1005e60.
+[Thu Jul 16 10:47:07 2015].457108 CGI Request 1 on process 12401
+[Thu Jul 16 10:47:07 2015].457697 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Thu Jul 16 10:47:07 2015].457997 msDrawMap(): kicking into non-square pixel preserving mode.
+[Thu Jul 16 10:47:07 2015].458013 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Thu Jul 16 10:47:07 2015].458043 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Thu Jul 16 10:47:07 2015].506627 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Thu Jul 16 10:47:07 2015].506663 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Thu Jul 16 10:47:07 2015].534989 msDrawMap(): Layer 24 (ocean_5), 0.077s
+[Thu Jul 16 10:47:07 2015].680644 msDrawMap(): Layer 25 (land_5), 0.146s
+[Thu Jul 16 10:47:07 2015].681120 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Thu Jul 16 10:47:07 2015].682628 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Thu Jul 16 10:47:07 2015].689719 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Thu Jul 16 10:47:07 2015].690703 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Thu Jul 16 10:47:07 2015].691545 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Thu Jul 16 10:47:07 2015].691974 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Thu Jul 16 10:47:07 2015].692866 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Thu Jul 16 10:47:07 2015].693186 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Thu Jul 16 10:47:07 2015].693571 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Thu Jul 16 10:47:07 2015].694144 msDrawMap(): Layer 35 (populated_places_5), 0.001s
+[Thu Jul 16 10:47:07 2015].694202 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Thu Jul 16 10:47:07 2015].695865 msDrawMap(): Drawing Label Cache, 0.002s
+[Thu Jul 16 10:47:07 2015].695900 msDrawMap() total time: 0.238s
+[Thu Jul 16 10:47:07 2015].699878 msSaveImage(stdout) total time: 0.004s
+[Thu Jul 16 10:47:07 2015].700087 mapserv request processing time (msLoadMap not incl.): 0.243s
+[Thu Jul 16 10:47:07 2015].700099 msFreeMap(): freeing map at 0xc7ce60.
+[Thu Jul 16 11:07:59 2015].203863 CGI Request 1 on process 13053
+[Thu Jul 16 11:07:59 2015].204486 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Thu Jul 16 11:07:59 2015].204780 msDrawMap(): kicking into non-square pixel preserving mode.
+[Thu Jul 16 11:07:59 2015].204803 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Thu Jul 16 11:07:59 2015].204833 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Thu Jul 16 11:07:59 2015].238675 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Thu Jul 16 11:07:59 2015].238701 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Thu Jul 16 11:07:59 2015].270987 msDrawMap(): Layer 24 (ocean_5), 0.066s
+[Thu Jul 16 11:07:59 2015].384878 msDrawMap(): Layer 25 (land_5), 0.114s
+[Thu Jul 16 11:07:59 2015].385299 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Thu Jul 16 11:07:59 2015].386573 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Thu Jul 16 11:07:59 2015].390655 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Thu Jul 16 11:07:59 2015].391245 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Thu Jul 16 11:07:59 2015].391825 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Thu Jul 16 11:07:59 2015].392194 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Thu Jul 16 11:07:59 2015].393032 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Thu Jul 16 11:07:59 2015].393483 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Thu Jul 16 11:07:59 2015].394081 msDrawMap(): Layer 34 (us_states_name_5), 0.001s
+[Thu Jul 16 11:07:59 2015].394654 msDrawMap(): Layer 35 (populated_places_5), 0.001s
+[Thu Jul 16 11:07:59 2015].394795 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Thu Jul 16 11:07:59 2015].396260 msDrawMap(): Drawing Label Cache, 0.001s
+[Thu Jul 16 11:07:59 2015].396279 msDrawMap() total time: 0.192s
+[Thu Jul 16 11:07:59 2015].399115 msSaveImage(stdout) total time: 0.003s
+[Thu Jul 16 11:07:59 2015].399260 mapserv request processing time (msLoadMap not incl.): 0.195s
+[Thu Jul 16 11:07:59 2015].399269 msFreeMap(): freeing map at 0x15e3e60.
+[Mon Jul 20 08:07:45 2015].212121 CGI Request 1 on process 3124
+[Mon Jul 20 08:07:45 2015].212868 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Mon Jul 20 08:07:45 2015].213300 msDrawMap(): kicking into non-square pixel preserving mode.
+[Mon Jul 20 08:07:45 2015].213318 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Mon Jul 20 08:07:45 2015].213349 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Mon Jul 20 08:07:45 2015].242371 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Mon Jul 20 08:07:45 2015].242406 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Mon Jul 20 08:07:45 2015].452314 msDrawMap(): Layer 24 (ocean_5), 0.239s
+[Mon Jul 20 08:07:46 2015].8987 msDrawMap(): Layer 25 (land_5), 0.557s
+[Mon Jul 20 08:07:46 2015].377170 msDrawMap(): Layer 26 (quebec_border_5), 0.368s
+[Mon Jul 20 08:07:47 2015].64175 msDrawMap(): Layer 27 (urban_areas_5), 0.687s
+[Mon Jul 20 08:07:47 2015].75028 msDrawMap(): Layer 28 (coastline_5), 0.011s
+[Mon Jul 20 08:07:47 2015].156241 msDrawMap(): Layer 29 (lakes_5), 0.081s
+[Mon Jul 20 08:07:47 2015].273356 msDrawMap(): Layer 30 (rivers_5), 0.117s
+[Mon Jul 20 08:07:47 2015].273857 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Mon Jul 20 08:07:48 2015].157654 msDrawMap(): Layer 32 (countries_5), 0.884s
+[Mon Jul 20 08:07:48 2015].353670 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.196s
+[Mon Jul 20 08:07:48 2015].515420 msDrawMap(): Layer 34 (us_states_name_5), 0.162s
+[Mon Jul 20 08:07:48 2015].639209 msDrawMap(): Layer 35 (populated_places_5), 0.124s
+[Mon Jul 20 08:07:48 2015].639275 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Mon Jul 20 08:07:48 2015].808089 msDrawMap(): Drawing Label Cache, 0.169s
+[Mon Jul 20 08:07:48 2015].808142 msDrawMap() total time: 3.595s
+[Mon Jul 20 08:07:48 2015].816496 msSaveImage(stdout) total time: 0.008s
+[Mon Jul 20 08:07:48 2015].816917 mapserv request processing time (msLoadMap not incl.): 3.605s
+[Mon Jul 20 08:07:48 2015].816957 msFreeMap(): freeing map at 0x20a66c0.
+[Mon Jul 20 08:13:14 2015].376071 CGI Request 1 on process 3582
+[Mon Jul 20 08:13:14 2015].376661 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Mon Jul 20 08:13:14 2015].376972 msDrawMap(): kicking into non-square pixel preserving mode.
+[Mon Jul 20 08:13:14 2015].376994 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Mon Jul 20 08:13:14 2015].377023 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Mon Jul 20 08:13:14 2015].414866 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Mon Jul 20 08:13:14 2015].414895 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Mon Jul 20 08:13:14 2015].449296 msDrawMap(): Layer 24 (ocean_5), 0.072s
+[Mon Jul 20 08:13:14 2015].559559 msDrawMap(): Layer 25 (land_5), 0.110s
+[Mon Jul 20 08:13:14 2015].559852 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Mon Jul 20 08:13:14 2015].560705 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Mon Jul 20 08:13:14 2015].564771 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Mon Jul 20 08:13:14 2015].565362 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Mon Jul 20 08:13:14 2015].565833 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Mon Jul 20 08:13:14 2015].566041 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Mon Jul 20 08:13:14 2015].566528 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Mon Jul 20 08:13:14 2015].566672 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Mon Jul 20 08:13:14 2015].566862 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Mon Jul 20 08:13:14 2015].567152 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Mon Jul 20 08:13:14 2015].567178 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Mon Jul 20 08:13:14 2015].568307 msDrawMap(): Drawing Label Cache, 0.001s
+[Mon Jul 20 08:13:14 2015].568320 msDrawMap() total time: 0.192s
+[Mon Jul 20 08:13:14 2015].571232 msSaveImage(stdout) total time: 0.003s
+[Mon Jul 20 08:13:14 2015].571394 mapserv request processing time (msLoadMap not incl.): 0.195s
+[Mon Jul 20 08:13:14 2015].571404 msFreeMap(): freeing map at 0x244cac0.
+[Mon Jul 20 08:48:08 2015].968508 CGI Request 1 on process 6097
+[Mon Jul 20 08:48:08 2015].969006 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Mon Jul 20 08:48:08 2015].969232 msDrawMap(): kicking into non-square pixel preserving mode.
+[Mon Jul 20 08:48:08 2015].969243 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Mon Jul 20 08:48:08 2015].969263 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Mon Jul 20 08:48:08 2015].990187 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Mon Jul 20 08:48:08 2015].990209 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Mon Jul 20 08:48:09 2015].17795 msDrawMap(): Layer 24 (ocean_5), 0.049s
+[Mon Jul 20 08:48:09 2015].121416 msDrawMap(): Layer 25 (land_5), 0.104s
+[Mon Jul 20 08:48:09 2015].121700 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Mon Jul 20 08:48:09 2015].122521 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Mon Jul 20 08:48:09 2015].126815 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Mon Jul 20 08:48:09 2015].127517 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Mon Jul 20 08:48:09 2015].127987 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Mon Jul 20 08:48:09 2015].128236 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Mon Jul 20 08:48:09 2015].128751 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Mon Jul 20 08:48:09 2015].128900 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Mon Jul 20 08:48:09 2015].129091 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Mon Jul 20 08:48:09 2015].129383 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Mon Jul 20 08:48:09 2015].129412 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Mon Jul 20 08:48:09 2015].130460 msDrawMap(): Drawing Label Cache, 0.001s
+[Mon Jul 20 08:48:09 2015].130473 msDrawMap() total time: 0.161s
+[Mon Jul 20 08:48:09 2015].133564 msSaveImage(stdout) total time: 0.003s
+[Mon Jul 20 08:48:09 2015].133812 mapserv request processing time (msLoadMap not incl.): 0.165s
+[Mon Jul 20 08:48:09 2015].133825 msFreeMap(): freeing map at 0x21e4e60.
+[Mon Jul 20 08:54:54 2015].783071 CGI Request 1 on process 6630
+[Mon Jul 20 08:54:54 2015].783452 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Mon Jul 20 08:54:54 2015].783651 msDrawMap(): kicking into non-square pixel preserving mode.
+[Mon Jul 20 08:54:54 2015].783661 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Mon Jul 20 08:54:54 2015].783680 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Mon Jul 20 08:54:54 2015].815131 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Mon Jul 20 08:54:54 2015].815159 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Mon Jul 20 08:54:54 2015].844638 msDrawMap(): Layer 24 (ocean_5), 0.061s
+[Mon Jul 20 08:54:54 2015].966059 msDrawMap(): Layer 25 (land_5), 0.121s
+[Mon Jul 20 08:54:54 2015].966347 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Mon Jul 20 08:54:54 2015].967179 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Mon Jul 20 08:54:54 2015].972663 msDrawMap(): Layer 28 (coastline_5), 0.005s
+[Mon Jul 20 08:54:54 2015].973637 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Mon Jul 20 08:54:54 2015].974560 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Mon Jul 20 08:54:54 2015].975065 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Mon Jul 20 08:54:54 2015].975994 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Mon Jul 20 08:54:54 2015].976324 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Mon Jul 20 08:54:54 2015].976714 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Mon Jul 20 08:54:54 2015].977245 msDrawMap(): Layer 35 (populated_places_5), 0.001s
+[Mon Jul 20 08:54:54 2015].977298 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Mon Jul 20 08:54:54 2015].978941 msDrawMap(): Drawing Label Cache, 0.002s
+[Mon Jul 20 08:54:54 2015].978994 msDrawMap() total time: 0.195s
+[Mon Jul 20 08:54:54 2015].982947 msSaveImage(stdout) total time: 0.004s
+[Mon Jul 20 08:54:54 2015].983135 mapserv request processing time (msLoadMap not incl.): 0.200s
+[Mon Jul 20 08:54:54 2015].983148 msFreeMap(): freeing map at 0xbf5e60.
+[Mon Jul 20 08:59:25 2015].126691 CGI Request 1 on process 6776
+[Mon Jul 20 08:59:25 2015].127091 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Mon Jul 20 08:59:25 2015].127304 msDrawMap(): kicking into non-square pixel preserving mode.
+[Mon Jul 20 08:59:25 2015].127318 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Mon Jul 20 08:59:25 2015].127337 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Mon Jul 20 08:59:25 2015].151558 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Mon Jul 20 08:59:25 2015].151590 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Mon Jul 20 08:59:25 2015].181288 msDrawMap(): Layer 24 (ocean_5), 0.054s
+[Mon Jul 20 08:59:25 2015].287361 msDrawMap(): Layer 25 (land_5), 0.106s
+[Mon Jul 20 08:59:25 2015].287642 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Mon Jul 20 08:59:25 2015].288576 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Mon Jul 20 08:59:25 2015].292732 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Mon Jul 20 08:59:25 2015].293323 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Mon Jul 20 08:59:25 2015].293785 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Mon Jul 20 08:59:25 2015].293994 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Mon Jul 20 08:59:25 2015].294475 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Mon Jul 20 08:59:25 2015].294621 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Mon Jul 20 08:59:25 2015].294808 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Mon Jul 20 08:59:25 2015].295096 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Mon Jul 20 08:59:25 2015].295124 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Mon Jul 20 08:59:25 2015].296176 msDrawMap(): Drawing Label Cache, 0.001s
+[Mon Jul 20 08:59:25 2015].296188 msDrawMap() total time: 0.169s
+[Mon Jul 20 08:59:25 2015].299176 msSaveImage(stdout) total time: 0.003s
+[Mon Jul 20 08:59:25 2015].299368 mapserv request processing time (msLoadMap not incl.): 0.173s
+[Mon Jul 20 08:59:25 2015].299381 msFreeMap(): freeing map at 0x109fe60.
+[Mon Jul 20 09:00:55 2015].893739 CGI Request 1 on process 6881
+[Mon Jul 20 09:00:55 2015].894381 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Mon Jul 20 09:00:55 2015].894708 msDrawMap(): kicking into non-square pixel preserving mode.
+[Mon Jul 20 09:00:55 2015].894728 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Mon Jul 20 09:00:55 2015].894761 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Mon Jul 20 09:00:55 2015].931622 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Mon Jul 20 09:00:55 2015].931662 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Mon Jul 20 09:00:55 2015].956632 msDrawMap(): Layer 24 (ocean_5), 0.062s
+[Mon Jul 20 09:00:56 2015].78171 msDrawMap(): Layer 25 (land_5), 0.122s
+[Mon Jul 20 09:00:56 2015].78629 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Mon Jul 20 09:00:56 2015].80184 msDrawMap(): Layer 27 (urban_areas_5), 0.002s
+[Mon Jul 20 09:00:56 2015].84988 msDrawMap(): Layer 28 (coastline_5), 0.005s
+[Mon Jul 20 09:00:56 2015].85574 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Mon Jul 20 09:00:56 2015].86028 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Mon Jul 20 09:00:56 2015].86238 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Mon Jul 20 09:00:56 2015].86723 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Mon Jul 20 09:00:56 2015].86873 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Mon Jul 20 09:00:56 2015].87067 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Mon Jul 20 09:00:56 2015].87391 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Mon Jul 20 09:00:56 2015].87420 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Mon Jul 20 09:00:56 2015].88471 msDrawMap(): Drawing Label Cache, 0.001s
+[Mon Jul 20 09:00:56 2015].88483 msDrawMap() total time: 0.194s
+[Mon Jul 20 09:00:56 2015].91272 msSaveImage(stdout) total time: 0.003s
+[Mon Jul 20 09:00:56 2015].91408 mapserv request processing time (msLoadMap not incl.): 0.198s
+[Mon Jul 20 09:00:56 2015].91417 msFreeMap(): freeing map at 0xa5ce60.
+[Mon Jul 20 09:36:45 2015].274448 CGI Request 1 on process 8404
+[Mon Jul 20 09:36:45 2015].275490 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Mon Jul 20 09:36:45 2015].275820 msDrawMap(): kicking into non-square pixel preserving mode.
+[Mon Jul 20 09:36:45 2015].275846 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Mon Jul 20 09:36:45 2015].275881 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Mon Jul 20 09:36:45 2015].324490 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Mon Jul 20 09:36:45 2015].324539 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Mon Jul 20 09:36:45 2015].370818 msDrawMap(): Layer 24 (ocean_5), 0.095s
+[Mon Jul 20 09:36:45 2015].502157 msDrawMap(): Layer 25 (land_5), 0.131s
+[Mon Jul 20 09:36:45 2015].502464 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Mon Jul 20 09:36:45 2015].503351 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Mon Jul 20 09:36:45 2015].507386 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Mon Jul 20 09:36:45 2015].507969 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Mon Jul 20 09:36:45 2015].508453 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Mon Jul 20 09:36:45 2015].508683 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Mon Jul 20 09:36:45 2015].509188 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Mon Jul 20 09:36:45 2015].509337 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Mon Jul 20 09:36:45 2015].509533 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Mon Jul 20 09:36:45 2015].509829 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Mon Jul 20 09:36:45 2015].509858 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Mon Jul 20 09:36:45 2015].511081 msDrawMap(): Drawing Label Cache, 0.001s
+[Mon Jul 20 09:36:45 2015].511104 msDrawMap() total time: 0.236s
+[Mon Jul 20 09:36:45 2015].514141 msSaveImage(stdout) total time: 0.003s
+[Mon Jul 20 09:36:45 2015].514348 mapserv request processing time (msLoadMap not incl.): 0.240s
+[Mon Jul 20 09:36:45 2015].514361 msFreeMap(): freeing map at 0x2070e60.
+[Tue Jul 21 15:21:53 2015].461710 CGI Request 1 on process 17705
+[Tue Jul 21 15:21:53 2015].462322 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Tue Jul 21 15:21:53 2015].462642 msDrawMap(): kicking into non-square pixel preserving mode.
+[Tue Jul 21 15:21:53 2015].462657 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Tue Jul 21 15:21:53 2015].462685 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Tue Jul 21 15:21:53 2015].492659 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Tue Jul 21 15:21:53 2015].492686 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Tue Jul 21 15:21:53 2015].589980 msDrawMap(): Layer 24 (ocean_5), 0.127s
+[Tue Jul 21 15:21:54 2015].90237 msDrawMap(): Layer 25 (land_5), 0.500s
+[Tue Jul 21 15:21:54 2015].293474 msDrawMap(): Layer 26 (quebec_border_5), 0.203s
+[Tue Jul 21 15:21:54 2015].338704 msDrawMap(): Layer 27 (urban_areas_5), 0.045s
+[Tue Jul 21 15:21:54 2015].345754 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Tue Jul 21 15:21:54 2015].362919 msDrawMap(): Layer 29 (lakes_5), 0.017s
+[Tue Jul 21 15:21:54 2015].398036 msDrawMap(): Layer 30 (rivers_5), 0.035s
+[Tue Jul 21 15:21:54 2015].413905 msDrawMap(): Layer 31 (country_boundaries_5), 0.016s
+[Tue Jul 21 15:21:54 2015].481872 msDrawMap(): Layer 32 (countries_5), 0.068s
+[Tue Jul 21 15:21:54 2015].496820 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.015s
+[Tue Jul 21 15:21:54 2015].540130 msDrawMap(): Layer 34 (us_states_name_5), 0.043s
+[Tue Jul 21 15:21:54 2015].605661 msDrawMap(): Layer 35 (populated_places_5), 0.066s
+[Tue Jul 21 15:21:54 2015].605711 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Tue Jul 21 15:21:54 2015].648795 msDrawMap(): Drawing Label Cache, 0.043s
+[Tue Jul 21 15:21:54 2015].648824 msDrawMap() total time: 1.186s
+[Tue Jul 21 15:21:54 2015].654316 msSaveImage(stdout) total time: 0.005s
+[Tue Jul 21 15:21:54 2015].654569 mapserv request processing time (msLoadMap not incl.): 1.193s
+[Tue Jul 21 15:21:54 2015].654584 msFreeMap(): freeing map at 0x1e7eac0.
+[Tue Jul 21 15:27:25 2015].333549 CGI Request 1 on process 18084
+[Tue Jul 21 15:27:25 2015].334183 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Tue Jul 21 15:27:25 2015].334511 msDrawMap(): kicking into non-square pixel preserving mode.
+[Tue Jul 21 15:27:25 2015].334532 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Tue Jul 21 15:27:25 2015].334563 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Tue Jul 21 15:27:25 2015].364629 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Tue Jul 21 15:27:25 2015].364658 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Tue Jul 21 15:27:25 2015].395431 msDrawMap(): Layer 24 (ocean_5), 0.061s
+[Tue Jul 21 15:27:25 2015].538939 msDrawMap(): Layer 25 (land_5), 0.143s
+[Tue Jul 21 15:27:25 2015].539370 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Tue Jul 21 15:27:25 2015].540761 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Tue Jul 21 15:27:25 2015].545669 msDrawMap(): Layer 28 (coastline_5), 0.005s
+[Tue Jul 21 15:27:25 2015].546365 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Tue Jul 21 15:27:25 2015].546872 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Tue Jul 21 15:27:25 2015].547122 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Tue Jul 21 15:27:25 2015].547753 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Tue Jul 21 15:27:25 2015].547913 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Tue Jul 21 15:27:25 2015].548110 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Tue Jul 21 15:27:25 2015].548428 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Tue Jul 21 15:27:25 2015].548477 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Tue Jul 21 15:27:25 2015].549627 msDrawMap(): Drawing Label Cache, 0.001s
+[Tue Jul 21 15:27:25 2015].549651 msDrawMap() total time: 0.215s
+[Tue Jul 21 15:27:25 2015].552933 msSaveImage(stdout) total time: 0.003s
+[Tue Jul 21 15:27:25 2015].553153 mapserv request processing time (msLoadMap not incl.): 0.220s
+[Tue Jul 21 15:27:25 2015].553165 msFreeMap(): freeing map at 0x1989ac0.
+[Tue Jul 21 15:27:52 2015].813298 CGI Request 1 on process 18117
+[Tue Jul 21 15:27:52 2015].813938 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Tue Jul 21 15:27:52 2015].814298 msDrawMap(): kicking into non-square pixel preserving mode.
+[Tue Jul 21 15:27:52 2015].814320 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Tue Jul 21 15:27:52 2015].814353 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Tue Jul 21 15:27:52 2015].846368 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Tue Jul 21 15:27:52 2015].846399 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Tue Jul 21 15:27:52 2015].877127 msDrawMap(): Layer 24 (ocean_5), 0.063s
+[Tue Jul 21 15:27:53 2015].24598 msDrawMap(): Layer 25 (land_5), 0.147s
+[Tue Jul 21 15:27:53 2015].25041 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Tue Jul 21 15:27:53 2015].26505 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Tue Jul 21 15:27:53 2015].33616 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Tue Jul 21 15:27:53 2015].34573 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Tue Jul 21 15:27:53 2015].35407 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Tue Jul 21 15:27:53 2015].35793 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Tue Jul 21 15:27:53 2015].36620 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Tue Jul 21 15:27:53 2015].36888 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Tue Jul 21 15:27:53 2015].37250 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Tue Jul 21 15:27:53 2015].37757 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Tue Jul 21 15:27:53 2015].37802 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Tue Jul 21 15:27:53 2015].39419 msDrawMap(): Drawing Label Cache, 0.002s
+[Tue Jul 21 15:27:53 2015].39442 msDrawMap() total time: 0.225s
+[Tue Jul 21 15:27:53 2015].44654 msSaveImage(stdout) total time: 0.005s
+[Tue Jul 21 15:27:53 2015].44866 mapserv request processing time (msLoadMap not incl.): 0.232s
+[Tue Jul 21 15:27:53 2015].44876 msFreeMap(): freeing map at 0x206bac0.
+[Tue Jul 21 15:42:21 2015].336216 CGI Request 1 on process 18613
+[Tue Jul 21 15:42:21 2015].336804 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Tue Jul 21 15:42:21 2015].337110 msDrawMap(): kicking into non-square pixel preserving mode.
+[Tue Jul 21 15:42:21 2015].337127 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Tue Jul 21 15:42:21 2015].337157 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Tue Jul 21 15:42:21 2015].370403 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Tue Jul 21 15:42:21 2015].370437 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Tue Jul 21 15:42:21 2015].404881 msDrawMap(): Layer 24 (ocean_5), 0.068s
+[Tue Jul 21 15:42:21 2015].532258 msDrawMap(): Layer 25 (land_5), 0.127s
+[Tue Jul 21 15:42:21 2015].532658 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Tue Jul 21 15:42:21 2015].533839 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Tue Jul 21 15:42:21 2015].538058 msDrawMap(): Layer 28 (coastline_5), 0.004s
+[Tue Jul 21 15:42:21 2015].538659 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Tue Jul 21 15:42:21 2015].539143 msDrawMap(): Layer 30 (rivers_5), 0.000s
+[Tue Jul 21 15:42:21 2015].539359 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Tue Jul 21 15:42:21 2015].539838 msDrawMap(): Layer 32 (countries_5), 0.000s
+[Tue Jul 21 15:42:21 2015].540024 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Tue Jul 21 15:42:21 2015].540222 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Tue Jul 21 15:42:21 2015].540515 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Tue Jul 21 15:42:21 2015].540543 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Tue Jul 21 15:42:21 2015].541597 msDrawMap(): Drawing Label Cache, 0.001s
+[Tue Jul 21 15:42:21 2015].541608 msDrawMap() total time: 0.205s
+[Tue Jul 21 15:42:21 2015].544729 msSaveImage(stdout) total time: 0.003s
+[Tue Jul 21 15:42:21 2015].544955 mapserv request processing time (msLoadMap not incl.): 0.209s
+[Tue Jul 21 15:42:21 2015].544969 msFreeMap(): freeing map at 0x22a0ac0.
+[Tue Jul 21 15:46:25 2015].15223 CGI Request 1 on process 18708
+[Tue Jul 21 15:46:25 2015].22597 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Tue Jul 21 15:46:25 2015].22962 msDrawMap(): kicking into non-square pixel preserving mode.
+[Tue Jul 21 15:46:25 2015].22979 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Tue Jul 21 15:46:25 2015].23011 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Tue Jul 21 15:46:25 2015].94424 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Tue Jul 21 15:46:25 2015].94457 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Tue Jul 21 15:46:25 2015].137434 msDrawMap(): Layer 24 (ocean_5), 0.114s
+[Tue Jul 21 15:46:25 2015].283740 msDrawMap(): Layer 25 (land_5), 0.146s
+[Tue Jul 21 15:46:25 2015].284198 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Tue Jul 21 15:46:25 2015].285752 msDrawMap(): Layer 27 (urban_areas_5), 0.002s
+[Tue Jul 21 15:46:25 2015].293052 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Tue Jul 21 15:46:25 2015].294011 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Tue Jul 21 15:46:25 2015].294841 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Tue Jul 21 15:46:25 2015].295223 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Tue Jul 21 15:46:25 2015].296044 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Tue Jul 21 15:46:25 2015].296322 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Tue Jul 21 15:46:25 2015].296673 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Tue Jul 21 15:46:25 2015].297173 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Tue Jul 21 15:46:25 2015].297218 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Tue Jul 21 15:46:25 2015].298840 msDrawMap(): Drawing Label Cache, 0.002s
+[Tue Jul 21 15:46:25 2015].298859 msDrawMap() total time: 0.276s
+[Tue Jul 21 15:46:25 2015].302890 msSaveImage(stdout) total time: 0.004s
+[Tue Jul 21 15:46:25 2015].303094 mapserv request processing time (msLoadMap not incl.): 0.288s
+[Tue Jul 21 15:46:25 2015].303105 msFreeMap(): freeing map at 0x17a9ac0.
+[Tue Jul 21 15:59:28 2015].30351 CGI Request 1 on process 19454
+[Tue Jul 21 15:59:28 2015].30954 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Tue Jul 21 15:59:28 2015].31277 msDrawMap(): kicking into non-square pixel preserving mode.
+[Tue Jul 21 15:59:28 2015].31298 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Tue Jul 21 15:59:28 2015].31331 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Tue Jul 21 15:59:28 2015].71894 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Tue Jul 21 15:59:28 2015].71925 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Tue Jul 21 15:59:28 2015].163424 msDrawMap(): Layer 24 (ocean_5), 0.132s
+[Tue Jul 21 15:59:28 2015].367203 msDrawMap(): Layer 25 (land_5), 0.204s
+[Tue Jul 21 15:59:28 2015].367631 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Tue Jul 21 15:59:28 2015].369029 msDrawMap(): Layer 27 (urban_areas_5), 0.001s
+[Tue Jul 21 15:59:28 2015].375687 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Tue Jul 21 15:59:28 2015].376606 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Tue Jul 21 15:59:28 2015].377791 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Tue Jul 21 15:59:28 2015].378191 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Tue Jul 21 15:59:28 2015].379041 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Tue Jul 21 15:59:28 2015].379319 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Tue Jul 21 15:59:28 2015].379665 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Tue Jul 21 15:59:28 2015].380163 msDrawMap(): Layer 35 (populated_places_5), 0.000s
+[Tue Jul 21 15:59:28 2015].380209 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Tue Jul 21 15:59:28 2015].381772 msDrawMap(): Drawing Label Cache, 0.002s
+[Tue Jul 21 15:59:28 2015].381796 msDrawMap() total time: 0.351s
+[Wed Jul 22 15:27:11 2015].38382 CGI Request 1 on process 26118
+[Wed Jul 22 15:27:11 2015].39148 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 22 15:27:11 2015].39582 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 22 15:27:11 2015].39600 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 22 15:27:11 2015].39632 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 22 15:27:11 2015].82176 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 22 15:27:11 2015].82219 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 22 15:27:11 2015].587912 msDrawMap(): Layer 24 (ocean_5), 0.548s
+[Wed Jul 22 15:27:12 2015].595664 msDrawMap(): Layer 25 (land_5), 1.008s
+[Wed Jul 22 15:27:13 2015].164919 msDrawMap(): Layer 26 (quebec_border_5), 0.569s
+[Wed Jul 22 15:27:13 2015].243576 msDrawMap(): Layer 27 (urban_areas_5), 0.079s
+[Wed Jul 22 15:27:13 2015].252305 msDrawMap(): Layer 28 (coastline_5), 0.009s
+[Wed Jul 22 15:27:13 2015].410458 msDrawMap(): Layer 29 (lakes_5), 0.158s
+[Wed Jul 22 15:27:13 2015].477810 msDrawMap(): Layer 30 (rivers_5), 0.067s
+[Wed Jul 22 15:27:13 2015].478679 msDrawMap(): Layer 31 (country_boundaries_5), 0.001s
+[Wed Jul 22 15:27:13 2015].653459 msDrawMap(): Layer 32 (countries_5), 0.175s
+[Wed Jul 22 15:27:13 2015].799703 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.146s
+[Wed Jul 22 15:27:13 2015].895932 msDrawMap(): Layer 34 (us_states_name_5), 0.096s
+[Wed Jul 22 15:27:13 2015].993660 msDrawMap(): Layer 35 (populated_places_5), 0.098s
+[Wed Jul 22 15:27:13 2015].993773 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 22 15:27:14 2015].303551 msDrawMap(): Drawing Label Cache, 0.310s
+[Wed Jul 22 15:27:14 2015].303584 msDrawMap() total time: 3.264s
+[Wed Jul 22 15:27:14 2015].308155 msSaveImage(stdout) total time: 0.005s
+[Wed Jul 22 15:27:14 2015].308470 mapserv request processing time (msLoadMap not incl.): 3.270s
+[Wed Jul 22 15:27:14 2015].308489 msFreeMap(): freeing map at 0xdc7e60.
+[Wed Jul 22 15:42:13 2015].435788 CGI Request 1 on process 27194
+[Wed Jul 22 15:42:13 2015].436369 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 22 15:42:13 2015].436744 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 22 15:42:13 2015].436766 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 22 15:42:13 2015].436799 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 22 15:42:13 2015].468034 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 22 15:42:13 2015].468059 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 22 15:42:13 2015].498964 msDrawMap(): Layer 24 (ocean_5), 0.062s
+[Wed Jul 22 15:42:13 2015].668460 msDrawMap(): Layer 25 (land_5), 0.169s
+[Wed Jul 22 15:42:13 2015].668952 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 22 15:42:13 2015].673658 msDrawMap(): Layer 27 (urban_areas_5), 0.005s
+[Wed Jul 22 15:42:13 2015].683775 msDrawMap(): Layer 28 (coastline_5), 0.010s
+[Wed Jul 22 15:42:13 2015].692826 msDrawMap(): Layer 29 (lakes_5), 0.009s
+[Wed Jul 22 15:42:13 2015].693850 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 22 15:42:13 2015].694259 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 22 15:42:13 2015].695095 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 22 15:42:13 2015].695391 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 22 15:42:13 2015].695750 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 22 15:42:13 2015].699502 msDrawMap(): Layer 35 (populated_places_5), 0.004s
+[Wed Jul 22 15:42:13 2015].699566 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 22 15:42:13 2015].701273 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 22 15:42:13 2015].701302 msDrawMap() total time: 0.265s
+[Wed Jul 22 15:42:13 2015].710614 msSaveImage(stdout) total time: 0.009s
+[Wed Jul 22 15:42:13 2015].710991 mapserv request processing time (msLoadMap not incl.): 0.275s
+[Wed Jul 22 15:42:13 2015].711008 msFreeMap(): freeing map at 0x1605e60.
+[Wed Jul 22 15:42:33 2015].476189 CGI Request 1 on process 27218
+[Wed Jul 22 15:42:33 2015].479777 msWMSLoadGetMapParams(): enabling non-square pixels.
+[Wed Jul 22 15:42:33 2015].480134 msDrawMap(): kicking into non-square pixel preserving mode.
+[Wed Jul 22 15:42:33 2015].480161 msDrawMap(): rendering using outputformat named png (AGG/PNG).
+[Wed Jul 22 15:42:33 2015].480304 msDrawMap(): WMS/WFS set-up and query, 0.000s
+[Wed Jul 22 15:42:33 2015].560016 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 22 15:42:33 2015].560049 msProjectPoint(): Projection library error. proj says: tolerance condition error
+[Wed Jul 22 15:42:33 2015].603859 msDrawMap(): Layer 24 (ocean_5), 0.123s
+[Wed Jul 22 15:42:33 2015].775469 msDrawMap(): Layer 25 (land_5), 0.172s
+[Wed Jul 22 15:42:33 2015].775966 msDrawMap(): Layer 26 (quebec_border_5), 0.000s
+[Wed Jul 22 15:42:33 2015].778197 msDrawMap(): Layer 27 (urban_areas_5), 0.002s
+[Wed Jul 22 15:42:33 2015].785224 msDrawMap(): Layer 28 (coastline_5), 0.007s
+[Wed Jul 22 15:42:33 2015].786231 msDrawMap(): Layer 29 (lakes_5), 0.001s
+[Wed Jul 22 15:42:33 2015].787093 msDrawMap(): Layer 30 (rivers_5), 0.001s
+[Wed Jul 22 15:42:33 2015].787528 msDrawMap(): Layer 31 (country_boundaries_5), 0.000s
+[Wed Jul 22 15:42:33 2015].788402 msDrawMap(): Layer 32 (countries_5), 0.001s
+[Wed Jul 22 15:42:33 2015].788744 msDrawMap(): Layer 33 (us_states_boundaries_5), 0.000s
+[Wed Jul 22 15:42:33 2015].789142 msDrawMap(): Layer 34 (us_states_name_5), 0.000s
+[Wed Jul 22 15:42:33 2015].789702 msDrawMap(): Layer 35 (populated_places_5), 0.001s
+[Wed Jul 22 15:42:33 2015].789764 msDrawLabelCache(): labelcache_map_edge_buffer = 10
+[Wed Jul 22 15:42:33 2015].791469 msDrawMap(): Drawing Label Cache, 0.002s
+[Wed Jul 22 15:42:33 2015].791504 msDrawMap() total time: 0.312s
+[Wed Jul 22 15:42:33 2015].795726 msSaveImage(stdout) total time: 0.004s
+[Wed Jul 22 15:42:33 2015].795977 mapserv request processing time (msLoadMap not incl.): 0.320s
+[Wed Jul 22 15:42:33 2015].795993 msFreeMap(): freeing map at 0x16f8e60.

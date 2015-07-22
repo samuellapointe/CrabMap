@@ -4,13 +4,12 @@ LAYER {
         TYPE: POLYGON
         @layerconfig
         DATA {
-            1-5: '110m_physical/ne_110m_land'
-            6-10: '50m_physical/ne_50m_land'
+            1-10: '50m_physical/ne_50m_land'
             11-16: '10m_physical/ne_10m_land'
 	    }
         CLASS {
             STYLE {
-                COLOR: '#FF0000'
+                COLOR: '#DD0000'
             }
             STYLE {
                 SYMBOL: 'Crab'
@@ -25,6 +24,39 @@ LAYER {
                 SYMBOL: 'Crab2'
                 SIZE: 110
                 ANGLE: 300
+            }
+            STYLE {
+                SYMBOL: 'Crab1'
+                SIZE: 30
+                ANGLE: 45
+            }
+            STYLE {
+                SYMBOL: 'Crab2'
+                SIZE: 4500
+                ANGLE: 30
+            }
+        }
+    }
+}
+
+LAYER {
+    1-16 {
+        NAME: 'quebec_border'
+        FILTER: 'Que.'
+        FILTERITEM: 'abbrev'
+        TYPE: POLYGON
+        @layerconfig
+        DATA {
+            1-10: '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+            11-16: '10m_cultural/ne_10m_admin_1_states_provinces_shp'
+	    }
+        CLASS {
+            STYLE {
+                COLOR: '#0000FF'
+            }
+            STYLE {
+                SYMBOL: 'Crab'
+                SIZE: 100
             }
         }
     }

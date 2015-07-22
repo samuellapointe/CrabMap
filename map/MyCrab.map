@@ -1,6 +1,7 @@
 MAP
+    NAME 'Hello'
     CONFIG 'ON_MISSING_DATA' 'IGNORE'
-    #CONFIG: "MS_ERRORFILE" "../debugFile.log"
+    CONFIG "MS_ERRORFILE" "../debugFile.log"
     CONFIG 'PROJ_LIB' '../'
     FONTSET '../fonts.lst'
     IMAGETYPE png
@@ -42,7 +43,7 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_ocean'
+        DATA '50m_physical/ne_50m_ocean'
         CLASS
             STYLE
                 SYMBOL 'Water'
@@ -67,10 +68,10 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_land'
+        DATA '50m_physical/ne_50m_land'
         CLASS
             STYLE
-                COLOR '#FF0000'
+                COLOR '#DD0000'
             END
             STYLE
                 SYMBOL 'Crab'
@@ -85,6 +86,45 @@ MAP
                 SYMBOL 'Crab2'
                 SIZE 110
                 ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 999999999
+        MINSCALEDENOM 268435456
+        NAME 'quebec_border_1'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
             END
         END
     END
@@ -104,7 +144,7 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_coastline'
+        DATA '50m_physical/ne_50m_coastline'
         CLASS
             STYLE
                 COLOR '#000000'
@@ -153,7 +193,7 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_ocean'
+        DATA '50m_physical/ne_50m_ocean'
         CLASS
             STYLE
                 SYMBOL 'Water'
@@ -178,10 +218,10 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_land'
+        DATA '50m_physical/ne_50m_land'
         CLASS
             STYLE
-                COLOR '#FF0000'
+                COLOR '#DD0000'
             END
             STYLE
                 SYMBOL 'Crab'
@@ -196,6 +236,45 @@ MAP
                 SYMBOL 'Crab2'
                 SIZE 110
                 ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 268435456
+        MINSCALEDENOM 134217728
+        NAME 'quebec_border_2'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
             END
         END
     END
@@ -215,7 +294,7 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_coastline'
+        DATA '50m_physical/ne_50m_coastline'
         CLASS
             STYLE
                 COLOR '#000000'
@@ -264,7 +343,7 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_ocean'
+        DATA '50m_physical/ne_50m_ocean'
         CLASS
             STYLE
                 SYMBOL 'Water'
@@ -289,10 +368,10 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_land'
+        DATA '50m_physical/ne_50m_land'
         CLASS
             STYLE
-                COLOR '#FF0000'
+                COLOR '#DD0000'
             END
             STYLE
                 SYMBOL 'Crab'
@@ -307,6 +386,45 @@ MAP
                 SYMBOL 'Crab2'
                 SIZE 110
                 ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 134217728
+        MINSCALEDENOM 67108864
+        NAME 'quebec_border_3'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
             END
         END
     END
@@ -326,7 +444,7 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_coastline'
+        DATA '50m_physical/ne_50m_coastline'
         CLASS
             STYLE
                 COLOR '#000000'
@@ -350,11 +468,17 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_lakes'
+        DATA '50m_physical/ne_50m_lakes'
         CLASS
             STYLE
-                COLOR '#C6E2F2'
-                OUTLINECOLOR '#469FC3'
+                COLOR '#000000'
+            END
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+            STYLE
+                OUTLINECOLOR '#000000'
             END
         END
     END
@@ -429,7 +553,7 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_ocean'
+        DATA '50m_physical/ne_50m_ocean'
         CLASS
             STYLE
                 SYMBOL 'Water'
@@ -454,10 +578,10 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_land'
+        DATA '50m_physical/ne_50m_land'
         CLASS
             STYLE
-                COLOR '#FF0000'
+                COLOR '#DD0000'
             END
             STYLE
                 SYMBOL 'Crab'
@@ -472,6 +596,45 @@ MAP
                 SYMBOL 'Crab2'
                 SIZE 110
                 ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 67108864
+        MINSCALEDENOM 33554432
+        NAME 'quebec_border_4'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
             END
         END
     END
@@ -491,7 +654,7 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_coastline'
+        DATA '50m_physical/ne_50m_coastline'
         CLASS
             STYLE
                 COLOR '#000000'
@@ -515,11 +678,17 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_lakes'
+        DATA '50m_physical/ne_50m_lakes'
         CLASS
             STYLE
-                COLOR '#C6E2F2'
-                OUTLINECOLOR '#469FC3'
+                COLOR '#000000'
+            END
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+            STYLE
+                OUTLINECOLOR '#000000'
             END
         END
     END
@@ -594,7 +763,7 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_ocean'
+        DATA '50m_physical/ne_50m_ocean'
         CLASS
             STYLE
                 SYMBOL 'Water'
@@ -619,10 +788,10 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_land'
+        DATA '50m_physical/ne_50m_land'
         CLASS
             STYLE
-                COLOR '#FF0000'
+                COLOR '#DD0000'
             END
             STYLE
                 SYMBOL 'Crab'
@@ -637,6 +806,45 @@ MAP
                 SYMBOL 'Crab2'
                 SIZE 110
                 ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 33554432
+        MINSCALEDENOM 16777216
+        NAME 'quebec_border_5'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
             END
         END
     END
@@ -689,7 +897,7 @@ MAP
             "wms_include_items" "all"
         END
         TEMPLATE 'blank.html'
-        DATA '110m_physical/ne_110m_coastline'
+        DATA '50m_physical/ne_50m_coastline'
         CLASS
             STYLE
                 COLOR '#000000'
@@ -716,8 +924,14 @@ MAP
         DATA '50m_physical/ne_50m_lakes'
         CLASS
             STYLE
-                COLOR '#C6E2F2'
-                OUTLINECOLOR '#469FC3'
+                COLOR '#000000'
+            END
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+            STYLE
+                OUTLINECOLOR '#000000'
             END
         END
     END
@@ -986,7 +1200,7 @@ MAP
         DATA '50m_physical/ne_50m_land'
         CLASS
             STYLE
-                COLOR '#FF0000'
+                COLOR '#DD0000'
             END
             STYLE
                 SYMBOL 'Crab'
@@ -1001,6 +1215,45 @@ MAP
                 SYMBOL 'Crab2'
                 SIZE 110
                 ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16777216
+        MINSCALEDENOM 8388608
+        NAME 'quebec_border_6'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
             END
         END
     END
@@ -1080,8 +1333,14 @@ MAP
         DATA '50m_physical/ne_50m_lakes'
         CLASS
             STYLE
-                COLOR '#C6E2F2'
-                OUTLINECOLOR '#469FC3'
+                COLOR '#000000'
+            END
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+            STYLE
+                OUTLINECOLOR '#000000'
             END
         END
     END
@@ -1436,7 +1695,7 @@ MAP
         DATA '50m_physical/ne_50m_land'
         CLASS
             STYLE
-                COLOR '#FF0000'
+                COLOR '#DD0000'
             END
             STYLE
                 SYMBOL 'Crab'
@@ -1451,6 +1710,45 @@ MAP
                 SYMBOL 'Crab2'
                 SIZE 110
                 ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 8388608
+        MINSCALEDENOM 4194304
+        NAME 'quebec_border_7'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
             END
         END
     END
@@ -1530,8 +1828,14 @@ MAP
         DATA '50m_physical/ne_50m_lakes'
         CLASS
             STYLE
-                COLOR '#C6E2F2'
-                OUTLINECOLOR '#469FC3'
+                COLOR '#000000'
+            END
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+            STYLE
+                OUTLINECOLOR '#000000'
             END
         END
     END
@@ -1897,7 +2201,7 @@ MAP
         DATA '50m_physical/ne_50m_land'
         CLASS
             STYLE
-                COLOR '#FF0000'
+                COLOR '#DD0000'
             END
             STYLE
                 SYMBOL 'Crab'
@@ -1912,6 +2216,45 @@ MAP
                 SYMBOL 'Crab2'
                 SIZE 110
                 ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 4194304
+        MINSCALEDENOM 2097152
+        NAME 'quebec_border_8'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
             END
         END
     END
@@ -1991,8 +2334,14 @@ MAP
         DATA '50m_physical/ne_50m_lakes'
         CLASS
             STYLE
-                COLOR '#C6E2F2'
-                OUTLINECOLOR '#469FC3'
+                COLOR '#000000'
+            END
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+            STYLE
+                OUTLINECOLOR '#000000'
             END
         END
     END
@@ -2383,7 +2732,7 @@ MAP
         DATA '50m_physical/ne_50m_land'
         CLASS
             STYLE
-                COLOR '#FF0000'
+                COLOR '#DD0000'
             END
             STYLE
                 SYMBOL 'Crab'
@@ -2398,6 +2747,45 @@ MAP
                 SYMBOL 'Crab2'
                 SIZE 110
                 ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 2097152
+        MINSCALEDENOM 1048576
+        NAME 'quebec_border_9'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
             END
         END
     END
@@ -2477,8 +2865,14 @@ MAP
         DATA '50m_physical/ne_50m_lakes'
         CLASS
             STYLE
-                COLOR '#C6E2F2'
-                OUTLINECOLOR '#469FC3'
+                COLOR '#000000'
+            END
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+            STYLE
+                OUTLINECOLOR '#000000'
             END
         END
     END
@@ -2854,7 +3248,7 @@ MAP
         DATA '50m_physical/ne_50m_land'
         CLASS
             STYLE
-                COLOR '#FF0000'
+                COLOR '#DD0000'
             END
             STYLE
                 SYMBOL 'Crab'
@@ -2869,6 +3263,45 @@ MAP
                 SYMBOL 'Crab2'
                 SIZE 110
                 ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 1048576
+        MINSCALEDENOM 524288
+        NAME 'quebec_border_10'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
             END
         END
     END
@@ -2948,8 +3381,14 @@ MAP
         DATA '50m_physical/ne_50m_lakes'
         CLASS
             STYLE
-                COLOR '#C6E2F2'
-                OUTLINECOLOR '#469FC3'
+                COLOR '#000000'
+            END
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+            STYLE
+                OUTLINECOLOR '#000000'
             END
         END
     END
@@ -3325,7 +3764,7 @@ MAP
         DATA '10m_physical/ne_10m_land'
         CLASS
             STYLE
-                COLOR '#FF0000'
+                COLOR '#DD0000'
             END
             STYLE
                 SYMBOL 'Crab'
@@ -3340,6 +3779,45 @@ MAP
                 SYMBOL 'Crab2'
                 SIZE 110
                 ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 524288
+        MINSCALEDENOM 262144
+        NAME 'quebec_border_11'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
             END
         END
     END
@@ -3419,8 +3897,14 @@ MAP
         DATA '10m_physical/ne_10m_lakes'
         CLASS
             STYLE
-                COLOR '#C6E2F2'
-                OUTLINECOLOR '#469FC3'
+                COLOR '#000000'
+            END
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+            STYLE
+                OUTLINECOLOR '#000000'
             END
         END
     END
@@ -3796,7 +4280,7 @@ MAP
         DATA '10m_physical/ne_10m_land'
         CLASS
             STYLE
-                COLOR '#FF0000'
+                COLOR '#DD0000'
             END
             STYLE
                 SYMBOL 'Crab'
@@ -3811,6 +4295,45 @@ MAP
                 SYMBOL 'Crab2'
                 SIZE 110
                 ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 262144
+        MINSCALEDENOM 131072
+        NAME 'quebec_border_12'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
             END
         END
     END
@@ -3890,8 +4413,14 @@ MAP
         DATA '10m_physical/ne_10m_lakes'
         CLASS
             STYLE
-                COLOR '#C6E2F2'
-                OUTLINECOLOR '#469FC3'
+                COLOR '#000000'
+            END
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+            STYLE
+                OUTLINECOLOR '#000000'
             END
         END
     END
@@ -4267,7 +4796,7 @@ MAP
         DATA '10m_physical/ne_10m_land'
         CLASS
             STYLE
-                COLOR '#FF0000'
+                COLOR '#DD0000'
             END
             STYLE
                 SYMBOL 'Crab'
@@ -4282,6 +4811,45 @@ MAP
                 SYMBOL 'Crab2'
                 SIZE 110
                 ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 131072
+        MINSCALEDENOM 65536
+        NAME 'quebec_border_13'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
             END
         END
     END
@@ -4361,8 +4929,14 @@ MAP
         DATA '10m_physical/ne_10m_lakes'
         CLASS
             STYLE
-                COLOR '#C6E2F2'
-                OUTLINECOLOR '#469FC3'
+                COLOR '#000000'
+            END
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+            STYLE
+                OUTLINECOLOR '#000000'
             END
         END
     END
@@ -4738,7 +5312,7 @@ MAP
         DATA '10m_physical/ne_10m_land'
         CLASS
             STYLE
-                COLOR '#FF0000'
+                COLOR '#DD0000'
             END
             STYLE
                 SYMBOL 'Crab'
@@ -4753,6 +5327,45 @@ MAP
                 SYMBOL 'Crab2'
                 SIZE 110
                 ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 65536
+        MINSCALEDENOM 32768
+        NAME 'quebec_border_14'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
             END
         END
     END
@@ -4832,8 +5445,14 @@ MAP
         DATA '10m_physical/ne_10m_lakes'
         CLASS
             STYLE
-                COLOR '#C6E2F2'
-                OUTLINECOLOR '#469FC3'
+                COLOR '#000000'
+            END
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+            STYLE
+                OUTLINECOLOR '#000000'
             END
         END
     END
@@ -5209,7 +5828,7 @@ MAP
         DATA '10m_physical/ne_10m_land'
         CLASS
             STYLE
-                COLOR '#FF0000'
+                COLOR '#DD0000'
             END
             STYLE
                 SYMBOL 'Crab'
@@ -5224,6 +5843,45 @@ MAP
                 SYMBOL 'Crab2'
                 SIZE 110
                 ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 32768
+        MINSCALEDENOM 16384
+        NAME 'quebec_border_15'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
             END
         END
     END
@@ -5303,8 +5961,14 @@ MAP
         DATA '10m_physical/ne_10m_lakes'
         CLASS
             STYLE
-                COLOR '#C6E2F2'
-                OUTLINECOLOR '#469FC3'
+                COLOR '#000000'
+            END
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+            STYLE
+                OUTLINECOLOR '#000000'
             END
         END
     END
@@ -5680,7 +6344,7 @@ MAP
         DATA '10m_physical/ne_10m_land'
         CLASS
             STYLE
-                COLOR '#FF0000'
+                COLOR '#DD0000'
             END
             STYLE
                 SYMBOL 'Crab'
@@ -5695,6 +6359,45 @@ MAP
                 SYMBOL 'Crab2'
                 SIZE 110
                 ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 16384
+        MINSCALEDENOM 8192
+        NAME 'quebec_border_16'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '10m_cultural/ne_10m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
             END
         END
     END
@@ -5774,8 +6477,14 @@ MAP
         DATA '10m_physical/ne_10m_lakes'
         CLASS
             STYLE
-                COLOR '#C6E2F2'
-                OUTLINECOLOR '#469FC3'
+                COLOR '#000000'
+            END
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+            STYLE
+                OUTLINECOLOR '#000000'
             END
         END
     END

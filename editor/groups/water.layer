@@ -4,8 +4,7 @@ LAYER {
         TYPE: LINE
         @layerconfig
         DATA {
-            1-5: '110m_physical/ne_110m_coastline'
-			6-10: '50m_physical/ne_50m_coastline'
+			1-10: '50m_physical/ne_50m_coastline'
             11-16: '10m_physical/ne_10m_coastline'
 		}
         CLASS {
@@ -23,14 +22,20 @@ LAYER {
         TYPE: POLYGON
         @layerconfig
         DATA {
-            1-4: '110m_physical/ne_110m_lakes'
-            5-10: '50m_physical/ne_50m_lakes'
+            1-10: '50m_physical/ne_50m_lakes'
             11-16: '10m_physical/ne_10m_lakes'		
 		}
         CLASS {
             STYLE {
-                COLOR: @watercolor
-                OUTLINECOLOR: @watercolor_ol
+                COLOR: '#000000'
+            }
+            STYLE {
+                SYMBOL: 'Water'
+                SIZE: 100
+                    
+            }
+            STYLE {
+                OUTLINECOLOR: '#000000'
             }
         }
     }

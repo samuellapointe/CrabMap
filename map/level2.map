@@ -1,0 +1,148 @@
+    LAYER
+        MAXSCALEDENOM 268435456
+        MINSCALEDENOM 134217728
+        NAME 'ocean_2'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_ocean'
+        CLASS
+            STYLE
+                SYMBOL 'Water'
+                SIZE 100
+            END
+        END
+        UNITS meters
+    END
+    LAYER
+        MAXSCALEDENOM 268435456
+        MINSCALEDENOM 134217728
+        NAME 'land_2'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_land'
+        CLASS
+            STYLE
+                COLOR '#DD0000'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 90
+                ANGLE 15
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 110
+                ANGLE 300
+            END
+            STYLE
+                SYMBOL 'Crab1'
+                SIZE 30
+                ANGLE 45
+            END
+            STYLE
+                SYMBOL 'Crab2'
+                SIZE 4500
+                ANGLE 30
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 268435456
+        MINSCALEDENOM 134217728
+        NAME 'quebec_border_2'
+        FILTER 'Que.'
+        FILTERITEM 'abbrev'
+        TYPE POLYGON
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_cultural/ne_50m_admin_1_states_provinces_shp'
+        CLASS
+            STYLE
+                COLOR '#0000FF'
+            END
+            STYLE
+                SYMBOL 'Crab'
+                SIZE 100
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 268435456
+        MINSCALEDENOM 134217728
+        NAME 'coastline_2'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '50m_physical/ne_50m_coastline'
+        CLASS
+            STYLE
+                COLOR '#000000'
+                WIDTH 2
+            END
+        END
+    END
+    LAYER
+        MAXSCALEDENOM 268435456
+        MINSCALEDENOM 134217728
+        NAME 'country_boundaries_2'
+        TYPE LINE
+        GROUP 'default'
+        STATUS ON
+        PROJECTION
+            'init=epsg:4326'
+        END
+        PROCESSING 'LABEL_NO_CLIP=ON'
+        PROCESSING 'CLOSE_CONNECTION=DEFER'
+        METADATA
+            "wms_include_items" "all"
+        END
+        TEMPLATE 'blank.html'
+        DATA '110m_cultural/ne_110m_admin_0_boundary_lines_land'
+        CLASS
+            STYLE
+                COLOR '#CBCCCA'
+            END
+        END
+    END
